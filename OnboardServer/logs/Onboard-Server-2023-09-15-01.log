@@ -1,0 +1,158 @@
+2023-09-15 01:00:52 info: ::1 - - [14/Sep/2023:19:30:52 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:00:52 info: Get vehicles 
+2023-09-15 01:00:52 info: ::1 - - [14/Sep/2023:19:30:52 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:01:13 info: ::1 - - [14/Sep/2023:19:31:13 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:01:13 info: Get vehicles 
+2023-09-15 01:01:13 info: ::1 - - [14/Sep/2023:19:31:13 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:04:20 info: ::1 - - [14/Sep/2023:19:34:20 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:04:20 info: Get vehicles 
+2023-09-15 01:04:20 info: ::1 - - [14/Sep/2023:19:34:20 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:05:20 info: ::1 - - [14/Sep/2023:19:35:20 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:05:20 info: Get vehicles 
+2023-09-15 01:05:20 info: ::1 - - [14/Sep/2023:19:35:20 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:05:27 info: ::1 - - [14/Sep/2023:19:35:27 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:05:27 info: Get vehicles 
+2023-09-15 01:05:27 info: ::1 - - [14/Sep/2023:19:35:27 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:06:11 info: ::1 - - [14/Sep/2023:19:36:11 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:06:11 info: Get vehicles 
+2023-09-15 01:06:11 info: ::1 - - [14/Sep/2023:19:36:11 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:06:57 info: ::1 - - [14/Sep/2023:19:36:57 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:06:57 info: Get vehicles 
+2023-09-15 01:06:57 info: ::1 - - [14/Sep/2023:19:36:57 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:07:06 info: ::1 - - [14/Sep/2023:19:37:06 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:07:06 info: Get vehicles 
+2023-09-15 01:07:06 info: ::1 - - [14/Sep/2023:19:37:06 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:07:30 info: ::1 - - [14/Sep/2023:19:37:30 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:07:30 info: Get vehicles 
+2023-09-15 01:07:30 info: ::1 - - [14/Sep/2023:19:37:30 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:08:40 info: ::1 - - [14/Sep/2023:19:38:40 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:08:40 info: Get vehicles 
+2023-09-15 01:08:40 info: ::1 - - [14/Sep/2023:19:38:40 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:09:30 info: ::1 - - [14/Sep/2023:19:39:30 +0000] "OPTIONS /api/v1/auth/token/verify/ HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:09:30 error: Error: /auth/token/verify/ USER ID 
+2023-09-15 01:09:30 info: ::1 - - [14/Sep/2023:19:39:30 +0000] "POST /api/v1/auth/token/verify/ HTTP/1.1" 404 56 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:10:30 info: ::1 - - [14/Sep/2023:19:40:30 +0000] "OPTIONS /api/v1/auth/token/verify/ HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:10:30 error: Error: /auth/token/verify/ USER ID 
+2023-09-15 01:10:30 info: ::1 - - [14/Sep/2023:19:40:30 +0000] "POST /api/v1/auth/token/verify/ HTTP/1.1" 404 56 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:10:44 info: ::1 - - [14/Sep/2023:19:40:44 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:10:44 info: Get vehicles 
+2023-09-15 01:10:44 info: ::1 - - [14/Sep/2023:19:40:44 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:11:02 info: ::1 - - [14/Sep/2023:19:41:02 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:11:02 info: Get vehicles 
+2023-09-15 01:11:02 info: ::1 - - [14/Sep/2023:19:41:02 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:11:11 info: ::1 - - [14/Sep/2023:19:41:11 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:11:11 info: Get vehicles 
+2023-09-15 01:11:11 info: ::1 - - [14/Sep/2023:19:41:11 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:11:15 info: Get vehicles 
+2023-09-15 01:11:15 info: ::1 - - [14/Sep/2023:19:41:15 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:11:15 info: Get vehicles 
+2023-09-15 01:11:15 info: ::1 - - [14/Sep/2023:19:41:15 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:11:16 info: Get vehicles 
+2023-09-15 01:11:16 info: ::1 - - [14/Sep/2023:19:41:16 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:11:17 info: ::1 - - [14/Sep/2023:19:41:17 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:11:17 info: Get vehicles 
+2023-09-15 01:11:17 info: ::1 - - [14/Sep/2023:19:41:17 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:11:55 info: ::1 - - [14/Sep/2023:19:41:55 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:11:55 info: Get vehicles 
+2023-09-15 01:11:55 info: ::1 - - [14/Sep/2023:19:41:55 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:12:11 info: ::1 - - [14/Sep/2023:19:42:11 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:12:11 info: Get vehicles 
+2023-09-15 01:12:11 info: ::1 - - [14/Sep/2023:19:42:11 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:12:29 info: ::1 - - [14/Sep/2023:19:42:29 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:12:29 info: Get vehicles 
+2023-09-15 01:12:29 info: ::1 - - [14/Sep/2023:19:42:29 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:17:42 info: ::1 - - [14/Sep/2023:19:47:42 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:17:42 info: Get vehicles 
+2023-09-15 01:17:42 info: ::1 - - [14/Sep/2023:19:47:42 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:31:08 info: Onboard Server is started and running at the port 5000 
+2023-09-15 01:32:07 info: Onboard Server is started and running at the port 5000 
+2023-09-15 01:32:30 info: Onboard Server is started and running at the port 5000 
+2023-09-15 01:33:15 info: Onboard Server is started and running at the port 5000 
+2023-09-15 01:33:26 info: Onboard Server is started and running at the port 5000 
+2023-09-15 01:34:36 info: Onboard Server is started and running at the port 5000 
+2023-09-15 01:42:52 info: ::1 - - [14/Sep/2023:20:12:52 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:42:52 info: Get vehicles 
+2023-09-15 01:42:52 info: ::1 - - [14/Sep/2023:20:12:52 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 218 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:44:31 info: Onboard Server is started and running at the port 5000 
+2023-09-15 01:45:48 info: ::1 - - [14/Sep/2023:20:15:48 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:45:48 info: Get vehicles 
+2023-09-15 01:45:48 info: ::1 - - [14/Sep/2023:20:15:48 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 209 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:47:10 info: Onboard Server is started and running at the port 5000 
+2023-09-15 01:47:17 info: Onboard Server is started and running at the port 5000 
+2023-09-15 01:47:28 info: ::1 - - [14/Sep/2023:20:17:28 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:47:28 info: Get vehicles 
+2023-09-15 01:47:28 info: ::1 - - [14/Sep/2023:20:17:28 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 141 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:49:18 info: ::1 - - [14/Sep/2023:20:19:18 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:49:18 info: Get vehicles 
+2023-09-15 01:49:18 info: ::1 - - [14/Sep/2023:20:19:18 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 141 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:49:47 info: ::1 - - [14/Sep/2023:20:19:47 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:49:47 info: Get vehicles 
+2023-09-15 01:49:47 info: ::1 - - [14/Sep/2023:20:19:47 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 141 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:53:12 info: ::1 - - [14/Sep/2023:20:23:12 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:53:12 info: Get vehicles 
+2023-09-15 01:53:12 info: ::1 - - [14/Sep/2023:20:23:12 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 141 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:55:22 info: ::1 - - [14/Sep/2023:20:25:22 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:55:22 info: Get vehicles 
+2023-09-15 01:55:22 info: ::1 - - [14/Sep/2023:20:25:22 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 141 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:55:44 info: ::1 - - [14/Sep/2023:20:25:44 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 01:55:44 info: Get vehicles 
+2023-09-15 01:55:44 info: ::1 - - [14/Sep/2023:20:25:44 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 141 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 

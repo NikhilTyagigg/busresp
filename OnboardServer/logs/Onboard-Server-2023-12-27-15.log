@@ -1,0 +1,15 @@
+2023-12-27 15:20:02 info: ::1 - - [27/Dec/2023:09:50:02 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 15:20:02 info: Add or update route info 
+2023-12-27 15:20:02 info: Adding/updating route details::{"vehicleNo":"BM-00123","routeNo":"9944","id":12,"user":"undefined","type":"16"} 
+2023-12-27 15:20:02 info: Publish to mqtt::{"Bus Id":"BM-00123","Route No":"9944"} 
+2023-12-27 15:20:02 info: ::1 - - [27/Dec/2023:09:50:02 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 200 7596 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 15:20:08 info: ::1 - - [27/Dec/2023:09:50:08 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 15:20:08 info: Fetching vehicle route map data 
+2023-12-27 15:20:08 info: Get vehicles 
+2023-12-27 15:20:08 info: ::1 - - [27/Dec/2023:09:50:08 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 7596 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 15:21:08 debug: The payload is not in appropriate format for topic::BM-00123 & payload:: {"Bus Id":"BM-00123","Route No":"9944"} 
+2023-12-27 15:24:53 info: Onboard Server is started and running at the port 5000 

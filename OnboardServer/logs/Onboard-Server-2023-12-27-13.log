@@ -1,0 +1,197 @@
+2023-12-27 13:45:36 info: Onboard Server is started and running at the port 5000 
+2023-12-27 13:47:17 info: BODYYYYY: [object Object] 
+2023-12-27 13:47:17 error: Access denied for user 'root'@'localhost' (using password: YES) 
+    SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async User.findAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1140:21)
+    at async User.findOne (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1240:12)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:31:16
+2023-12-27 13:47:17 alert: Access denied for user 'root'@'localhost' (using password: YES) 
+    SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async User.findAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1140:21)
+    at async User.findOne (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1240:12)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:31:16
+2023-12-27 13:47:17 info: ::1 - - [27/Dec/2023:08:17:17 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 400 61 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:47:24 info: BODYYYYY: [object Object] 
+2023-12-27 13:47:24 error: Access denied for user 'root'@'localhost' (using password: YES) 
+    SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async User.findAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1140:21)
+    at async User.findOne (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1240:12)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:31:16
+2023-12-27 13:47:24 alert: Access denied for user 'root'@'localhost' (using password: YES) 
+    SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async User.findAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1140:21)
+    at async User.findOne (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1240:12)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:31:16
+2023-12-27 13:47:24 info: ::1 - - [27/Dec/2023:08:17:24 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 400 61 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:48:51 info: Onboard Server is started and running at the port 5000 
+2023-12-27 13:48:58 info: BODYYYYY: [object Object] 
+2023-12-27 13:48:58 debug: login from keshav.goyal@kritikalvision.ai 
+2023-12-27 13:48:58 info: ::1 - - [27/Dec/2023:08:18:58 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 579 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:48:59 info: ::1 - - [27/Dec/2023:08:18:59 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:48:59 info: Get vehicles 
+2023-12-27 13:48:59 info: ::1 - - [27/Dec/2023:08:18:59 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1775 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:49:04 info: ::1 - - [27/Dec/2023:08:19:04 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:49:04 info: Get vehicles 
+2023-12-27 13:49:04 info: ::1 - - [27/Dec/2023:08:19:04 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 1324 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:49:27 info: ::1 - - [27/Dec/2023:08:19:27 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:49:27 info: Get vehicles 
+2023-12-27 13:49:27 info: ::1 - - [27/Dec/2023:08:19:27 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1775 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:49:35 info: ::1 - - [27/Dec/2023:08:19:35 +0000] "OPTIONS /api/v1/route/addVehicle HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:49:35 info: Adding/updating vehicle vehicle::{"vehicleModule":"BM-00123","vehicleNo":"BM-00123","vehicleType":1,"user":"undefined","type":"16"} 
+2023-12-27 13:49:35 info: ::1 - - [27/Dec/2023:08:19:35 +0000] "POST /api/v1/route/addVehicle HTTP/1.1" 200 1995 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:49:58 info: ::1 - - [27/Dec/2023:08:19:58 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:49:58 info: Get vehicles 
+2023-12-27 13:49:58 info: ::1 - - [27/Dec/2023:08:19:58 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 1324 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:50:10 info: ::1 - - [27/Dec/2023:08:20:10 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:50:10 info: ::1 - - [27/Dec/2023:08:20:10 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:50:10 info: Fetching master data 
+2023-12-27 13:50:10 info: Getting master data 
+2023-12-27 13:50:10 info: Fetching vehicle route map data 
+2023-12-27 13:50:10 info: Get vehicles 
+2023-12-27 13:50:10 info: ::1 - - [27/Dec/2023:08:20:10 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 6457 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:50:10 info: ::1 - - [27/Dec/2023:08:20:10 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 562 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:50:22 info: ::1 - - [27/Dec/2023:08:20:22 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:50:22 info: Add or update route info 
+2023-12-27 13:50:22 info: Adding/updating route details::{"routeId":8,"routeNo":"9944","vehicleNo":"BM-00123","vehicleId":23,"date":"2023-12-27T08:20:10.604Z","user":"undefined","type":"16"} 
+2023-12-27 13:50:22 info: Publish to mqtt::{"Bus Id":"BM-00123","Route NO":"9944"} 
+2023-12-27 13:50:22 info: ::1 - - [27/Dec/2023:08:20:22 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 200 7027 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:50:23 debug: The payload is not in appropriate format for topic::BM-00123 & payload:: {"Bus Id":"BM-00123","Route NO":"9944"} 
+2023-12-27 13:50:28 info: ::1 - - [27/Dec/2023:08:20:28 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:50:28 info: Fetching vehicle route map data 
+2023-12-27 13:50:28 info: Get vehicles 
+2023-12-27 13:50:28 info: ::1 - - [27/Dec/2023:08:20:28 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 7027 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:51:37 error: WHERE parameter "routeNo" has invalid "undefined" value 
+    Error: WHERE parameter "routeNo" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1743:13)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1734:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1732:35)
+    at MySQLQueryGenerator.getWhereConditions (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2075:19)
+    at MySQLQueryGenerator.selectQuery (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-generator.js:988:28)
+    at MySQLQueryInterface.select (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:59)
+    at Route.findAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1140:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Route.findOne (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1240:12)
+2023-12-27 13:53:25 info: Onboard Server is started and running at the port 5000 
+2023-12-27 13:53:35 info: ::1 - - [27/Dec/2023:08:23:35 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:53:35 info: Add or update route info 
+2023-12-27 13:53:35 info: Adding/updating route details::{"vehicleNo":"BM-00123","routeNo":"9944","id":12,"user":"undefined","type":"16"} 
+2023-12-27 13:53:35 info: Publish to mqtt::{"Bus Id":"BM-00123","Route NO":"9944"} 
+2023-12-27 13:53:35 info: ::1 - - [27/Dec/2023:08:23:35 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 200 7027 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:53:35 debug: The payload is not in appropriate format for topic::BM-00123 & payload:: {"Bus Id":"BM-00123","Route NO":"9944"} 
+2023-12-27 13:53:41 info: ::1 - - [27/Dec/2023:08:23:41 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:53:41 info: Fetching vehicle route map data 
+2023-12-27 13:53:41 info: Get vehicles 
+2023-12-27 13:53:41 info: ::1 - - [27/Dec/2023:08:23:41 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 7027 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:54:39 info: ::1 - - [27/Dec/2023:08:24:39 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:54:39 info: Get vehicles 
+2023-12-27 13:54:39 info: ::1 - - [27/Dec/2023:08:24:39 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 2057 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:55:44 info: Onboard Server is started and running at the port 5000 
+2023-12-27 13:55:53 info: ::1 - - [27/Dec/2023:08:25:53 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:55:53 info: Get vehicles 
+2023-12-27 13:55:53 info: ::1 - - [27/Dec/2023:08:25:53 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 1324 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:55:53 info: ::1 - - [27/Dec/2023:08:25:53 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:55:53 info: ::1 - - [27/Dec/2023:08:25:53 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:55:53 info: Fetching master data 
+2023-12-27 13:55:53 info: Getting master data 
+2023-12-27 13:55:53 info: Fetching vehicle route map data 
+2023-12-27 13:55:53 info: Get vehicles 
+2023-12-27 13:55:53 info: ::1 - - [27/Dec/2023:08:25:53 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 7027 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:55:53 info: ::1 - - [27/Dec/2023:08:25:53 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 562 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:55:55 info: ::1 - - [27/Dec/2023:08:25:55 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:55:55 info: Add or update route info 
+2023-12-27 13:55:55 info: Adding/updating route details::{"vehicleNo":"BM-00123","routeNo":"9944","id":12,"user":"undefined","type":"16"} 
+2023-12-27 13:55:55 info: Publish to mqtt::{"Bus Id":"BM-00123","Route_NO":"9944"} 
+2023-12-27 13:55:55 info: ::1 - - [27/Dec/2023:08:25:55 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 200 7027 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:55:55 debug: The payload is not in appropriate format for topic::BM-00123 & payload:: {"Bus Id":"BM-00123","Route_NO":"9944"} 
+2023-12-27 13:56:01 info: ::1 - - [27/Dec/2023:08:26:01 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:56:01 info: Fetching vehicle route map data 
+2023-12-27 13:56:01 info: Get vehicles 
+2023-12-27 13:56:01 info: ::1 - - [27/Dec/2023:08:26:01 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 7027 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:56:41 info: ::1 - - [27/Dec/2023:08:26:41 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:56:41 info: ::1 - - [27/Dec/2023:08:26:41 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:56:41 info: Fetching master data 
+2023-12-27 13:56:41 info: Getting master data 
+2023-12-27 13:56:41 info: Fetching vehicle route map data 
+2023-12-27 13:56:41 info: Get vehicles 
+2023-12-27 13:56:41 info: ::1 - - [27/Dec/2023:08:26:41 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 7027 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:56:41 info: ::1 - - [27/Dec/2023:08:26:41 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 562 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:56:49 info: ::1 - - [27/Dec/2023:08:26:49 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:56:49 info: Get vehicles 
+2023-12-27 13:56:49 info: ::1 - - [27/Dec/2023:08:26:49 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 1324 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:57:00 info: ::1 - - [27/Dec/2023:08:27:00 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 13:57:00 info: Get vehicles 
+2023-12-27 13:57:00 info: ::1 - - [27/Dec/2023:08:27:00 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 2057 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 

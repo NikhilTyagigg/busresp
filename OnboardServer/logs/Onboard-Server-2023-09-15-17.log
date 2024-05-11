@@ -1,0 +1,105 @@
+2023-09-15 17:04:44 info: ::1 - - [15/Sep/2023:11:34:44 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 17:04:44 info: Get vehicles 
+2023-09-15 17:04:44 info: ::1 - - [15/Sep/2023:11:34:44 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 506 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 17:04:53 info: ::1 - - [15/Sep/2023:11:34:53 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 17:04:53 info: ::1 - - [15/Sep/2023:11:34:53 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 17:04:53 info: Fetching master data 
+2023-09-15 17:04:53 info: Getting master data 
+2023-09-15 17:04:53 info: Fetching vehicle route map data 
+2023-09-15 17:04:53 info: Get vehicles 
+2023-09-15 17:04:53 info: ::1 - - [15/Sep/2023:11:34:53 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 1278 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 17:04:53 info: ::1 - - [15/Sep/2023:11:34:53 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 258 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 17:10:56 info: ::1 - - [15/Sep/2023:11:40:56 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 17:10:56 info: Add or update route info 
+2023-09-15 17:10:56 info: Adding/updating route details::{"routeId":2,"routeNo":"210","vehicleNo":"DL343443","vehicleId":1,"date":"2023-09-15T11:34:53.703Z","driver":"D2","user":"undefined","type":"14"} 
+2023-09-15 17:11:24 info: Publish to mqtt::{"Bus Id":"DL343443","Route":"210","Date&Time":"2023-09-15T11:34:53.703Z","UserType":3} 
+2023-09-15 17:11:24 info: ::1 - - [15/Sep/2023:11:41:24 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 200 660 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 17:11:42 info: ::1 - - [15/Sep/2023:11:41:42 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 17:11:42 info: ::1 - - [15/Sep/2023:11:41:42 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 17:11:42 info: Fetching master data 
+2023-09-15 17:11:42 info: Getting master data 
+2023-09-15 17:11:42 info: Fetching vehicle route map data 
+2023-09-15 17:11:42 info: Get vehicles 
+2023-09-15 17:11:42 info: ::1 - - [15/Sep/2023:11:41:42 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 1872 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 17:11:42 info: ::1 - - [15/Sep/2023:11:41:42 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 258 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 17:11:46 info: ::1 - - [15/Sep/2023:11:41:46 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 17:11:46 info: Get vehicles 
+2023-09-15 17:11:46 info: ::1 - - [15/Sep/2023:11:41:46 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1445 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 17:11:51 info: ::1 - - [15/Sep/2023:11:41:51 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 17:11:51 info: ::1 - - [15/Sep/2023:11:41:51 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 17:11:51 info: Fetching master data 
+2023-09-15 17:11:51 info: Getting master data 
+2023-09-15 17:11:51 info: Fetching vehicle route map data 
+2023-09-15 17:11:51 info: Get vehicles 
+2023-09-15 17:11:51 info: ::1 - - [15/Sep/2023:11:41:51 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 1872 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 17:11:51 info: ::1 - - [15/Sep/2023:11:41:51 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 258 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 17:12:06 info: ::1 - - [15/Sep/2023:11:42:06 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 17:12:06 info: Add or update route info 
+2023-09-15 17:12:06 info: Adding/updating route details::{"routeId":3,"routeNo":"3434","vehicleNo":"DL89898","vehicleId":4,"date":"2023-09-15T11:41:51.804Z","driver":"driver 4","user":"undefined","type":"14"} 
+2023-09-15 17:12:08 error: Cannot add or update a child row: a foreign key constraint fails (`onboard`.`VehicleRouteDriverMaps`, CONSTRAINT `FK_vehicleRouteMap_route` FOREIGN KEY (`vehicleId`) REFERENCES `Routes` (`routeId`) ON UPDATE CASCADE) 
+    Error
+    at Query.run (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async VehicleRouteDriverMap.save (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:2490:35)
+    at async VehicleRouteDriverMap.create (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1362:12)
+    at async main.addVehicleRouteMap (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:262:21)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:95:22
+2023-09-15 17:12:08 error: SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`onboard`.`VehicleRouteDriverMaps`, CONSTRAINT `FK_vehicleRouteMap_route` FOREIGN KEY (`vehicleId`) REFERENCES `Routes` (`routeId`) ON UPDATE CASCADE) 
+    Error: SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`onboard`.`VehicleRouteDriverMaps`, CONSTRAINT `FK_vehicleRouteMap_route` FOREIGN KEY (`vehicleId`) REFERENCES `Routes` (`routeId`) ON UPDATE CASCADE)
+    at main.addVehicleRouteMap (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:287:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:95:22
+2023-09-15 17:12:08 error: SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`onboard`.`VehicleRouteDriverMaps`, CONSTRAINT `FK_vehicleRouteMap_route` FOREIGN KEY (`vehicleId`) REFERENCES `Routes` (`routeId`) ON UPDATE CASCADE) 
+    Error: SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`onboard`.`VehicleRouteDriverMaps`, CONSTRAINT `FK_vehicleRouteMap_route` FOREIGN KEY (`vehicleId`) REFERENCES `Routes` (`routeId`) ON UPDATE CASCADE)
+    at main.addVehicleRouteMap (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:287:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:95:22
+2023-09-15 17:12:08 info: ::1 - - [15/Sep/2023:11:42:08 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 500 288 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 17:12:17 info: ::1 - - [15/Sep/2023:11:42:17 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 17:12:17 info: Add or update route info 
+2023-09-15 17:12:17 info: Adding/updating route details::{"routeId":3,"routeNo":"3434","vehicleNo":"DL89898","vehicleId":4,"date":"2023-09-15T11:41:51.804Z","driver":"driver 4","user":"undefined","type":"14"} 
+2023-09-15 17:13:11 error: Cannot add or update a child row: a foreign key constraint fails (`onboard`.`VehicleRouteDriverMaps`, CONSTRAINT `FK_vehicleRouteMap_route` FOREIGN KEY (`vehicleId`) REFERENCES `Routes` (`routeId`) ON UPDATE CASCADE) 
+    Error
+    at Query.run (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async VehicleRouteDriverMap.save (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:2490:35)
+    at async VehicleRouteDriverMap.create (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1362:12)
+    at async main.addVehicleRouteMap (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:262:21)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:95:22
+2023-09-15 17:13:11 error: SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`onboard`.`VehicleRouteDriverMaps`, CONSTRAINT `FK_vehicleRouteMap_route` FOREIGN KEY (`vehicleId`) REFERENCES `Routes` (`routeId`) ON UPDATE CASCADE) 
+    Error: SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`onboard`.`VehicleRouteDriverMaps`, CONSTRAINT `FK_vehicleRouteMap_route` FOREIGN KEY (`vehicleId`) REFERENCES `Routes` (`routeId`) ON UPDATE CASCADE)
+    at main.addVehicleRouteMap (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:287:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:95:22
+2023-09-15 17:13:11 error: SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`onboard`.`VehicleRouteDriverMaps`, CONSTRAINT `FK_vehicleRouteMap_route` FOREIGN KEY (`vehicleId`) REFERENCES `Routes` (`routeId`) ON UPDATE CASCADE) 
+    Error: SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`onboard`.`VehicleRouteDriverMaps`, CONSTRAINT `FK_vehicleRouteMap_route` FOREIGN KEY (`vehicleId`) REFERENCES `Routes` (`routeId`) ON UPDATE CASCADE)
+    at main.addVehicleRouteMap (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:287:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:95:22
+2023-09-15 17:13:11 info: ::1 - - [15/Sep/2023:11:43:11 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 500 288 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 

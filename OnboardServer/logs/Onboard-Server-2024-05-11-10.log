@@ -1,0 +1,70 @@
+2024-05-11 10:20:03 info: Onboard Server is started and running at the port 5000 
+2024-05-11 10:21:39 info: BODYYYYY: [object Object] 
+2024-05-11 10:21:39 debug: login from nikhiltyagi.n17@gmail.com 
+2024-05-11 10:21:39 info: ::1 - - [11/May/2024:04:51:39 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 562 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 10:21:40 info: ::1 - - [11/May/2024:04:51:40 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 10:21:40 info: Get vehicles 
+2024-05-11 10:22:25 info: Onboard Server is started and running at the port 5000 
+2024-05-11 10:23:18 info: ::1 - - [11/May/2024:04:53:18 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 10:23:18 info: Get vehicles 
+2024-05-11 10:25:40 info: Onboard Server is started and running at the port 5000 
+2024-05-11 10:30:34 info: ::1 - - [11/May/2024:05:00:34 +0000] "OPTIONS /api/v1/route/addMultipleVehicles HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 10:30:34 info: Add or update route info 
+2024-05-11 10:30:34 info: Adding/updating vehicle details details::[["A01FA0417","A-00418"," Bus"],["A01FA0418","B-00419","Bus"],["A01FA0419","A-00420","Bus"],["A01FA0420","BA-0041","Bus"]] 
+2024-05-11 10:30:34 error: Include unexpected. Element has to be either a Model, an Association or an object. 
+    Error: Include unexpected. Element has to be either a Model, an Association or an object.
+    at Vehicle._conformInclude (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:323:11)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:270:61
+    at Array.map (<anonymous>)
+    at Vehicle._conformIncludes (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:270:39)
+    at Vehicle._baseMerge (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:622:10)
+    at Vehicle._defaultsOptions (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:656:17)
+    at Vehicle._injectScope (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:2053:10)
+    at Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1111:10)
+    at Vehicle.findAndCountAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1324:12)
+    at main.addMultipleVehicles (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:504:38)
+2024-05-11 10:30:34 error: Error: Include unexpected. Element has to be either a Model, an Association or an object. 
+    Error: Error: Include unexpected. Element has to be either a Model, an Association or an object.
+    at main.addMultipleVehicles (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:516:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:107:22
+2024-05-11 10:30:34 error: Error: Include unexpected. Element has to be either a Model, an Association or an object. 
+    Error: Error: Include unexpected. Element has to be either a Model, an Association or an object.
+    at main.addMultipleVehicles (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:516:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:107:22
+2024-05-11 10:30:34 info: ::1 - - [11/May/2024:05:00:34 +0000] "POST /api/v1/route/addMultipleVehicles HTTP/1.1" 500 125 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 10:40:53 info: ::1 - - [11/May/2024:05:10:53 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 10:40:53 info: Get vehicles 
+2024-05-11 10:40:53 info: ::1 - - [11/May/2024:05:10:53 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 10:40:55 info: ::1 - - [11/May/2024:05:10:55 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 10:40:55 info: Get vehicles 
+2024-05-11 10:49:18 info: Onboard Server is started and running at the port 5000 
+2024-05-11 10:49:28 info: ::1 - - [11/May/2024:05:19:28 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 10:49:28 info: Get vehicles 
+2024-05-11 10:50:18 info: Onboard Server is started and running at the port 5000 
+2024-05-11 10:50:25 info: ::1 - - [11/May/2024:05:20:25 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 10:50:25 info: Get vehicles 
+2024-05-11 10:50:53 info: Onboard Server is started and running at the port 5000 
+2024-05-11 10:53:11 info: Onboard Server is started and running at the port 5000 
+2024-05-11 10:53:18 info: ::1 - - [11/May/2024:05:23:18 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 10:53:18 info: Get vehicles 
+2024-05-11 10:58:10 info: Onboard Server is started and running at the port 5000 
+2024-05-11 10:58:22 info: ::1 - - [11/May/2024:05:28:22 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 10:58:22 info: Get vehicles 
+2024-05-11 10:59:19 info: Onboard Server is started and running at the port 5000 
+2024-05-11 10:59:27 info: ::1 - - [11/May/2024:05:29:27 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 10:59:27 info: Get vehicles 

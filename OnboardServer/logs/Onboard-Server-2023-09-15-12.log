@@ -1,0 +1,86 @@
+2023-09-15 12:34:29 info: Onboard Server is started and running at the port 5000 
+2023-09-15 12:34:46 info: Onboard Server is started and running at the port 5000 
+2023-09-15 12:36:40 info: Onboard Server is started and running at the port 5000 
+2023-09-15 12:37:35 info: Onboard Server is started and running at the port 5000 
+2023-09-15 12:37:58 info: BODYYYYY: [object Object] 
+2023-09-15 12:38:01 debug: login from k@gmail.com 
+2023-09-15 12:38:01 info: ::1 - - [15/Sep/2023:07:08:01 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 510 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 12:38:01 info: ::1 - - [15/Sep/2023:07:08:01 +0000] "OPTIONS /api/v1/auth/token/verify/ HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 12:38:01 error: Error: /auth/token/verify/ USER ID 
+2023-09-15 12:38:01 info: ::1 - - [15/Sep/2023:07:08:01 +0000] "POST /api/v1/auth/token/verify/ HTTP/1.1" 404 56 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 12:38:04 info: ::1 - - [15/Sep/2023:07:08:04 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 12:38:04 info: Get vehicles 
+2023-09-15 12:38:04 info: ::1 - - [15/Sep/2023:07:08:04 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 978 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 12:42:10 info: Onboard Server is started and running at the port 5000 
+2023-09-15 12:42:39 info: Onboard Server is started and running at the port 5000 
+2023-09-15 12:42:58 info: Onboard Server is started and running at the port 5000 
+2023-09-15 12:54:17 info: ::1 - - [15/Sep/2023:07:24:17 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 12:54:17 info: Get vehicles 
+2023-09-15 12:54:17 error: Cannot read properties of undefined (reading 'findAndCountAll') 
+    TypeError: Cannot read properties of undefined (reading 'findAndCountAll')
+    at main.getRoutes (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:155:34)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:51:28
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-09-15 12:54:17 error: TypeError: Cannot read properties of undefined (reading 'findAndCountAll') 
+    Error: TypeError: Cannot read properties of undefined (reading 'findAndCountAll')
+    at main.getRoutes (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:164:15)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:51:28
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-09-15 12:54:17 error: TypeError: Cannot read properties of undefined (reading 'findAndCountAll') 
+    Error: TypeError: Cannot read properties of undefined (reading 'findAndCountAll')
+    at main.getRoutes (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:164:15)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:51:28
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-09-15 12:54:17 info: ::1 - - [15/Sep/2023:07:24:17 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 500 110 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 12:55:01 info: Onboard Server is started and running at the port 5000 
+2023-09-15 12:55:09 info: Onboard Server is started and running at the port 5000 
+2023-09-15 12:55:23 info: Onboard Server is started and running at the port 5000 
+2023-09-15 12:56:27 info: Onboard Server is started and running at the port 5000 
+2023-09-15 12:56:32 info: ::1 - - [15/Sep/2023:07:26:32 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 12:56:32 info: Get vehicles 
+2023-09-15 12:56:32 info: ::1 - - [15/Sep/2023:07:26:32 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 12:57:03 info: ::1 - - [15/Sep/2023:07:27:03 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 12:57:03 info: Get vehicles 
+2023-09-15 12:57:03 info: ::1 - - [15/Sep/2023:07:27:03 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 12:57:11 info: ::1 - - [15/Sep/2023:07:27:11 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 12:57:11 info: Get vehicles 
+2023-09-15 12:57:11 info: ::1 - - [15/Sep/2023:07:27:11 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 12:59:27 info: ::1 - - [15/Sep/2023:07:29:27 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 12:59:27 info: Get vehicles 
+2023-09-15 12:59:27 info: ::1 - - [15/Sep/2023:07:29:27 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 

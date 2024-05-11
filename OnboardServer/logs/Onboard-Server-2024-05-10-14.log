@@ -1,0 +1,100 @@
+2024-05-10 14:16:13 info: Onboard Server is started and running at the port 5000 
+2024-05-10 14:16:13 error: Error:Error: getaddrinfo ENOTFOUND axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2024-05-10 14:16:13 error: Error:Error: getaddrinfo ENOTFOUND axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2024-05-10 14:16:14 error: Error:Error: getaddrinfo ENOTFOUND axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2024-05-10 14:16:14 error: Error:Error: getaddrinfo ENOTFOUND axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2024-05-10 14:16:16 error: Error:Error: getaddrinfo ENOTFOUND axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2024-05-10 14:16:16 error: Error:Error: getaddrinfo ENOTFOUND axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2024-05-10 14:16:25 info: BODYYYYY: [object Object] 
+2024-05-10 14:16:25 debug: login from nikhiltyagi.n17@gmail.com 
+2024-05-10 14:16:25 info: ::1 - - [10/May/2024:08:46:25 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 562 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-10 14:16:28 info: ::1 - - [10/May/2024:08:46:28 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-10 14:18:10 info: Onboard Server is started and running at the port 5000 
+2024-05-10 14:28:14 info: ::1 - - [10/May/2024:08:58:14 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-10 14:28:14 info: Get vehicles 
+2024-05-10 14:28:14 info: ::1 - - [10/May/2024:08:58:14 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-10 14:28:16 info: ::1 - - [10/May/2024:08:58:16 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-10 14:28:16 info: Fetching master data 
+2024-05-10 14:28:16 info: Getting master data 
+2024-05-10 14:28:16 info: ::1 - - [10/May/2024:08:58:16 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-10 14:28:16 info: Fetching vehicle route map data 
+2024-05-10 14:28:16 info: Get vehicles 
+2024-05-10 14:28:16 info: ::1 - - [10/May/2024:08:58:16 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 244 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-10 14:28:16 error: Table 'onboard.vehicleroutedrivermaps' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async VehicleRouteDriverMap.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Promise.all (index 1)
+    at async VehicleRouteDriverMap.findAndCountAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1322:27)
+    at async main.getRouteVehicleMap (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:322:31)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:84:20
+2024-05-10 14:28:16 error: SequelizeDatabaseError: Table 'onboard.vehicleroutedrivermaps' doesn't exist 
+    Error: SequelizeDatabaseError: Table 'onboard.vehicleroutedrivermaps' doesn't exist
+    at main.getRouteVehicleMap (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:339:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:84:20
+2024-05-10 14:28:16 error: SequelizeDatabaseError: Table 'onboard.vehicleroutedrivermaps' doesn't exist 
+    Error: SequelizeDatabaseError: Table 'onboard.vehicleroutedrivermaps' doesn't exist
+    at main.getRouteVehicleMap (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:339:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:84:20
+2024-05-10 14:28:16 info: ::1 - - [10/May/2024:08:58:16 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 500 112 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-10 14:28:20 info: Fetching master data 
+2024-05-10 14:28:20 info: Getting master data 
+2024-05-10 14:28:20 info: Fetching vehicle route map data 
+2024-05-10 14:28:20 info: Get vehicles 
+2024-05-10 14:28:21 info: ::1 - - [10/May/2024:08:58:21 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 244 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-10 14:28:21 error: Table 'onboard.vehicleroutedrivermaps' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async VehicleRouteDriverMap.aggregate (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1277:19)
+    at async VehicleRouteDriverMap.count (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async VehicleRouteDriverMap.findAndCountAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1322:27)
+    at async main.getRouteVehicleMap (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:322:31)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:84:20
+2024-05-10 14:28:21 error: SequelizeDatabaseError: Table 'onboard.vehicleroutedrivermaps' doesn't exist 
+    Error: SequelizeDatabaseError: Table 'onboard.vehicleroutedrivermaps' doesn't exist
+    at main.getRouteVehicleMap (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:339:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:84:20
+2024-05-10 14:28:21 error: SequelizeDatabaseError: Table 'onboard.vehicleroutedrivermaps' doesn't exist 
+    Error: SequelizeDatabaseError: Table 'onboard.vehicleroutedrivermaps' doesn't exist
+    at main.getRouteVehicleMap (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:339:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:84:20
+2024-05-10 14:28:21 info: ::1 - - [10/May/2024:08:58:21 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 500 112 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-10 14:28:25 info: ::1 - - [10/May/2024:08:58:25 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-10 14:28:25 info: Get vehicles 
+2024-05-10 14:28:25 error: Unknown column 'queryLogId' in 'field list' 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async QueryLog.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Promise.all (index 1)
+    at async QueryLog.findAndCountAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1322:27)
+    at async main.getQueryLogs (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:276:20)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:21:20
+2024-05-10 14:58:47 info: Onboard Server is started and running at the port 5000 
+2024-05-10 14:58:56 info: ::1 - - [10/May/2024:09:28:56 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-10 14:58:56 info: Get vehicles 

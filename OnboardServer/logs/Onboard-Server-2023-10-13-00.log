@@ -1,0 +1,489 @@
+2023-10-13 00:05:00 info: ::1 - - [12/Oct/2023:18:35:00 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:05:00 info: Get vehicles 
+2023-10-13 00:05:00 info: ::1 - - [12/Oct/2023:18:35:00 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 2055 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:05:04 info: ::1 - - [12/Oct/2023:18:35:04 +0000] "OPTIONS /api/v1/route/addMultipleVehicles HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:05:04 info: Add or update route info 
+2023-10-13 00:05:04 info: Adding/updating vehicle details details::[[9090,9334],[9091,9334],[9092,9334],[9093,9334],[9094,9334],[9095,9334]] 
+2023-10-13 00:05:04 info: ::1 - - [12/Oct/2023:18:35:04 +0000] "POST /api/v1/route/addMultipleVehicles HTTP/1.1" 200 1993 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:07:10 info: ::1 - - [12/Oct/2023:18:37:10 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:07:10 info: Get vehicles 
+2023-10-13 00:07:10 info: ::1 - - [12/Oct/2023:18:37:10 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 2055 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:07:14 info: ::1 - - [12/Oct/2023:18:37:14 +0000] "OPTIONS /api/v1/route/addMultipleVehicles HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:07:14 info: Add or update route info 
+2023-10-13 00:07:14 info: Adding/updating vehicle details details::[] 
+2023-10-13 00:07:14 error: No vehicle data provided!! 
+2023-10-13 00:07:14 error: No vehicle data provided!! 
+    Error: No vehicle data provided!!
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:368:19)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:28
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-10-13 00:07:14 error: Error: No vehicle data provided!! 
+    Error: Error: No vehicle data provided!!
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:406:15)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:28
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-10-13 00:07:14 error: Error: No vehicle data provided!! 
+    Error: Error: No vehicle data provided!!
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:406:15)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:28
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-10-13 00:07:14 info: ::1 - - [12/Oct/2023:18:37:14 +0000] "POST /api/v1/route/addMultipleVehicles HTTP/1.1" 500 69 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:07:53 info: ::1 - - [12/Oct/2023:18:37:53 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:07:53 info: Get vehicles 
+2023-10-13 00:07:53 info: ::1 - - [12/Oct/2023:18:37:53 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 2055 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:07:58 info: ::1 - - [12/Oct/2023:18:37:58 +0000] "OPTIONS /api/v1/route/addMultipleVehicles HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:07:58 info: Add or update route info 
+2023-10-13 00:07:58 info: Adding/updating vehicle details details::[] 
+2023-10-13 00:07:58 error: No vehicle data provided!! 
+2023-10-13 00:07:58 error: No vehicle data provided!! 
+    Error: No vehicle data provided!!
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:368:19)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:28
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-10-13 00:07:58 error: Error: No vehicle data provided!! 
+    Error: Error: No vehicle data provided!!
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:406:15)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:28
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-10-13 00:07:58 error: Error: No vehicle data provided!! 
+    Error: Error: No vehicle data provided!!
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:406:15)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:28
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-10-13 00:07:58 info: ::1 - - [12/Oct/2023:18:37:58 +0000] "POST /api/v1/route/addMultipleVehicles HTTP/1.1" 500 69 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:09:39 info: ::1 - - [12/Oct/2023:18:39:39 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:09:39 info: Get vehicles 
+2023-10-13 00:09:39 info: ::1 - - [12/Oct/2023:18:39:39 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 2055 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:10:03 info: ::1 - - [12/Oct/2023:18:40:03 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:10:03 info: Get vehicles 
+2023-10-13 00:10:03 info: ::1 - - [12/Oct/2023:18:40:03 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 2055 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:10:08 info: ::1 - - [12/Oct/2023:18:40:08 +0000] "OPTIONS /api/v1/route/addMultipleVehicles HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:10:08 info: Add or update route info 
+2023-10-13 00:10:08 info: Adding/updating vehicle details details::[] 
+2023-10-13 00:10:08 error: No vehicle data provided!! 
+2023-10-13 00:10:08 error: No vehicle data provided!! 
+    Error: No vehicle data provided!!
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:368:19)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:28
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-10-13 00:10:08 error: Error: No vehicle data provided!! 
+    Error: Error: No vehicle data provided!!
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:406:15)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:28
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-10-13 00:10:08 error: Error: No vehicle data provided!! 
+    Error: Error: No vehicle data provided!!
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:406:15)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:28
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-10-13 00:10:08 info: ::1 - - [12/Oct/2023:18:40:08 +0000] "POST /api/v1/route/addMultipleVehicles HTTP/1.1" 500 69 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:11:10 info: ::1 - - [12/Oct/2023:18:41:10 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:11:10 info: Get vehicles 
+2023-10-13 00:11:10 info: ::1 - - [12/Oct/2023:18:41:10 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 2055 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:11:21 info: ::1 - - [12/Oct/2023:18:41:21 +0000] "OPTIONS /api/v1/route/addMultipleVehicles HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:11:21 info: Add or update route info 
+2023-10-13 00:11:21 info: Adding/updating vehicle details details::[] 
+2023-10-13 00:11:21 error: No vehicle data provided!! 
+2023-10-13 00:11:21 error: No vehicle data provided!! 
+    Error: No vehicle data provided!!
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:368:19)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:28
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-10-13 00:11:21 error: Error: No vehicle data provided!! 
+    Error: Error: No vehicle data provided!!
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:406:15)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:28
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-10-13 00:11:21 error: Error: No vehicle data provided!! 
+    Error: Error: No vehicle data provided!!
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:406:15)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:28
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-10-13 00:11:21 info: ::1 - - [12/Oct/2023:18:41:21 +0000] "POST /api/v1/route/addMultipleVehicles HTTP/1.1" 500 69 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:13:09 info: ::1 - - [12/Oct/2023:18:43:09 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:13:09 info: Get vehicles 
+2023-10-13 00:13:09 info: ::1 - - [12/Oct/2023:18:43:09 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 2055 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:13:13 info: Get vehicles 
+2023-10-13 00:13:13 info: ::1 - - [12/Oct/2023:18:43:13 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 2055 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:13:16 info: ::1 - - [12/Oct/2023:18:43:16 +0000] "OPTIONS /api/v1/route/addMultipleVehicles HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:13:16 info: Add or update route info 
+2023-10-13 00:13:16 info: Adding/updating vehicle details details::[["9090","9334",""],["34343","dawe233",""]] 
+2023-10-13 00:13:16 info: ::1 - - [12/Oct/2023:18:43:16 +0000] "POST /api/v1/route/addMultipleVehicles HTTP/1.1" 200 1982 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:15:16 info: ::1 - - [12/Oct/2023:18:45:16 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:15:16 info: Get vehicles 
+2023-10-13 00:15:16 info: ::1 - - [12/Oct/2023:18:45:16 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 2044 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:15:20 info: ::1 - - [12/Oct/2023:18:45:20 +0000] "OPTIONS /api/v1/route/addMultipleVehicles HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:15:20 info: Add or update route info 
+2023-10-13 00:15:20 info: Adding/updating vehicle details details::[["9090","9334",""],["34343","dawe233",""]] 
+2023-10-13 00:15:20 info: ::1 - - [12/Oct/2023:18:45:20 +0000] "POST /api/v1/route/addMultipleVehicles HTTP/1.1" 200 1982 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:15:28 info: BODYYYYY: [object Object] 
+2023-10-13 00:15:28 debug: login from keshav.goyal@kritikalvision.ai 
+2023-10-13 00:15:28 info: ::1 - - [12/Oct/2023:18:45:28 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 579 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:15:29 info: ::1 - - [12/Oct/2023:18:45:29 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:15:29 info: Get vehicles 
+2023-10-13 00:15:29 info: ::1 - - [12/Oct/2023:18:45:29 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 2044 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:15:31 info: ::1 - - [12/Oct/2023:18:45:31 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:15:31 info: Get vehicles 
+2023-10-13 00:15:31 info: ::1 - - [12/Oct/2023:18:45:31 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:15:35 info: ::1 - - [12/Oct/2023:18:45:35 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:15:35 info: ::1 - - [12/Oct/2023:18:45:35 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:15:35 info: Fetching master data 
+2023-10-13 00:15:35 info: Getting master data 
+2023-10-13 00:15:35 info: Fetching vehicle route map data 
+2023-10-13 00:15:35 info: Get vehicles 
+2023-10-13 00:15:35 info: ::1 - - [12/Oct/2023:18:45:35 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 330 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:15:35 info: ::1 - - [12/Oct/2023:18:45:35 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:22:32 info: ::1 - - [12/Oct/2023:18:52:32 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:22:32 info: Get vehicles 
+2023-10-13 00:22:32 info: ::1 - - [12/Oct/2023:18:52:32 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:25:19 info: ::1 - - [12/Oct/2023:18:55:19 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:25:19 info: Get vehicles 
+2023-10-13 00:25:19 info: ::1 - - [12/Oct/2023:18:55:19 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:26:51 info: Onboard Server is started and running at the port 5000 
+2023-10-13 00:28:35 info: Onboard Server is started and running at the port 5000 
+2023-10-13 00:29:59 info: Onboard Server is started and running at the port 5000 
+2023-10-13 00:32:40 info: ::1 - - [12/Oct/2023:19:02:40 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:32:40 info: Get vehicles 
+2023-10-13 00:32:40 info: ::1 - - [12/Oct/2023:19:02:40 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:33:12 info: ::1 - - [12/Oct/2023:19:03:12 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:33:12 info: Get vehicles 
+2023-10-13 00:33:12 info: ::1 - - [12/Oct/2023:19:03:12 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:39:22 info: ::1 - - [12/Oct/2023:19:09:22 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:39:22 info: Get vehicles 
+2023-10-13 00:39:22 info: ::1 - - [12/Oct/2023:19:09:22 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:39:28 info: ::1 - - [12/Oct/2023:19:09:28 +0000] "OPTIONS /api/v1/route/addMultipleVehicles HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:39:28 info: Add or update route info 
+2023-10-13 00:39:28 info: Adding/updating vehicle details details::[] 
+2023-10-13 00:39:28 error: No vehicle data provided!! 
+2023-10-13 00:39:28 error: No vehicle data provided!! 
+    Error: No vehicle data provided!!
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:372:19)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:28
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-10-13 00:39:28 error: Error: No vehicle data provided!! 
+    Error: Error: No vehicle data provided!!
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:410:15)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:28
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-10-13 00:39:28 error: Error: No vehicle data provided!! 
+    Error: Error: No vehicle data provided!!
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:410:15)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:28
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-10-13 00:39:28 info: ::1 - - [12/Oct/2023:19:09:28 +0000] "POST /api/v1/route/addMultipleVehicles HTTP/1.1" 500 69 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:40:46 info: ::1 - - [12/Oct/2023:19:10:46 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:40:46 info: Get vehicles 
+2023-10-13 00:40:46 info: ::1 - - [12/Oct/2023:19:10:46 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:40:49 info: Get vehicles 
+2023-10-13 00:40:49 info: ::1 - - [12/Oct/2023:19:10:49 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:40:55 info: ::1 - - [12/Oct/2023:19:10:55 +0000] "OPTIONS /api/v1/route/addMultipleRoutes HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:40:55 info: Add or update route info 
+2023-10-13 00:40:55 info: Adding/updating route details::[[9090,"botanical garden","sec 15","sec 14, sec 16"],[9091,"sec 16","botanical garden","okhla bird sanctuary"],[9092,"sec 18","sec 16"],[9093,"btoanical garden","ashok nagar"],[9094,"ashok nagar","botanical garden"],[9095,"sec 15","sec 16"]] 
+2023-10-13 00:40:55 info: ::1 - - [12/Oct/2023:19:10:55 +0000] "POST /api/v1/route/addMultipleRoutes HTTP/1.1" 200 264 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:42:04 info: Onboard Server is started and running at the port 5000 
+2023-10-13 00:42:08 info: ::1 - - [12/Oct/2023:19:12:08 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:42:08 info: Get vehicles 
+2023-10-13 00:42:08 info: ::1 - - [12/Oct/2023:19:12:08 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 1242 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:42:16 info: ::1 - - [12/Oct/2023:19:12:16 +0000] "OPTIONS /api/v1/route/addMultipleRoutes HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:42:16 info: Add or update route info 
+2023-10-13 00:42:16 info: Adding/updating route details::[["9090","botanical garden","sec 15","sec 14, sec 16"],["9091","sec 16","botanical garden","okhla bird sanctuary"],["9092","sec 18","sec 16",""],["9093","btoanical garden","ashok nagar",""],["9094","ashok nagar","botanical garden",""],["9095","sec 15","sec 16",""]] 
+2023-10-13 00:42:16 info: ::1 - - [12/Oct/2023:19:12:16 +0000] "POST /api/v1/route/addMultipleRoutes HTTP/1.1" 200 1242 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:55:23 info: ::1 - - [12/Oct/2023:19:25:23 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:55:23 info: Get vehicles 
+2023-10-13 00:55:23 info: ::1 - - [12/Oct/2023:19:25:23 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 2044 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:55:25 info: ::1 - - [12/Oct/2023:19:25:25 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:55:25 info: Get vehicles 
+2023-10-13 00:55:26 info: ::1 - - [12/Oct/2023:19:25:26 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 1242 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:56:30 info: ::1 - - [12/Oct/2023:19:26:30 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:56:30 info: Get vehicles 
+2023-10-13 00:56:30 info: ::1 - - [12/Oct/2023:19:26:30 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 1242 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:56:32 info: ::1 - - [12/Oct/2023:19:26:32 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:56:32 info: Get vehicles 
+2023-10-13 00:56:32 info: ::1 - - [12/Oct/2023:19:26:32 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 2044 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:56:35 info: Get vehicles 
+2023-10-13 00:56:35 info: ::1 - - [12/Oct/2023:19:26:35 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 1242 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:56:49 info: ::1 - - [12/Oct/2023:19:26:49 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:56:49 info: Get vehicles 
+2023-10-13 00:56:50 info: ::1 - - [12/Oct/2023:19:26:50 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 1242 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:56:54 info: ::1 - - [12/Oct/2023:19:26:54 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:56:54 info: Get vehicles 
+2023-10-13 00:56:54 info: ::1 - - [12/Oct/2023:19:26:54 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 2044 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:56:55 info: ::1 - - [12/Oct/2023:19:26:55 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:56:55 info: Get vehicles 
+2023-10-13 00:56:55 info: ::1 - - [12/Oct/2023:19:26:55 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 1242 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:56:56 info: ::1 - - [12/Oct/2023:19:26:56 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:56:56 info: ::1 - - [12/Oct/2023:19:26:56 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:56:56 info: Fetching master data 
+2023-10-13 00:56:56 info: Getting master data 
+2023-10-13 00:56:56 info: Fetching vehicle route map data 
+2023-10-13 00:56:56 info: Get vehicles 
+2023-10-13 00:56:56 info: ::1 - - [12/Oct/2023:19:26:56 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:56:56 info: ::1 - - [12/Oct/2023:19:26:56 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 515 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:58:07 info: ::1 - - [12/Oct/2023:19:28:07 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:58:07 info: Add or update route info 
+2023-10-13 00:58:07 info: Adding/updating route details::{"routeId":2,"routeNo":"9091","vehicleNo":"9090","vehicleId":1,"date":"2023-10-12T19:26:56.256Z","driver":"Driver 1","user":"undefined","type":"23"} 
+2023-10-13 00:58:07 info: Publish to mqtt::{"Bus Id":"9090","Route No":"9091"} 
+2023-10-13 00:58:07 info: ::1 - - [12/Oct/2023:19:28:07 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 200 656 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:58:16 info: ::1 - - [12/Oct/2023:19:28:16 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:58:16 info: Get vehicles 
+2023-10-13 00:58:16 info: ::1 - - [12/Oct/2023:19:28:16 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 88 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:58:19 info: Get vehicles 
+2023-10-13 00:58:19 info: ::1 - - [12/Oct/2023:19:28:19 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 88 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:58:26 info: ::1 - - [12/Oct/2023:19:28:26 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:58:26 info: ::1 - - [12/Oct/2023:19:28:26 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:58:26 info: Fetching master data 
+2023-10-13 00:58:26 info: Getting master data 
+2023-10-13 00:58:26 info: Fetching vehicle route map data 
+2023-10-13 00:58:26 info: Get vehicles 
+2023-10-13 00:58:26 info: ::1 - - [12/Oct/2023:19:28:26 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 656 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:58:26 info: ::1 - - [12/Oct/2023:19:28:26 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 515 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:58:30 info: ::1 - - [12/Oct/2023:19:28:30 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:58:30 info: Get vehicles 
+2023-10-13 00:58:30 info: ::1 - - [12/Oct/2023:19:28:30 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 88 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:58:44 info: ::1 - - [12/Oct/2023:19:28:44 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:58:44 info: ::1 - - [12/Oct/2023:19:28:44 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:58:44 info: Fetching master data 
+2023-10-13 00:58:44 info: Getting master data 
+2023-10-13 00:58:44 info: Fetching vehicle route map data 
+2023-10-13 00:58:44 info: Get vehicles 
+2023-10-13 00:58:44 info: ::1 - - [12/Oct/2023:19:28:44 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 656 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:58:44 info: ::1 - - [12/Oct/2023:19:28:44 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 515 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:58:46 info: ::1 - - [12/Oct/2023:19:28:46 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:58:46 info: Get vehicles 
+2023-10-13 00:58:46 info: ::1 - - [12/Oct/2023:19:28:46 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 1242 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:59:07 info: ::1 - - [12/Oct/2023:19:29:07 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:59:07 info: Add or update route info 
+2023-10-13 00:59:07 info: Adding/updating route details::{"routeNo":"9092","startPoint":"sec 18","endPoint":"sec 16","intermediateStops":"stop1,stop2","routeId":3,"isActive":true,"user":"undefined","type":"23"} 
+2023-10-13 00:59:07 info: ::1 - - [12/Oct/2023:19:29:07 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 1253 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:59:14 info: ::1 - - [12/Oct/2023:19:29:14 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:59:14 info: Add or update route info 
+2023-10-13 00:59:14 info: Adding/updating route details::{"routeNo":"9095","startPoint":"sec 15","endPoint":"sec 16","intermediateStops":"","routeId":6,"isActive":false,"user":"undefined","type":"23"} 
+2023-10-13 00:59:14 info: ::1 - - [12/Oct/2023:19:29:14 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 1073 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:59:21 info: ::1 - - [12/Oct/2023:19:29:21 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:59:21 info: ::1 - - [12/Oct/2023:19:29:21 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:59:21 info: Fetching master data 
+2023-10-13 00:59:21 info: Getting master data 
+2023-10-13 00:59:21 info: Fetching vehicle route map data 
+2023-10-13 00:59:21 info: Get vehicles 
+2023-10-13 00:59:21 info: ::1 - - [12/Oct/2023:19:29:21 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 484 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:59:21 info: ::1 - - [12/Oct/2023:19:29:21 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 656 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:59:47 info: ::1 - - [12/Oct/2023:19:29:47 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:59:47 info: Get vehicles 
+2023-10-13 00:59:47 info: ::1 - - [12/Oct/2023:19:29:47 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 2044 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:59:50 info: ::1 - - [12/Oct/2023:19:29:50 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-13 00:59:50 info: Get vehicles 
+2023-10-13 00:59:50 info: ::1 - - [12/Oct/2023:19:29:50 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 1073 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 

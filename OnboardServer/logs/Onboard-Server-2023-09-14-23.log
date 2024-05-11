@@ -1,0 +1,55 @@
+2023-09-14 23:05:58 info: ::1 - - [14/Sep/2023:17:35:58 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 23:05:58 info: Get vehicles 
+2023-09-14 23:05:58 info: ::1 - - [14/Sep/2023:17:35:58 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 23:06:05 info: ::1 - - [14/Sep/2023:17:36:05 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 23:06:05 info: Get vehicles 
+2023-09-14 23:06:05 info: ::1 - - [14/Sep/2023:17:36:05 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 23:06:44 info: ::1 - - [14/Sep/2023:17:36:44 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 23:06:44 info: Get vehicles 
+2023-09-14 23:06:44 info: ::1 - - [14/Sep/2023:17:36:44 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 23:07:04 info: ::1 - - [14/Sep/2023:17:37:04 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 23:07:04 info: Get vehicles 
+2023-09-14 23:07:04 info: ::1 - - [14/Sep/2023:17:37:04 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 23:07:43 info: ::1 - - [14/Sep/2023:17:37:43 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 23:07:43 info: Get vehicles 
+2023-09-14 23:07:43 info: ::1 - - [14/Sep/2023:17:37:43 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 23:08:45 info: ::1 - - [14/Sep/2023:17:38:45 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 23:08:45 info: Get vehicles 
+2023-09-14 23:08:45 info: ::1 - - [14/Sep/2023:17:38:45 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 23:11:03 info: ::1 - - [14/Sep/2023:17:41:03 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 23:11:03 info: Get vehicles 
+2023-09-14 23:11:03 info: ::1 - - [14/Sep/2023:17:41:03 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 23:12:28 info: ::1 - - [14/Sep/2023:17:42:28 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 23:12:28 info: Get vehicles 
+2023-09-14 23:12:28 info: ::1 - - [14/Sep/2023:17:42:28 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 23:12:54 info: ::1 - - [14/Sep/2023:17:42:54 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 23:12:54 info: Get vehicles 
+2023-09-14 23:12:54 info: ::1 - - [14/Sep/2023:17:42:54 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 23:13:39 info: ::1 - - [14/Sep/2023:17:43:39 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 23:13:39 info: Get vehicles 
+2023-09-14 23:13:39 info: ::1 - - [14/Sep/2023:17:43:39 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 23:13:51 info: ::1 - - [14/Sep/2023:17:43:51 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 23:13:51 info: Get vehicles 
+2023-09-14 23:13:51 info: ::1 - - [14/Sep/2023:17:43:51 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 

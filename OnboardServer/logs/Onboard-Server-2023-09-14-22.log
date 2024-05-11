@@ -1,0 +1,109 @@
+2023-09-14 22:09:20 info: Onboard Server is started and running at the port 5000 
+2023-09-14 22:16:42 info: BODYYYYY: [object Object] 
+2023-09-14 22:16:42 error: Invalid email or password 
+    Error: Invalid email or password
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:39:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-14 22:16:42 info: ::1 - - [14/Sep/2023:16:46:42 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 401 67 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:16:56 info: BODYYYYY: [object Object] 
+2023-09-14 22:16:56 debug: login from k@gmail.com 
+2023-09-14 22:16:56 info: ::1 - - [14/Sep/2023:16:46:56 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 510 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:16:57 info: ::1 - - [14/Sep/2023:16:46:57 +0000] "OPTIONS /api/v1/auth/token/verify/ HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:16:57 error: Error: /auth/token/verify/ USER ID 
+2023-09-14 22:16:57 info: ::1 - - [14/Sep/2023:16:46:57 +0000] "POST /api/v1/auth/token/verify/ HTTP/1.1" 404 56 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:17:04 info: ::1 - - [14/Sep/2023:16:47:04 +0000] "OPTIONS /api/v1/auth/user/fetch_all_user/?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:17:04 error: Error: /auth/user/fetch_all_user/?page=1&records=12 USER ID 
+2023-09-14 22:17:04 info: ::1 - - [14/Sep/2023:16:47:04 +0000] "GET /api/v1/auth/user/fetch_all_user/?page=1&records=12 HTTP/1.1" 404 81 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:17:14 info: ::1 - - [14/Sep/2023:16:47:14 +0000] "OPTIONS /api/v1/auth/user/fetch_all_user/?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:17:14 error: Error: /auth/user/fetch_all_user/?page=1&records=100 USER ID 
+2023-09-14 22:17:14 info: ::1 - - [14/Sep/2023:16:47:14 +0000] "GET /api/v1/auth/user/fetch_all_user/?page=1&records=100 HTTP/1.1" 404 82 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:17:17 info: ::1 - - [14/Sep/2023:16:47:17 +0000] "OPTIONS /api/v1/auth/user/fetch_all_user/?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:17:17 error: Error: /auth/user/fetch_all_user/?page=1&records=12 USER ID 
+2023-09-14 22:17:17 info: ::1 - - [14/Sep/2023:16:47:17 +0000] "GET /api/v1/auth/user/fetch_all_user/?page=1&records=12 HTTP/1.1" 404 81 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:17:41 info: ::1 - - [14/Sep/2023:16:47:41 +0000] "OPTIONS /api/v1/auth/user/fetch_all_user/?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:17:41 error: Error: /auth/user/fetch_all_user/?page=1&records=12 USER ID 
+2023-09-14 22:17:41 info: ::1 - - [14/Sep/2023:16:47:41 +0000] "GET /api/v1/auth/user/fetch_all_user/?page=1&records=12 HTTP/1.1" 404 81 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:17:43 error: Error: /auth/user/fetch_all_user/?page=1&records=12 USER ID 
+2023-09-14 22:17:43 info: ::1 - - [14/Sep/2023:16:47:43 +0000] "GET /api/v1/auth/user/fetch_all_user/?page=1&records=12 HTTP/1.1" 404 81 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:19:55 info: ::1 - - [14/Sep/2023:16:49:55 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:19:55 error: Not authorized 
+    Error: Not authorized
+    at verifyAccessToken (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/auth/jwt.js:67:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-14 22:19:55 info: ::1 - - [14/Sep/2023:16:49:55 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 401 56 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:20:10 info: BODYYYYY: [object Object] 
+2023-09-14 22:20:10 debug: login from k@gmail.com 
+2023-09-14 22:20:10 info: ::1 - - [14/Sep/2023:16:50:10 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 510 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:20:10 info: ::1 - - [14/Sep/2023:16:50:10 +0000] "OPTIONS /api/v1/auth/token/verify/ HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:20:10 error: Error: /auth/token/verify/ USER ID 
+2023-09-14 22:20:10 info: ::1 - - [14/Sep/2023:16:50:10 +0000] "POST /api/v1/auth/token/verify/ HTTP/1.1" 404 56 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:20:26 info: ::1 - - [14/Sep/2023:16:50:26 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:20:26 error: Not authorized 
+    Error: Not authorized
+    at verifyAccessToken (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/auth/jwt.js:67:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-14 22:20:26 info: ::1 - - [14/Sep/2023:16:50:26 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 401 56 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:21:21 info: BODYYYYY: [object Object] 
+2023-09-14 22:21:21 debug: login from k@gmail.com 
+2023-09-14 22:21:21 info: ::1 - - [14/Sep/2023:16:51:21 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 510 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:21:22 info: ::1 - - [14/Sep/2023:16:51:22 +0000] "OPTIONS /api/v1/auth/token/verify/ HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:21:22 error: Error: /auth/token/verify/ USER ID 
+2023-09-14 22:21:22 info: ::1 - - [14/Sep/2023:16:51:22 +0000] "POST /api/v1/auth/token/verify/ HTTP/1.1" 404 56 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:24:14 info: ::1 - - [14/Sep/2023:16:54:14 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:24:14 error: Not authorized 
+    Error: Not authorized
+    at verifyAccessToken (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/auth/jwt.js:67:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-14 22:24:14 info: ::1 - - [14/Sep/2023:16:54:14 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 401 56 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:24:24 info: BODYYYYY: [object Object] 
+2023-09-14 22:24:24 debug: login from k@gmail.com 
+2023-09-14 22:24:24 info: ::1 - - [14/Sep/2023:16:54:24 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 510 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:24:25 info: ::1 - - [14/Sep/2023:16:54:25 +0000] "OPTIONS /api/v1/auth/token/verify/ HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:24:25 error: Error: /auth/token/verify/ USER ID 
+2023-09-14 22:24:25 info: ::1 - - [14/Sep/2023:16:54:25 +0000] "POST /api/v1/auth/token/verify/ HTTP/1.1" 404 56 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:24:27 info: ::1 - - [14/Sep/2023:16:54:27 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:24:27 info: Get vehicles 
+2023-09-14 22:24:27 info: ::1 - - [14/Sep/2023:16:54:27 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:24:36 info: ::1 - - [14/Sep/2023:16:54:36 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:24:36 info: Get vehicles 
+2023-09-14 22:24:36 info: ::1 - - [14/Sep/2023:16:54:36 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:41:52 info: ::1 - - [14/Sep/2023:17:11:52 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:41:52 info: Get vehicles 
+2023-09-14 22:41:52 info: ::1 - - [14/Sep/2023:17:11:52 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-14 22:41:52 info: Get vehicles 
+2023-09-14 22:41:52 info: ::1 - - [14/Sep/2023:17:11:52 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 1358 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 

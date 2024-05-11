@@ -1,0 +1,190 @@
+2023-10-12 23:17:09 error: Error:Error: getaddrinfo EAI_AGAIN axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2023-10-12 23:26:05 info: ::1 - - [12/Oct/2023:17:56:05 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:26:05 info: Get vehicles 
+2023-10-12 23:26:05 info: ::1 - - [12/Oct/2023:17:56:05 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 109 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:27:23 info: ::1 - - [12/Oct/2023:17:57:23 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:27:23 info: Get vehicles 
+2023-10-12 23:27:23 info: ::1 - - [12/Oct/2023:17:57:23 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 109 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:27:30 info: ::1 - - [12/Oct/2023:17:57:30 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:27:30 info: Get vehicles 
+2023-10-12 23:27:30 info: ::1 - - [12/Oct/2023:17:57:30 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 109 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:30:15 info: Onboard Server is started and running at the port 5000 
+2023-10-12 23:31:45 info: ::1 - - [12/Oct/2023:18:01:45 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:31:45 info: Get vehicles 
+2023-10-12 23:31:45 info: ::1 - - [12/Oct/2023:18:01:45 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 109 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:34:21 info: ::1 - - [12/Oct/2023:18:04:21 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:34:21 info: Get vehicles 
+2023-10-12 23:34:21 info: ::1 - - [12/Oct/2023:18:04:21 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 109 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:35:08 info: ::1 - - [12/Oct/2023:18:05:08 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:35:08 info: Get vehicles 
+2023-10-12 23:35:08 info: ::1 - - [12/Oct/2023:18:05:08 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 109 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:35:11 info: Get vehicles 
+2023-10-12 23:35:11 info: ::1 - - [12/Oct/2023:18:05:11 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 109 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:35:15 info: ::1 - - [12/Oct/2023:18:05:15 +0000] "OPTIONS /api/v1/route/addMultipleVehicles HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:35:15 info: Add or update route info 
+2023-10-12 23:35:15 info: Adding/updating vehicle details details::[[9090,9334],[34343,"dawe233"]] 
+2023-10-12 23:35:15 error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 
+    Error
+    at Query.run (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.bulkInsert (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:346:21)
+    at async recursiveBulkCreate (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1697:25)
+    at async Vehicle.bulkCreate (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1786:12)
+    at async main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:389:9)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:22
+2023-10-12 23:35:15 error: SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 
+    Error: SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:402:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:22
+2023-10-12 23:35:15 error: SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 
+    Error: SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:402:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:22
+2023-10-12 23:35:15 info: ::1 - - [12/Oct/2023:18:05:15 +0000] "POST /api/v1/route/addMultipleVehicles HTTP/1.1" 500 206 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:36:38 info: ::1 - - [12/Oct/2023:18:06:38 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:36:38 info: Get vehicles 
+2023-10-12 23:36:38 info: ::1 - - [12/Oct/2023:18:06:38 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 141 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:36:42 info: ::1 - - [12/Oct/2023:18:06:42 +0000] "OPTIONS /api/v1/route/addMultipleVehicles HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:36:42 info: Add or update route info 
+2023-10-12 23:36:42 info: Adding/updating vehicle details details::[[9090,9334],[34343,"dawe233"]] 
+2023-10-12 23:36:42 error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 
+    Error
+    at Query.run (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.bulkInsert (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:346:21)
+    at async recursiveBulkCreate (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1697:25)
+    at async Vehicle.bulkCreate (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1786:12)
+    at async main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:389:9)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:22
+2023-10-12 23:36:42 error: SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 
+    Error: SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:402:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:22
+2023-10-12 23:36:42 error: SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 
+    Error: SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:402:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:22
+2023-10-12 23:36:42 info: ::1 - - [12/Oct/2023:18:06:42 +0000] "POST /api/v1/route/addMultipleVehicles HTTP/1.1" 500 206 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:44:11 info: ::1 - - [12/Oct/2023:18:14:11 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:44:11 info: Get vehicles 
+2023-10-12 23:44:11 info: ::1 - - [12/Oct/2023:18:14:11 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 141 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:44:14 info: ::1 - - [12/Oct/2023:18:14:14 +0000] "OPTIONS /api/v1/route/addMultipleVehicles HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:44:14 info: Add or update route info 
+2023-10-12 23:44:14 info: Adding/updating vehicle details details::[[9090,9334],[34343,"dawe233"]] 
+2023-10-12 23:44:14 error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 
+    Error
+    at Query.run (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.bulkInsert (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:346:21)
+    at async recursiveBulkCreate (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1697:25)
+    at async Vehicle.bulkCreate (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1786:12)
+    at async main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:389:9)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:22
+2023-10-12 23:44:14 error: SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 
+    Error: SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:402:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:22
+2023-10-12 23:44:14 error: SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 
+    Error: SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:402:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:22
+2023-10-12 23:44:14 info: ::1 - - [12/Oct/2023:18:14:14 +0000] "POST /api/v1/route/addMultipleVehicles HTTP/1.1" 500 206 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:46:55 info: Onboard Server is started and running at the port 5000 
+2023-10-12 23:47:04 info: ::1 - - [12/Oct/2023:18:17:04 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:47:04 info: Get vehicles 
+2023-10-12 23:47:04 info: ::1 - - [12/Oct/2023:18:17:04 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 141 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:47:08 info: ::1 - - [12/Oct/2023:18:17:08 +0000] "OPTIONS /api/v1/route/addMultipleVehicles HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:47:08 info: Add or update route info 
+2023-10-12 23:47:08 info: Adding/updating vehicle details details::[[9090,9334],[34343,"dawe233"]] 
+2023-10-12 23:47:08 error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 
+    Error
+    at Query.run (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.bulkInsert (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:346:21)
+    at async recursiveBulkCreate (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1697:25)
+    at async Vehicle.bulkCreate (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1786:12)
+    at async main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:389:9)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:22
+2023-10-12 23:47:08 error: SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 
+    Error: SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:403:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:22
+2023-10-12 23:47:08 error: SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 
+    Error: SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at main.addMultipleVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:403:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:107:22
+2023-10-12 23:47:08 info: ::1 - - [12/Oct/2023:18:17:08 +0000] "POST /api/v1/route/addMultipleVehicles HTTP/1.1" 500 206 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:49:06 info: Onboard Server is started and running at the port 5000 
+2023-10-12 23:49:14 info: ::1 - - [12/Oct/2023:18:19:14 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:49:14 info: Get vehicles 
+2023-10-12 23:49:14 info: ::1 - - [12/Oct/2023:18:19:14 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 141 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:49:19 info: ::1 - - [12/Oct/2023:18:19:19 +0000] "OPTIONS /api/v1/route/addMultipleVehicles HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:49:19 info: Add or update route info 
+2023-10-12 23:49:19 info: Adding/updating vehicle details details::[[9090,9334],[34343,"dawe233"]] 
+2023-10-12 23:49:19 info: ::1 - - [12/Oct/2023:18:19:19 +0000] "POST /api/v1/route/addMultipleVehicles HTTP/1.1" 200 398 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:49:30 info: ::1 - - [12/Oct/2023:18:19:30 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:49:30 info: Get vehicles 
+2023-10-12 23:49:30 info: ::1 - - [12/Oct/2023:18:19:30 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 690 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:50:26 info: Onboard Server is started and running at the port 5000 
+2023-10-12 23:50:31 info: ::1 - - [12/Oct/2023:18:20:31 +0000] "OPTIONS /api/v1/route/addMultipleVehicles HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:50:31 info: Add or update route info 
+2023-10-12 23:50:31 info: Adding/updating vehicle details details::[[9090,9334],[34343,"dawe233"]] 
+2023-10-12 23:50:31 info: ::1 - - [12/Oct/2023:18:20:31 +0000] "POST /api/v1/route/addMultipleVehicles HTTP/1.1" 200 628 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:53:23 info: ::1 - - [12/Oct/2023:18:23:23 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:53:23 info: Get vehicles 
+2023-10-12 23:53:23 info: ::1 - - [12/Oct/2023:18:23:23 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 690 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:53:40 info: ::1 - - [12/Oct/2023:18:23:40 +0000] "OPTIONS /api/v1/route/addMultipleVehicles HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 23:53:40 info: Add or update route info 
+2023-10-12 23:53:40 info: Adding/updating vehicle details details::[[9090,9334],[9091,9334],[9092,9334],[9093,9334],[9094,9334],[9095,9334]] 
+2023-10-12 23:53:40 info: ::1 - - [12/Oct/2023:18:23:40 +0000] "POST /api/v1/route/addMultipleVehicles HTTP/1.1" 200 1993 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 

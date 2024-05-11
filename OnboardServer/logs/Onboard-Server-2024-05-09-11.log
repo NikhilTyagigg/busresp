@@ -1,0 +1,140 @@
+2024-05-09 11:26:09 info: Onboard Server is started and running at the port 5000 
+2024-05-09 11:30:29 info: Onboard Server is started and running at the port 5000 
+2024-05-09 11:34:56 info: Onboard Server is started and running at the port 5000 
+2024-05-09 11:37:13 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:45:47)
+2024-05-09 11:37:37 info: Onboard Server is started and running at the port 5000 
+2024-05-09 11:38:13 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:45:47)
+2024-05-09 11:40:07 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:45:47)
+2024-05-09 11:40:13 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:74:45)
+2024-05-09 11:40:19 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:74:45)
+2024-05-09 11:40:24 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:74:45)
+2024-05-09 11:40:29 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:74:45)
+2024-05-09 11:40:34 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:74:45)
+2024-05-09 11:42:13 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:45:47)
+2024-05-09 11:45:07 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:45:47)
+2024-05-09 11:45:35 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:45:47)
+2024-05-09 11:47:08 info: Onboard Server is started and running at the port 5000 
+2024-05-09 11:47:14 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:45:47)
+2024-05-09 11:50:07 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:45:47)
+2024-05-09 11:50:36 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:45:47)
+2024-05-09 11:52:18 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:45:47)

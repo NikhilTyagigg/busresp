@@ -1,0 +1,116 @@
+2023-10-15 23:21:29 info: Onboard Server is started and running at the port 5000 
+2023-10-15 23:22:53 info: BODYYYYY: [object Object] 
+2023-10-15 23:22:53 debug: login from keshav.goyal@kritikalvision.ai 
+2023-10-15 23:22:53 info: ::1 - - [15/Oct/2023:17:52:53 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 579 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:22:54 info: ::1 - - [15/Oct/2023:17:52:54 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:22:54 info: Get vehicles 
+2023-10-15 23:22:54 info: ::1 - - [15/Oct/2023:17:52:54 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 2044 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:22:56 info: ::1 - - [15/Oct/2023:17:52:56 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:22:56 info: Get vehicles 
+2023-10-15 23:22:56 info: ::1 - - [15/Oct/2023:17:52:56 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 88 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:24:05 info: Onboard Server is started and running at the port 5000 
+2023-10-15 23:24:09 info: ::1 - - [15/Oct/2023:17:54:09 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:24:09 info: Get vehicles 
+2023-10-15 23:24:09 info: ::1 - - [15/Oct/2023:17:54:09 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 88 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:24:12 info: Get vehicles 
+2023-10-15 23:24:12 info: ::1 - - [15/Oct/2023:17:54:12 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 88 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:27:50 info: ::1 - - [15/Oct/2023:17:57:50 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:27:50 info: Get vehicles 
+2023-10-15 23:27:50 info: ::1 - - [15/Oct/2023:17:57:50 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 306 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:28:01 info: ::1 - - [15/Oct/2023:17:58:01 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:28:01 info: Get vehicles 
+2023-10-15 23:28:01 info: ::1 - - [15/Oct/2023:17:58:01 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 306 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:28:20 info: ::1 - - [15/Oct/2023:17:58:20 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:28:20 info: Get vehicles 
+2023-10-15 23:28:20 info: ::1 - - [15/Oct/2023:17:58:20 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 1074 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:28:21 info: ::1 - - [15/Oct/2023:17:58:21 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:28:21 info: Get vehicles 
+2023-10-15 23:28:21 info: ::1 - - [15/Oct/2023:17:58:21 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 2044 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:28:23 info: ::1 - - [15/Oct/2023:17:58:23 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:28:23 info: ::1 - - [15/Oct/2023:17:58:23 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:28:23 info: Fetching master data 
+2023-10-15 23:28:23 info: Getting master data 
+2023-10-15 23:28:23 info: Fetching vehicle route map data 
+2023-10-15 23:28:23 info: Get vehicles 
+2023-10-15 23:28:23 info: ::1 - - [15/Oct/2023:17:58:23 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 656 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:28:23 info: ::1 - - [15/Oct/2023:17:58:23 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 484 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:28:29 info: ::1 - - [15/Oct/2023:17:58:29 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:28:29 info: Add or update route info 
+2023-10-15 23:28:29 info: Adding/updating route details::{"routeId":2,"routeNo":"9091","vehicleNo":"34343","vehicleId":2,"date":"2023-10-15T17:58:22.995Z","user":"undefined","type":"23"} 
+2023-10-15 23:28:29 info: Publish to mqtt::{"Bus Id":"34343","Route No":"9091"} 
+2023-10-15 23:28:29 info: ::1 - - [15/Oct/2023:17:58:29 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 200 1227 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:28:30 debug: The payload is not in appropriate format for topic::34343 & payload:: {"Bus Id":"34343","Route No":"9091"} 
+2023-10-15 23:30:53 info: ::1 - - [15/Oct/2023:18:00:53 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:30:53 info: ::1 - - [15/Oct/2023:18:00:53 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:30:53 info: Fetching master data 
+2023-10-15 23:30:53 info: Getting master data 
+2023-10-15 23:30:53 info: Fetching vehicle route map data 
+2023-10-15 23:30:53 info: Get vehicles 
+2023-10-15 23:30:53 info: ::1 - - [15/Oct/2023:18:00:53 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 1227 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:30:53 info: ::1 - - [15/Oct/2023:18:00:53 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 484 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:32:06 info: ::1 - - [15/Oct/2023:18:02:06 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:32:06 info: ::1 - - [15/Oct/2023:18:02:06 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:32:06 info: Fetching master data 
+2023-10-15 23:32:06 info: Getting master data 
+2023-10-15 23:32:06 info: Fetching vehicle route map data 
+2023-10-15 23:32:06 info: Get vehicles 
+2023-10-15 23:32:06 info: ::1 - - [15/Oct/2023:18:02:06 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 1227 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:32:06 info: ::1 - - [15/Oct/2023:18:02:06 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 484 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:32:17 info: ::1 - - [15/Oct/2023:18:02:17 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:32:17 info: Add or update route info 
+2023-10-15 23:32:17 info: Adding/updating route details::{"routeId":2,"routeNo":"9091","vehicleNo":"9091","vehicleId":5,"date":"2023-10-15T18:02:06.456Z","user":"undefined","type":"23"} 
+2023-10-15 23:32:17 info: Publish to mqtt::{"Bus Id":"9091","Route No":"9091"} 
+2023-10-15 23:32:17 info: ::1 - - [15/Oct/2023:18:02:17 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 200 1801 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:32:18 debug: The payload is not in appropriate format for topic::9091 & payload:: {"Bus Id":"9091","Route No":"9091"} 
+2023-10-15 23:32:35 info: ::1 - - [15/Oct/2023:18:02:35 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:32:35 info: Get vehicles 
+2023-10-15 23:32:35 info: ::1 - - [15/Oct/2023:18:02:35 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 306 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:37:01 info: ::1 - - [15/Oct/2023:18:07:01 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:37:01 info: Get vehicles 
+2023-10-15 23:37:01 info: ::1 - - [15/Oct/2023:18:07:01 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 306 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:37:20 info: ::1 - - [15/Oct/2023:18:07:20 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:37:20 info: Get vehicles 
+2023-10-15 23:37:20 info: ::1 - - [15/Oct/2023:18:07:20 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 306 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:41:22 info: ::1 - - [15/Oct/2023:18:11:22 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-15 23:41:22 info: Get vehicles 
+2023-10-15 23:41:22 info: ::1 - - [15/Oct/2023:18:11:22 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 306 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 

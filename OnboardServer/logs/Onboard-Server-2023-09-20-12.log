@@ -1,0 +1,366 @@
+2023-09-20 12:00:15 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-20 12:02:39 info: ::1 - - [20/Sep/2023:06:32:39 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:02:39 info: Get vehicles 
+2023-09-20 12:02:39 info: ::1 - - [20/Sep/2023:06:32:39 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 613 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:02:48 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/20,11:54:52","Route No":"3232","Sig RSSI":-10305,"Ack Time":64,"User ID":"4B7F993CB3FF","UserType":"Mobile App "} 
+2023-09-20 12:02:50 info: ::1 - - [20/Sep/2023:06:32:50 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:02:50 info: ::1 - - [20/Sep/2023:06:32:50 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:02:50 info: Fetching master data 
+2023-09-20 12:02:50 info: Getting master data 
+2023-09-20 12:02:50 info: Fetching vehicle route map data 
+2023-09-20 12:02:50 info: Get vehicles 
+2023-09-20 12:02:50 info: ::1 - - [20/Sep/2023:06:32:50 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 3992 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:02:50 info: ::1 - - [20/Sep/2023:06:32:50 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 293 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:03:05 info: ::1 - - [20/Sep/2023:06:33:05 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:03:05 info: Get vehicles 
+2023-09-20 12:03:05 info: ::1 - - [20/Sep/2023:06:33:05 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 982 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:03:05 error: Unexpected token R in JSON at position 27 
+    SyntaxError: Unexpected token R in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-20 12:03:41 info: ::1 - - [20/Sep/2023:06:33:41 +0000] "OPTIONS /api/v1/route/addVehicle HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:03:41 info: Adding/updating vehicle vehicle::{"vehicleModule":"Mod45","vehicleNo":"DL9C003388","vehicleType":1,"user":"undefined","type":"14"} 
+2023-09-20 12:03:41 info: ::1 - - [20/Sep/2023:06:33:41 +0000] "POST /api/v1/route/addVehicle HTTP/1.1" 200 1200 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:04:02 info: ::1 - - [20/Sep/2023:06:34:02 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:04:02 info: Get vehicles 
+2023-09-20 12:04:02 info: ::1 - - [20/Sep/2023:06:34:02 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 613 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:04:04 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-20 12:04:22 error: Unexpected token R in JSON at position 27 
+    SyntaxError: Unexpected token R in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-20 12:05:03 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-20 12:05:22 error: Unexpected token R in JSON at position 27 
+    SyntaxError: Unexpected token R in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-20 12:05:22 info: ::1 - - [20/Sep/2023:06:35:22 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:05:22 info: Add or update route info 
+2023-09-20 12:05:22 info: Adding/updating route details::{"routeNo":"8989","startPoint":"IIT Delhi","endPoint":"Noida","intermediateStops":"1,2,3,4,","user":"undefined","type":"14"} 
+2023-09-20 12:05:22 info: ::1 - - [20/Sep/2023:06:35:22 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 803 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:05:26 info: ::1 - - [20/Sep/2023:06:35:26 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:05:26 info: ::1 - - [20/Sep/2023:06:35:26 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:05:26 info: Fetching master data 
+2023-09-20 12:05:26 info: Getting master data 
+2023-09-20 12:05:26 info: Fetching vehicle route map data 
+2023-09-20 12:05:26 info: Get vehicles 
+2023-09-20 12:05:26 info: ::1 - - [20/Sep/2023:06:35:26 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 3992 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:05:26 info: ::1 - - [20/Sep/2023:06:35:26 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 365 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:05:53 info: ::1 - - [20/Sep/2023:06:35:53 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:05:53 info: Add or update route info 
+2023-09-20 12:05:53 info: Adding/updating route details::{"routeId":2,"routeNo":"1234","vehicleNo":"DL9C003388","vehicleId":4,"date":"2023-09-20T06:35:26.460Z","driver":"test","user":"undefined","type":"14"} 
+2023-09-20 12:05:53 info: Publish to mqtt::{"Bus Id":"DL9C003388","Route No":"1234"} 
+2023-09-20 12:05:53 info: ::1 - - [20/Sep/2023:06:35:53 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 200 4539 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:05:53 debug: The payload is not in appropriate format for topic::DL9C003388 & payload:: {"Bus Id":"DL9C003388","Route No":"1234"} 
+2023-09-20 12:06:25 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-20 12:06:33 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-20 12:06:40 error: Unexpected token R in JSON at position 27 
+    SyntaxError: Unexpected token R in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-20 12:06:44 error: Unexpected token R in JSON at position 27 
+    SyntaxError: Unexpected token R in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-20 12:06:58 info: ::1 - - [20/Sep/2023:06:36:58 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:06:58 info: Add or update route info 
+2023-09-20 12:06:58 info: Adding/updating route details::{"routeId":3,"routeNo":"8888","vehicleNo":"DL9C0123","vehicleId":2,"date":"2023-09-20T06:35:53.594Z","driver":"test","user":"undefined","type":"14"} 
+2023-09-20 12:06:58 info: Publish to mqtt::{"Bus Id":"DL9C0123","Route No":"8888"} 
+2023-09-20 12:06:58 info: ::1 - - [20/Sep/2023:06:36:58 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 200 5091 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:06:58 debug: The payload is not in appropriate format for topic::DL9C0123 & payload:: {"Bus Id":"DL9C0123","Route No":"8888"} 
+2023-09-20 12:07:36 info: ::1 - - [20/Sep/2023:06:37:36 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:07:36 info: Get vehicles 
+2023-09-20 12:07:36 info: ::1 - - [20/Sep/2023:06:37:36 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 16355 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:07:46 info: ::1 - - [20/Sep/2023:06:37:46 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:07:46 info: ::1 - - [20/Sep/2023:06:37:46 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:07:46 info: Fetching master data 
+2023-09-20 12:07:46 info: Getting master data 
+2023-09-20 12:07:46 info: Fetching vehicle route map data 
+2023-09-20 12:07:46 info: Get vehicles 
+2023-09-20 12:07:46 info: ::1 - - [20/Sep/2023:06:37:46 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 5091 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:07:46 info: ::1 - - [20/Sep/2023:06:37:46 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 365 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:09:49 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-20 12:10:06 info: ::1 - - [20/Sep/2023:06:40:06 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:10:06 info: Get vehicles 
+2023-09-20 12:10:06 info: ::1 - - [20/Sep/2023:06:40:06 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 803 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:10:13 info: ::1 - - [20/Sep/2023:06:40:13 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:10:13 info: ::1 - - [20/Sep/2023:06:40:13 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:10:13 info: Fetching master data 
+2023-09-20 12:10:13 info: Getting master data 
+2023-09-20 12:10:13 info: Fetching vehicle route map data 
+2023-09-20 12:10:13 info: Get vehicles 
+2023-09-20 12:10:13 info: ::1 - - [20/Sep/2023:06:40:13 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 5091 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:10:13 info: ::1 - - [20/Sep/2023:06:40:13 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 365 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:11:26 info: ::1 - - [20/Sep/2023:06:41:26 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:11:26 info: Get vehicles 
+2023-09-20 12:11:26 info: ::1 - - [20/Sep/2023:06:41:26 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 16355 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:11:31 info: ::1 - - [20/Sep/2023:06:41:31 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:11:31 info: ::1 - - [20/Sep/2023:06:41:31 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:11:31 info: Fetching master data 
+2023-09-20 12:11:31 info: Getting master data 
+2023-09-20 12:11:31 info: Fetching vehicle route map data 
+2023-09-20 12:11:31 info: Get vehicles 
+2023-09-20 12:11:31 info: ::1 - - [20/Sep/2023:06:41:31 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 5091 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:11:31 info: ::1 - - [20/Sep/2023:06:41:31 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 365 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:11:35 info: ::1 - - [20/Sep/2023:06:41:35 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:11:35 info: Get vehicles 
+2023-09-20 12:11:35 info: ::1 - - [20/Sep/2023:06:41:35 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 803 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:11:44 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-20 12:12:01 info: ::1 - - [20/Sep/2023:06:42:01 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:12:01 info: Get vehicles 
+2023-09-20 12:12:01 info: ::1 - - [20/Sep/2023:06:42:01 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1262 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:12:33 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-20 12:12:49 info: ::1 - - [20/Sep/2023:06:42:49 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:12:49 info: ::1 - - [20/Sep/2023:06:42:49 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:12:49 info: Fetching master data 
+2023-09-20 12:12:49 info: Getting master data 
+2023-09-20 12:12:49 info: Fetching vehicle route map data 
+2023-09-20 12:12:49 info: Get vehicles 
+2023-09-20 12:12:49 info: ::1 - - [20/Sep/2023:06:42:49 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 5091 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:12:49 info: ::1 - - [20/Sep/2023:06:42:49 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 365 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:13:22 info: ::1 - - [20/Sep/2023:06:43:22 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:13:22 info: Get vehicles 
+2023-09-20 12:13:22 info: ::1 - - [20/Sep/2023:06:43:22 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1262 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:14:45 error: Unexpected token R in JSON at position 27 
+    SyntaxError: Unexpected token R in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-20 12:17:45 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-20 12:20:27 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-20 12:39:54 error: Unexpected token R in JSON at position 27 
+    SyntaxError: Unexpected token R in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-20 12:41:52 debug: The payload is not in appropriate format for topic::DL9C0033 & payload:: {"Bus ID":"DL9C0123","Route No":"1990"} 
+2023-09-20 12:41:56 debug: The payload is not in appropriate format for topic::DL9C0033 & payload:: {"Bus ID":"DL9C0123","Route No":"1990"} 
+2023-09-20 12:43:24 info: ::1 - - [20/Sep/2023:07:13:24 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:43:24 info: Get vehicles 
+2023-09-20 12:43:24 info: ::1 - - [20/Sep/2023:07:13:24 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 18029 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:46:16 info: ::1 - - [20/Sep/2023:07:16:16 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:46:16 info: Get vehicles 
+2023-09-20 12:46:16 info: ::1 - - [20/Sep/2023:07:16:16 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 19222 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:49:02 info: ::1 - - [20/Sep/2023:07:19:02 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-20 12:49:02 info: Get vehicles 
+2023-09-20 12:49:02 info: ::1 - - [20/Sep/2023:07:19:02 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 19698 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 

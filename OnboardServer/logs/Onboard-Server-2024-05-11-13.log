@@ -1,0 +1,36 @@
+2024-05-11 13:23:21 info: Onboard Server is started and running at the port 5000 
+2024-05-11 13:26:06 info: Onboard Server is started and running at the port 5000 
+2024-05-11 13:27:58 info: Onboard Server is started and running at the port 5000 
+2024-05-11 13:29:18 info: ::1 - - [11/May/2024:07:59:18 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 13:29:18 info: Get vehicles 
+2024-05-11 13:35:27 info: Onboard Server is started and running at the port 5000 
+2024-05-11 13:37:22 info: BODYYYYY: [object Object] 
+2024-05-11 13:37:22 debug: login from nikhiltyagi.n17@gmail.com 
+2024-05-11 13:37:22 info: ::1 - - [11/May/2024:08:07:22 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 562 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 13:37:26 info: ::1 - - [11/May/2024:08:07:26 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 13:37:26 info: Get vehicles 
+2024-05-11 13:41:06 info: Onboard Server is started and running at the port 5000 
+2024-05-11 13:41:58 error: Access token can not be null 
+    Error: Access token can not be null
+    at extractAccessTokenFromRequest (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\auth\jwt.js:163:11)
+    at main.checkAccess (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\auth\jwt.js:203:23)
+    at Layer.handle [as handle_request] (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\layer.js:95:5)
+2024-05-11 13:41:58 info: ::1 - - [11/May/2024:08:11:58 +0000] "GET /api/v1/route/getVehicles HTTP/1.1" 401 70 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 13:41:58 info: ::1 - - [11/May/2024:08:11:58 +0000] "GET /favicon.ico HTTP/1.1" 404 253 "http://localhost:5000/api/v1/route/getVehicles" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 13:44:20 info: ::1 - - [11/May/2024:08:14:20 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 13:44:20 info: Get vehicles 
+2024-05-11 13:56:26 info: Onboard Server is started and running at the port 5000 
+2024-05-11 13:57:04 info: Onboard Server is started and running at the port 5000 

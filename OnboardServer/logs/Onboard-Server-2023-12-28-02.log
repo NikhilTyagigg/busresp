@@ -1,0 +1,57 @@
+2023-12-28 02:56:24 info: Onboard Server is started and running at the port 5000 
+2023-12-28 02:56:56 info: ::1 - - [27/Dec/2023:21:26:56 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-28 02:56:56 error: Not authorized 
+    Error: Not authorized
+    at verifyAccessToken (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/auth/jwt.js:67:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-28 02:56:56 info: ::1 - - [27/Dec/2023:21:26:56 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 401 56 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-28 02:56:59 info: BODYYYYY: [object Object] 
+2023-12-28 02:56:59 debug: login from keshav.goyal@kritikalvision.ai 
+2023-12-28 02:56:59 info: ::1 - - [27/Dec/2023:21:26:59 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 579 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-28 02:56:59 info: Get vehicles 
+2023-12-28 02:56:59 info: ::1 - - [27/Dec/2023:21:26:59 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 2057 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-28 02:57:41 info: Onboard Server is started and running at the port 5000 
+2023-12-28 02:58:16 info: ::1 - - [27/Dec/2023:21:28:16 +0000] "OPTIONS /api/v1/route/addVehicle HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-28 02:58:20 info: Adding/updating vehicle vehicle::{"vehicleModule":"BM-00123","vehicleNo":"er43","vehicleType":1,"user":"undefined","type":"16"} 
+2023-12-28 02:58:49 error: Module is already mapped to vehicle No:: BM-00123 
+    Error: Module is already mapped to vehicle No:: BM-00123
+    at main.addVehicle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:88:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:41:23
+2023-12-28 02:58:49 error: Error: Module is already mapped to vehicle No:: BM-00123 
+    Error: Error: Module is already mapped to vehicle No:: BM-00123
+    at main.addVehicle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:123:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:41:23
+2023-12-28 02:58:49 error: Error: Module is already mapped to vehicle No:: BM-00123 
+    Error: Error: Module is already mapped to vehicle No:: BM-00123
+    at main.addVehicle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:123:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:41:23
+2023-12-28 02:58:49 info: ::1 - - [27/Dec/2023:21:28:49 +0000] "POST /api/v1/route/addVehicle HTTP/1.1" 500 92 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-28 02:58:54 info: ::1 - - [27/Dec/2023:21:28:54 +0000] "OPTIONS /api/v1/route/addVehicle HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-28 02:58:56 info: Adding/updating vehicle vehicle::{"vehicleModule":"BM-00123","vehicleNo":"er43","vehicleType":1,"user":"undefined","type":"16"} 
+2023-12-28 02:58:56 error: Module is already mapped to vehicle No:: BM-00123 
+    Error: Module is already mapped to vehicle No:: BM-00123
+    at main.addVehicle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:88:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:41:23
+2023-12-28 02:58:56 error: Error: Module is already mapped to vehicle No:: BM-00123 
+    Error: Error: Module is already mapped to vehicle No:: BM-00123
+    at main.addVehicle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:123:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:41:23
+2023-12-28 02:58:56 error: Error: Module is already mapped to vehicle No:: BM-00123 
+    Error: Error: Module is already mapped to vehicle No:: BM-00123
+    at main.addVehicle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:123:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:41:23
+2023-12-28 02:58:56 info: ::1 - - [27/Dec/2023:21:28:56 +0000] "POST /api/v1/route/addVehicle HTTP/1.1" 500 92 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 

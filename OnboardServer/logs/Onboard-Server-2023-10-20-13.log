@@ -1,0 +1,54 @@
+2023-10-20 13:33:02 info: Onboard Server is started and running at the port 5000 
+2023-10-20 13:33:03 info: ::1 - - [20/Oct/2023:08:03:03 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-20 13:33:03 error: Not authorized 
+    Error: Not authorized
+    at verifyAccessToken (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/auth/jwt.js:67:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-20 13:33:03 info: ::1 - - [20/Oct/2023:08:03:03 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 401 56 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-20 13:34:33 info: BODYYYYY: [object Object] 
+2023-10-20 13:34:33 debug: login from keshav.goyal@kritikalvision.ai 
+2023-10-20 13:34:33 info: ::1 - - [20/Oct/2023:08:04:33 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 579 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-20 13:34:33 info: ::1 - - [20/Oct/2023:08:04:33 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-20 13:34:33 info: Get vehicles 
+2023-10-20 13:34:33 info: ::1 - - [20/Oct/2023:08:04:33 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1498 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-20 13:38:09 error: Unexpected token U in JSON at position 38 
+    SyntaxError: Unexpected token U in JSON at position 38
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:34:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-10-20 13:42:30 error: Unexpected token U in JSON at position 38 
+    SyntaxError: Unexpected token U in JSON at position 38
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:34:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-10-20 13:57:44 error: Unexpected token U in JSON at position 38 
+    SyntaxError: Unexpected token U in JSON at position 38
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:34:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)

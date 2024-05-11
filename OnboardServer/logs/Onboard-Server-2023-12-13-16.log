@@ -1,0 +1,76 @@
+2023-12-13 16:01:34 debug: The payload is not in appropriate format for topic::BM-00321 & payload:: {"Bus ID":"BM-00321","Route No":"009999"} 
+2023-12-13 16:01:44 debug: The payload is not in appropriate format for topic::BM-00324 & payload:: {"Bus ID":"BM-00324","Route No":"009999"} 
+2023-12-13 16:02:04 debug: The payload is not in appropriate format for topic::BM-00324 & payload:: {"Bus ID":"BM-00324","Route No":"0KBS3A"} 
+2023-12-13 16:02:55 error: Unexpected token A in JSON at position 0 
+    SyntaxError: Unexpected token A in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:38:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-12-13 16:09:59 info: Onboard Server is started and running at the port 5000 
+2023-12-13 16:12:22 info: ::1 - - [13/Dec/2023:10:42:22 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-13 16:12:26 info: Add or update route info 
+2023-12-13 16:12:26 info: Adding/updating route details::{"routeNo":"AA00","startPoint":"aa","endPoint":"ss","intermediateStops":"","user":"undefined","type":"16"} 
+2023-12-13 16:12:41 info: ::1 - - [13/Dec/2023:10:42:41 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 803 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-13 16:14:10 info: ::1 - - [13/Dec/2023:10:44:10 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-13 16:14:10 info: Get vehicles 
+2023-12-13 16:14:10 info: ::1 - - [13/Dec/2023:10:44:10 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 803 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-13 16:14:28 info: ::1 - - [13/Dec/2023:10:44:28 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-13 16:14:30 info: Add or update route info 
+2023-12-13 16:14:30 info: Adding/updating route details::{"routeNo":"AA00","startPoint":"dd","endPoint":"pp","intermediateStops":"","user":"undefined","type":"16"} 
+2023-12-13 16:14:35 error: Route Number already exits!! 
+2023-12-13 16:14:35 error: Route Number already exits!! 
+    Error: Route Number already exits!!
+    at main.addRoute (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:199:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:62:22
+2023-12-13 16:14:35 error: Error: Route Number already exits!! 
+    Error: Error: Route Number already exits!!
+    at main.addRoute (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:228:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:62:22
+2023-12-13 16:14:35 error: Error: Route Number already exits!! 
+    Error: Error: Route Number already exits!!
+    at main.addRoute (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:228:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:62:22
+2023-12-13 16:14:35 info: ::1 - - [13/Dec/2023:10:44:35 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 500 71 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-13 16:15:00 info: ::1 - - [13/Dec/2023:10:45:00 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-13 16:15:02 info: Add or update route info 
+2023-12-13 16:15:02 info: Adding/updating route details::{"routeNo":"AA11","startPoint":"aa","endPoint":"oo","intermediateStops":"","user":"undefined","type":"16"} 
+2023-12-13 16:15:04 info: ::1 - - [13/Dec/2023:10:45:04 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 976 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-13 16:15:44 info: ::1 - - [13/Dec/2023:10:45:44 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-13 16:15:47 info: Add or update route info 
+2023-12-13 16:15:47 info: Adding/updating route details::{"routeNo":"SS22","startPoint":"pp","endPoint":"ll","intermediateStops":"","user":"undefined","type":"16"} 
+2023-12-13 16:16:09 info: ::1 - - [13/Dec/2023:10:46:09 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 1149 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-13 16:17:16 info: ::1 - - [13/Dec/2023:10:47:16 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-13 16:17:19 info: Add or update route info 
+2023-12-13 16:19:42 info: Onboard Server is started and running at the port 5000 
+2023-12-13 16:20:05 info: ::1 - - [13/Dec/2023:10:50:05 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-13 16:20:07 info: Add or update route info 
+2023-12-13 16:20:07 info: Adding/updating route details::{"routeNo":"QQ90","startPoint":"op","endPoint":"lp","intermediateStops":"","user":"undefined","type":"16"} 
+2023-12-13 16:20:12 info: ::1 - - [13/Dec/2023:10:50:12 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 1324 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-13 16:22:56 info: ::1 - - [13/Dec/2023:10:52:56 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-13 16:22:56 info: Get vehicles 
+2023-12-13 16:22:56 info: ::1 - - [13/Dec/2023:10:52:56 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 1324 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 

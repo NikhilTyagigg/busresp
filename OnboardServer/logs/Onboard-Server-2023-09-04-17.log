@@ -1,0 +1,47 @@
+2023-09-04 17:50:00 info: Onboard Server is started and running at the port 3000 
+2023-09-04 17:50:16 info: Onboard Server is started and running at the port 3000 
+2023-09-04 17:52:00 info: ::ffff:127.0.0.1 - - [04/Sep/2023:12:22:00 +0000] "POST /route/api/v1/register/ HTTP/1.1" 404 162 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-04 17:52:13 info: ::ffff:127.0.0.1 - - [04/Sep/2023:12:22:13 +0000] "POST /route/api/v1/auth/register/ HTTP/1.1" 404 167 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-04 17:53:00 info: ::ffff:127.0.0.1 - - [04/Sep/2023:12:23:00 +0000] "POST /routes/api/v1/auth/register/ HTTP/1.1" 404 168 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-04 17:53:46 info: Onboard Server is started and running at the port 3000 
+2023-09-04 17:53:56 info: ::ffff:127.0.0.1 - - [04/Sep/2023:12:23:56 +0000] "POST /routes/api/v1/auth/register/ HTTP/1.1" 404 168 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-04 17:55:34 error: Unknown column 'User.email' in 'where clause' 
+    Error
+    at Query.run (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async User.findAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1140:21)
+    at async User.findOne (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1240:12)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:100:16
+2023-09-04 17:55:34 error: SequelizeDatabaseError: Unknown column 'User.email' in 'where clause' 
+    Error: SequelizeDatabaseError: Unknown column 'User.email' in 'where clause'
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 17:55:34 alert: SequelizeDatabaseError: Unknown column 'User.email' in 'where clause' 
+    Error: SequelizeDatabaseError: Unknown column 'User.email' in 'where clause'
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 17:55:34 info: ::ffff:127.0.0.1 - - [04/Sep/2023:12:25:34 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 108 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-04 17:57:46 info: Onboard Server is started and running at the port 3000 
+2023-09-04 17:58:00 error: crypto is not defined 
+    ReferenceError: crypto is not defined
+    at main.sha512 (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/utility.js:59:14)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:111:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 17:58:00 error: ReferenceError: crypto is not defined 
+    Error: ReferenceError: crypto is not defined
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 17:58:00 alert: ReferenceError: crypto is not defined 
+    Error: ReferenceError: crypto is not defined
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 17:58:00 info: ::ffff:127.0.0.1 - - [04/Sep/2023:12:28:00 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 76 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-04 17:59:58 info: Onboard Server is started and running at the port 3000 

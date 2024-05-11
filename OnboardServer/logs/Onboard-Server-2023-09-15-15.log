@@ -1,0 +1,117 @@
+2023-09-15 15:00:37 info: ::1 - - [15/Sep/2023:09:30:37 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:00:37 info: Get vehicles 
+2023-09-15 15:00:37 info: ::1 - - [15/Sep/2023:09:30:37 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 298 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:00:43 info: ::1 - - [15/Sep/2023:09:30:43 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:00:43 info: Get vehicles 
+2023-09-15 15:00:43 info: ::1 - - [15/Sep/2023:09:30:43 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 978 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:04:59 info: Onboard Server is started and running at the port 5000 
+2023-09-15 15:05:51 info: Onboard Server is started and running at the port 5000 
+2023-09-15 15:21:57 info: ::1 - - [15/Sep/2023:09:51:57 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:21:57 info: ::1 - - [15/Sep/2023:09:51:57 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 400 1634 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:22:39 info: ::1 - - [15/Sep/2023:09:52:39 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:22:39 info: ::1 - - [15/Sep/2023:09:52:39 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 400 1634 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:25:04 info: ::1 - - [15/Sep/2023:09:55:04 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:25:04 info: ::1 - - [15/Sep/2023:09:55:04 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 400 1634 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:25:50 info: ::1 - - [15/Sep/2023:09:55:50 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:25:50 info: ::1 - - [15/Sep/2023:09:55:50 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 400 1634 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:26:29 info: ::1 - - [15/Sep/2023:09:56:29 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:26:29 info: Fetching master data 
+2023-09-15 15:26:29 info: Getting master data 
+2023-09-15 15:26:29 info: ::1 - - [15/Sep/2023:09:56:29 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 197 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:26:48 info: ::1 - - [15/Sep/2023:09:56:48 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:26:48 info: Get vehicles 
+2023-09-15 15:26:48 info: ::1 - - [15/Sep/2023:09:56:48 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 298 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:27:58 info: ::1 - - [15/Sep/2023:09:57:58 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:27:58 info: Fetching master data 
+2023-09-15 15:27:58 info: Getting master data 
+2023-09-15 15:27:58 info: ::1 - - [15/Sep/2023:09:57:58 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 197 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:28:36 info: ::1 - - [15/Sep/2023:09:58:36 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:28:36 info: Fetching master data 
+2023-09-15 15:28:36 info: Getting master data 
+2023-09-15 15:28:46 info: ::1 - - [15/Sep/2023:09:58:46 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 197 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:28:59 info: Onboard Server is started and running at the port 5000 
+2023-09-15 15:30:20 info: ::1 - - [15/Sep/2023:10:00:20 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:30:21 info: Fetching master data 
+2023-09-15 15:30:21 info: Getting master data 
+2023-09-15 15:30:23 info: ::1 - - [15/Sep/2023:10:00:23 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 226 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:35:33 info: Onboard Server is started and running at the port 5000 
+2023-09-15 15:37:03 info: Onboard Server is started and running at the port 5000 
+2023-09-15 15:37:10 info: Onboard Server is started and running at the port 5000 
+2023-09-15 15:38:10 info: Onboard Server is started and running at the port 5000 
+2023-09-15 15:38:57 info: ::1 - - [15/Sep/2023:10:08:57 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:38:57 info: Fetching master data 
+2023-09-15 15:38:57 info: Getting master data 
+2023-09-15 15:39:00 info: ::1 - - [15/Sep/2023:10:09:00 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 226 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:39:31 info: ::1 - - [15/Sep/2023:10:09:31 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:39:31 info: Fetching master data 
+2023-09-15 15:39:31 info: Getting master data 
+2023-09-15 15:39:33 info: ::1 - - [15/Sep/2023:10:09:33 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 226 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:44:31 info: Onboard Server is started and running at the port 5000 
+2023-09-15 15:46:50 info: ::1 - - [15/Sep/2023:10:16:50 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:46:50 info: Fetching master data 
+2023-09-15 15:46:50 info: Getting master data 
+2023-09-15 15:46:53 info: ::1 - - [15/Sep/2023:10:16:53 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 226 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:47:17 info: ::1 - - [15/Sep/2023:10:17:17 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:47:17 info: Fetching master data 
+2023-09-15 15:47:17 info: Getting master data 
+2023-09-15 15:47:21 info: ::1 - - [15/Sep/2023:10:17:21 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 226 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:48:04 info: ::1 - - [15/Sep/2023:10:18:04 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:48:04 info: Fetching master data 
+2023-09-15 15:48:04 info: Getting master data 
+2023-09-15 15:48:04 info: ::1 - - [15/Sep/2023:10:18:04 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 226 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:51:15 info: ::1 - - [15/Sep/2023:10:21:15 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:51:15 info: Fetching master data 
+2023-09-15 15:51:15 info: Getting master data 
+2023-09-15 15:51:15 info: ::1 - - [15/Sep/2023:10:21:15 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 226 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:54:17 info: ::1 - - [15/Sep/2023:10:24:17 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:54:17 info: Fetching master data 
+2023-09-15 15:54:17 info: Getting master data 
+2023-09-15 15:54:17 info: ::1 - - [15/Sep/2023:10:24:17 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 226 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:56:20 info: ::1 - - [15/Sep/2023:10:26:20 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:56:20 info: Fetching master data 
+2023-09-15 15:56:20 info: Getting master data 
+2023-09-15 15:56:20 info: ::1 - - [15/Sep/2023:10:26:20 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 226 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:59:03 info: ::1 - - [15/Sep/2023:10:29:03 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 15:59:03 info: Fetching master data 
+2023-09-15 15:59:03 info: Getting master data 
+2023-09-15 15:59:03 info: ::1 - - [15/Sep/2023:10:29:03 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 226 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 

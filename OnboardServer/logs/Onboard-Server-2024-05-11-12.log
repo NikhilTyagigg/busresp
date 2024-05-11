@@ -1,0 +1,78 @@
+2024-05-11 12:18:50 info: Onboard Server is started and running at the port 5000 
+2024-05-11 12:23:04 info: ::1 - - [11/May/2024:06:53:04 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 12:23:04 info: Get vehicles 
+2024-05-11 12:23:04 info: ::1 - - [11/May/2024:06:53:04 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 12:23:05 info: ::1 - - [11/May/2024:06:53:05 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 12:23:05 info: ::1 - - [11/May/2024:06:53:05 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 12:23:05 info: Fetching master data 
+2024-05-11 12:23:05 info: Getting master data 
+2024-05-11 12:23:05 info: Fetching vehicle route map data 
+2024-05-11 12:23:05 info: Get vehicles 
+2024-05-11 12:23:05 info: ::1 - - [11/May/2024:06:53:05 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 12:23:05 info: ::1 - - [11/May/2024:06:53:05 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 567 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 12:23:06 info: ::1 - - [11/May/2024:06:53:06 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 12:23:06 info: Get vehicles 
+2024-05-11 12:23:06 error: Unknown column 'userId' in 'field list' 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async QueryLog.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Promise.all (index 1)
+    at async QueryLog.findAndCountAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1322:27)
+    at async main.getQueryLogs (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:277:20)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:21:20
+2024-05-11 12:23:06 error: SequelizeDatabaseError: Unknown column 'userId' in 'field list' 
+    Error: SequelizeDatabaseError: Unknown column 'userId' in 'field list'
+    at main.getQueryLogs (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:289:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:21:20
+2024-05-11 12:23:13 info: ::1 - - [11/May/2024:06:53:13 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 12:23:13 info: Get vehicles 
+2024-05-11 12:23:13 error: Include unexpected. Element has to be either a Model, an Association or an object. 
+    Error: Include unexpected. Element has to be either a Model, an Association or an object.
+    at Vehicle._conformInclude (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:323:11)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:270:61
+    at Array.map (<anonymous>)
+    at Vehicle._conformIncludes (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:270:39)
+    at Vehicle._baseMerge (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:622:10)
+    at Vehicle._defaultsOptions (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:656:17)
+    at Vehicle._injectScope (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:2053:10)
+    at Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1111:10)
+    at Vehicle.findAndCountAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1324:12)
+    at main.getVehicles (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:147:38)
+2024-05-11 12:23:13 error: Error: Include unexpected. Element has to be either a Model, an Association or an object. 
+    Error: Error: Include unexpected. Element has to be either a Model, an Association or an object.
+    at main.getVehicles (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:166:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:31:23
+2024-05-11 12:26:30 info: ::1 - - [11/May/2024:06:56:30 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 12:26:30 info: ::1 - - [11/May/2024:06:56:30 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 12:27:38 info: Onboard Server is started and running at the port 5000 
+2024-05-11 12:29:04 info: Onboard Server is started and running at the port 5000 
+2024-05-11 12:29:58 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:38:26)
+    at DeviceClient.emit (node:events:514:28)
+    at MqttClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\device\index.js:826:12)
+    at MqttClient.emit (node:events:514:28)
+    at MqttClient._handlePublish (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:1277:12)
+    at MqttClient._handlePacket (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:410:12)
+    at work (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:321:12)
+    at writable._write (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:335:5)
+    at doWrite (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+2024-05-11 12:39:08 info: ::1 - - [11/May/2024:07:09:08 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 12:39:08 info: Get vehicles 

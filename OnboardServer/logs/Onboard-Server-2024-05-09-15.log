@@ -1,0 +1,200 @@
+2024-05-09 15:08:41 info: Onboard Server is started and running at the port 5000 
+2024-05-09 15:10:17 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:45:47)
+2024-05-09 15:10:58 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:45:47)
+2024-05-09 15:12:58 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:45:47)
+2024-05-09 15:15:18 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:45:47)
+2024-05-09 15:15:29 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:45:47)
+2024-05-09 15:16:13 info: BODYYYYY: [object Object] 
+2024-05-09 15:16:13 error: Table 'onboard.users' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async User.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async User.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\auth.js:31:16
+2024-05-09 15:16:13 alert: Table 'onboard.users' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async User.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async User.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\auth.js:31:16
+2024-05-09 15:16:26 error: Error: /auth/login/ USER ID 
+2024-05-09 15:17:59 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:45:47)
+2024-05-09 15:18:09 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:38:26)
+    at DeviceClient.emit (node:events:514:28)
+    at MqttClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\device\index.js:826:12)
+    at MqttClient.emit (node:events:514:28)
+    at MqttClient._handlePublish (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:1277:12)
+    at MqttClient._handlePacket (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:410:12)
+    at work (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:321:12)
+    at writable._write (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:335:5)
+    at doWrite (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+2024-05-09 15:18:19 error: Please fill all the mandatory fields!! 
+    Error: Please fill all the mandatory fields!!
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\auth.js:98:13
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\utility.js:27:5
+    at Layer.handle [as handle_request] (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:175:3)
+2024-05-09 15:18:19 error: Error: Please fill all the mandatory fields!! 
+    Error: Error: Please fill all the mandatory fields!!
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\auth.js:120:11
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\utility.js:27:5
+    at Layer.handle [as handle_request] (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:175:3)
+2024-05-09 15:18:19 alert: Error: Please fill all the mandatory fields!! 
+    Error: Error: Please fill all the mandatory fields!!
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\auth.js:120:11
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\utility.js:27:5
+    at Layer.handle [as handle_request] (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:175:3)
+2024-05-09 15:18:23 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:45:47)
+2024-05-09 15:18:25 error: Table 'onboard.users' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async User.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async User.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\auth.js:100:16
+2024-05-09 15:18:25 error: SequelizeDatabaseError: Table 'onboard.users' doesn't exist 
+    Error: SequelizeDatabaseError: Table 'onboard.users' doesn't exist
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-05-09 15:18:25 alert: SequelizeDatabaseError: Table 'onboard.users' doesn't exist 
+    Error: SequelizeDatabaseError: Table 'onboard.users' doesn't exist
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-05-09 15:20:30 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:45:47)
+2024-05-09 15:20:58 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:45:47)
+2024-05-09 15:21:10 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:38:26)
+    at DeviceClient.emit (node:events:514:28)
+    at MqttClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\device\index.js:826:12)
+    at MqttClient.emit (node:events:514:28)
+    at MqttClient._handlePublish (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:1277:12)
+    at MqttClient._handlePacket (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:410:12)
+    at work (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:321:12)
+    at writable._write (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:335:5)
+    at doWrite (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+2024-05-09 15:21:22 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:38:26)
+    at DeviceClient.emit (node:events:514:28)
+    at MqttClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\device\index.js:826:12)
+    at MqttClient.emit (node:events:514:28)
+    at MqttClient._handlePublish (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:1277:12)
+    at MqttClient._handlePacket (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:410:12)
+    at work (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:321:12)
+    at writable._write (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:335:5)
+    at doWrite (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+2024-05-09 15:22:59 error: Table 'onboard.vehicles' doesn't exist 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Vehicle.findAll (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1140:21)
+    at async Vehicle.findOne (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1240:12)
+    at async DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:45:47)

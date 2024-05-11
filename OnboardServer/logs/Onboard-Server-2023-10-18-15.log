@@ -1,0 +1,247 @@
+2023-10-18 15:17:49 info: Onboard Server is started and running at the port 5000 
+2023-10-18 15:18:00 info: ::1 - - [18/Oct/2023:09:48:00 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:18:00 error: Not authorized 
+    Error: Not authorized
+    at verifyAccessToken (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/auth/jwt.js:67:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-18 15:18:00 info: ::1 - - [18/Oct/2023:09:48:00 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 401 56 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:23:15 info: Onboard Server is started and running at the port 5000 
+2023-10-18 15:26:14 info: BODYYYYY: [object Object] 
+2023-10-18 15:26:14 debug: login from keshav.goyal@kritikalvision.ai 
+2023-10-18 15:26:14 info: ::1 - - [18/Oct/2023:09:56:14 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 579 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:26:14 info: ::1 - - [18/Oct/2023:09:56:14 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:26:14 info: Get vehicles 
+2023-10-18 15:26:14 info: ::1 - - [18/Oct/2023:09:56:14 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1771 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:26:17 info: ::1 - - [18/Oct/2023:09:56:17 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:26:17 info: Get vehicles 
+2023-10-18 15:26:17 info: ::1 - - [18/Oct/2023:09:56:17 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 477 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:26:52 info: ::1 - - [18/Oct/2023:09:56:52 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:26:52 info: Add or update route info 
+2023-10-18 15:26:52 info: Adding/updating route details::{"routeNo":"9094","startPoint":"ashok nagar","endPoint":"botanical garden","intermediateStops":"","routeId":5,"isActive":false,"user":"undefined","type":"14"} 
+2023-10-18 15:26:52 info: ::1 - - [18/Oct/2023:09:56:52 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 282 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:27:01 info: ::1 - - [18/Oct/2023:09:57:01 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:27:01 info: Add or update route info 
+2023-10-18 15:27:01 info: Adding/updating route details::{"routeNo":"9094","startPoint":"botanical garden","endPoint":"sec 15","intermediateStops":"sec 14, sec 16","routeId":1,"isActive":true,"user":"undefined","type":"14"} 
+2023-10-18 15:27:01 error: route.update is not a function 
+    TypeError: route.update is not a function
+    at main.addRoute (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:158:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:62:22
+2023-10-18 15:27:01 error: TypeError: route.update is not a function 
+    Error: TypeError: route.update is not a function
+    at main.addRoute (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:204:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:62:22
+2023-10-18 15:27:01 error: TypeError: route.update is not a function 
+    Error: TypeError: route.update is not a function
+    at main.addRoute (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:204:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:62:22
+2023-10-18 15:27:01 info: ::1 - - [18/Oct/2023:09:57:01 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 500 77 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:28:29 info: Onboard Server is started and running at the port 5000 
+2023-10-18 15:28:39 info: ::1 - - [18/Oct/2023:09:58:39 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:28:39 info: Add or update route info 
+2023-10-18 15:28:39 info: Adding/updating route details::{"routeNo":"9094","startPoint":"botanical garden","endPoint":"sec 15","intermediateStops":"sec 14, sec 16","routeId":1,"isActive":true,"user":"undefined","type":"14"} 
+2023-10-18 15:28:39 info: ::1 - - [18/Oct/2023:09:58:39 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 486 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:29:29 info: Onboard Server is started and running at the port 5000 
+2023-10-18 15:29:36 info: ::1 - - [18/Oct/2023:09:59:36 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:29:36 info: Add or update route info 
+2023-10-18 15:29:36 info: Adding/updating route details::{"routeNo":"9090","startPoint":"botanical garden","endPoint":"sec 15","intermediateStops":"sec 14, sec 16","routeId":1,"isActive":false,"user":"undefined","type":"14"} 
+2023-10-18 15:29:36 info: ::1 - - [18/Oct/2023:09:59:36 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 282 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:29:41 info: ::1 - - [18/Oct/2023:09:59:41 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:29:41 info: Add or update route info 
+2023-10-18 15:29:41 info: Adding/updating route details::{"routeNo":"9090","startPoint":"botanical garden","endPoint":"sec 15","intermediateStops":"sec 14, sec 16","routeId":5,"isActive":true,"user":"undefined","type":"14"} 
+2023-10-18 15:29:41 info: ::1 - - [18/Oct/2023:09:59:41 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 282 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:31:07 info: ::1 - - [18/Oct/2023:10:01:07 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:31:07 info: Add or update route info 
+2023-10-18 15:31:07 info: Adding/updating route details::{"routeNo":"9090","startPoint":"botanical garden","endPoint":"sec 15","intermediateStops":"sec 14, sec 16","routeId":1,"isActive":true,"user":"undefined","type":"14"} 
+2023-10-18 15:31:07 info: ::1 - - [18/Oct/2023:10:01:07 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 282 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:31:21 info: ::1 - - [18/Oct/2023:10:01:21 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:31:21 info: Add or update route info 
+2023-10-18 15:31:21 info: Adding/updating route details::{"routeNo":"9944","startPoint":"pp","endPoint":"pp","intermediateStops":"lolo","user":"undefined","type":"14"} 
+2023-10-18 15:31:21 info: ::1 - - [18/Oct/2023:10:01:21 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 458 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:31:28 info: ::1 - - [18/Oct/2023:10:01:28 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:31:28 info: Add or update route info 
+2023-10-18 15:31:28 info: Adding/updating route details::{"routeNo":"9090","startPoint":"pp","endPoint":"pp","intermediateStops":"lolo","routeId":8,"isActive":true,"user":"undefined","type":"14"} 
+2023-10-18 15:31:28 error: Route number is already added!! 
+    Error: Route number is already added!!
+    at main.addRoute (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:152:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:62:22
+2023-10-18 15:31:28 error: Error: Route number is already added!! 
+    Error: Error: Route number is already added!!
+    at main.addRoute (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:207:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:62:22
+2023-10-18 15:31:28 error: Error: Route number is already added!! 
+    Error: Error: Route number is already added!!
+    at main.addRoute (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:207:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:62:22
+2023-10-18 15:31:28 info: ::1 - - [18/Oct/2023:10:01:28 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 500 74 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:33:41 info: Onboard Server is started and running at the port 5000 
+2023-10-18 15:33:50 info: ::1 - - [18/Oct/2023:10:03:50 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:33:50 info: Get vehicles 
+2023-10-18 15:33:50 info: ::1 - - [18/Oct/2023:10:03:50 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1771 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:33:55 info: ::1 - - [18/Oct/2023:10:03:55 +0000] "OPTIONS /api/v1/route/addVehicle HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:33:55 info: Adding/updating vehicle vehicle::{"vehicleModule":"modd","vehicleNo":"9091","vehicleType":1,"vehicleId":5,"isActive":false,"user":"undefined","type":"14"} 
+2023-10-18 15:33:55 info: ::1 - - [18/Oct/2023:10:03:55 +0000] "POST /api/v1/route/addVehicle HTTP/1.1" 200 1436 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:34:03 info: ::1 - - [18/Oct/2023:10:04:03 +0000] "OPTIONS /api/v1/route/addVehicle HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:34:03 info: Adding/updating vehicle vehicle::{"vehicleModule":"9334","vehicleNo":"9091","vehicleType":1,"vehicleId":7,"isActive":true,"user":"undefined","type":"14"} 
+2023-10-18 15:34:03 info: ::1 - - [18/Oct/2023:10:04:03 +0000] "POST /api/v1/route/addVehicle HTTP/1.1" 200 1436 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:35:32 info: Onboard Server is started and running at the port 5000 
+2023-10-18 15:35:36 info: ::1 - - [18/Oct/2023:10:05:36 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:35:36 info: ::1 - - [18/Oct/2023:10:05:36 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:35:36 info: Fetching master data 
+2023-10-18 15:35:36 info: Getting master data 
+2023-10-18 15:35:36 info: Fetching vehicle route map data 
+2023-10-18 15:35:36 info: Get vehicles 
+2023-10-18 15:35:36 error: Unknown column 'VehicleRouteDriverMap.order' in 'where clause' 
+    Error
+    at Query.run (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.rawSelect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:434:18)
+    at async VehicleRouteDriverMap.aggregate (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1277:19)
+    at async VehicleRouteDriverMap.count (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1306:20)
+    at async Promise.all (index 0)
+    at async VehicleRouteDriverMap.findAndCountAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1322:27)
+    at async main.getRouteVehicleMap (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:292:31)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:84:20
+2023-10-18 15:35:36 error: SequelizeDatabaseError: Unknown column 'VehicleRouteDriverMap.order' in 'where clause' 
+    Error: SequelizeDatabaseError: Unknown column 'VehicleRouteDriverMap.order' in 'where clause'
+    at main.getRouteVehicleMap (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:309:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:84:20
+2023-10-18 15:35:36 error: SequelizeDatabaseError: Unknown column 'VehicleRouteDriverMap.order' in 'where clause' 
+    Error: SequelizeDatabaseError: Unknown column 'VehicleRouteDriverMap.order' in 'where clause'
+    at main.getRouteVehicleMap (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:309:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:84:20
+2023-10-18 15:35:36 info: ::1 - - [18/Oct/2023:10:05:36 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 500 122 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:35:36 info: ::1 - - [18/Oct/2023:10:05:36 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 321 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:35:56 info: Onboard Server is started and running at the port 5000 
+2023-10-18 15:36:00 info: ::1 - - [18/Oct/2023:10:06:00 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:36:00 info: ::1 - - [18/Oct/2023:10:06:00 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:36:00 info: Fetching master data 
+2023-10-18 15:36:00 info: Getting master data 
+2023-10-18 15:36:00 info: Fetching vehicle route map data 
+2023-10-18 15:36:00 info: Get vehicles 
+2023-10-18 15:36:00 info: ::1 - - [18/Oct/2023:10:06:00 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 321 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:36:00 error: Unknown column 'VehicleRouteDriverMap.DESC' in 'order clause' 
+    Error
+    at Query.run (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async VehicleRouteDriverMap.findAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1140:21)
+    at async Promise.all (index 1)
+    at async VehicleRouteDriverMap.findAndCountAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1322:27)
+    at async main.getRouteVehicleMap (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:292:31)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:84:20
+2023-10-18 15:36:00 error: SequelizeDatabaseError: Unknown column 'VehicleRouteDriverMap.DESC' in 'order clause' 
+    Error: SequelizeDatabaseError: Unknown column 'VehicleRouteDriverMap.DESC' in 'order clause'
+    at main.getRouteVehicleMap (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:309:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:84:20
+2023-10-18 15:36:00 error: SequelizeDatabaseError: Unknown column 'VehicleRouteDriverMap.DESC' in 'order clause' 
+    Error: SequelizeDatabaseError: Unknown column 'VehicleRouteDriverMap.DESC' in 'order clause'
+    at main.getRouteVehicleMap (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:309:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:84:20
+2023-10-18 15:36:00 info: ::1 - - [18/Oct/2023:10:06:00 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 500 121 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:36:08 info: ::1 - - [18/Oct/2023:10:06:08 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:36:08 info: ::1 - - [18/Oct/2023:10:06:08 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:36:08 info: Fetching master data 
+2023-10-18 15:36:08 info: Getting master data 
+2023-10-18 15:36:08 info: Fetching vehicle route map data 
+2023-10-18 15:36:08 info: Get vehicles 
+2023-10-18 15:36:08 error: Unknown column 'VehicleRouteDriverMap.DESC' in 'order clause' 
+    Error
+    at Query.run (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async VehicleRouteDriverMap.findAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1140:21)
+    at async Promise.all (index 1)
+    at async VehicleRouteDriverMap.findAndCountAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1322:27)
+    at async main.getRouteVehicleMap (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:292:31)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:84:20
+2023-10-18 15:36:08 error: SequelizeDatabaseError: Unknown column 'VehicleRouteDriverMap.DESC' in 'order clause' 
+    Error: SequelizeDatabaseError: Unknown column 'VehicleRouteDriverMap.DESC' in 'order clause'
+    at main.getRouteVehicleMap (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:309:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:84:20
+2023-10-18 15:36:08 error: SequelizeDatabaseError: Unknown column 'VehicleRouteDriverMap.DESC' in 'order clause' 
+    Error: SequelizeDatabaseError: Unknown column 'VehicleRouteDriverMap.DESC' in 'order clause'
+    at main.getRouteVehicleMap (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:309:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:84:20
+2023-10-18 15:36:08 info: ::1 - - [18/Oct/2023:10:06:08 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 500 121 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:36:08 info: ::1 - - [18/Oct/2023:10:06:08 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 321 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:36:47 info: Onboard Server is started and running at the port 5000 
+2023-10-18 15:36:50 info: ::1 - - [18/Oct/2023:10:06:50 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:36:50 info: Fetching master data 
+2023-10-18 15:36:50 info: Getting master data 
+2023-10-18 15:36:50 info: ::1 - - [18/Oct/2023:10:06:50 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:36:50 info: Fetching vehicle route map data 
+2023-10-18 15:36:50 info: Get vehicles 
+2023-10-18 15:36:50 info: ::1 - - [18/Oct/2023:10:06:50 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 321 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:36:50 info: ::1 - - [18/Oct/2023:10:06:50 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 1804 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:41:36 info: ::1 - - [18/Oct/2023:10:11:36 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:41:36 info: ::1 - - [18/Oct/2023:10:11:36 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:41:36 info: Fetching master data 
+2023-10-18 15:41:36 info: Getting master data 
+2023-10-18 15:41:36 info: Fetching vehicle route map data 
+2023-10-18 15:41:36 info: Get vehicles 
+2023-10-18 15:41:36 info: ::1 - - [18/Oct/2023:10:11:36 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 1804 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-18 15:41:36 info: ::1 - - [18/Oct/2023:10:11:36 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 321 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 

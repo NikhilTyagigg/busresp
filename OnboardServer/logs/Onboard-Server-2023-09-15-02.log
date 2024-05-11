@@ -1,0 +1,99 @@
+2023-09-15 02:02:17 info: ::1 - - [14/Sep/2023:20:32:17 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 02:02:17 info: Get vehicles 
+2023-09-15 02:02:17 info: ::1 - - [14/Sep/2023:20:32:17 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 141 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 02:02:39 info: ::1 - - [14/Sep/2023:20:32:39 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 02:02:39 info: Get vehicles 
+2023-09-15 02:02:39 info: ::1 - - [14/Sep/2023:20:32:39 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 141 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 02:03:01 info: ::1 - - [14/Sep/2023:20:33:01 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 02:03:01 info: Get vehicles 
+2023-09-15 02:03:01 info: ::1 - - [14/Sep/2023:20:33:01 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 141 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 02:03:36 info: ::1 - - [14/Sep/2023:20:33:36 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 02:03:36 info: Get vehicles 
+2023-09-15 02:03:36 info: ::1 - - [14/Sep/2023:20:33:36 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 141 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 02:04:33 info: ::1 - - [14/Sep/2023:20:34:33 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 02:04:33 info: Get vehicles 
+2023-09-15 02:04:33 info: ::1 - - [14/Sep/2023:20:34:33 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 141 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 02:46:03 info: Onboard Server is started and running at the port 5000 
+2023-09-15 02:48:08 info: Onboard Server is started and running at the port 5000 
+2023-09-15 02:48:52 info: Onboard Server is started and running at the port 5000 
+2023-09-15 02:51:28 info: ::1 - - [14/Sep/2023:21:21:28 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 02:51:28 info: Get vehicles 
+2023-09-15 02:53:16 info: Onboard Server is started and running at the port 5000 
+2023-09-15 02:53:24 info: ::1 - - [14/Sep/2023:21:23:24 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 02:53:24 info: Get vehicles 
+2023-09-15 02:53:52 info: Onboard Server is started and running at the port 5000 
+2023-09-15 02:53:56 info: ::1 - - [14/Sep/2023:21:23:56 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 02:53:56 info: Get vehicles 
+2023-09-15 02:53:57 error: Unknown column 'VehicleType.VehicleVehicleId' in 'on clause' 
+    Error
+    at Query.run (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.rawSelect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:434:18)
+    at async Vehicle.aggregate (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1277:19)
+    at async Vehicle.count (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Vehicle.findAndCountAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1322:27)
+    at async main.getVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:78:24)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:30:23
+2023-09-15 02:55:33 info: Onboard Server is started and running at the port 5000 
+2023-09-15 02:56:02 info: ::1 - - [14/Sep/2023:21:26:02 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 02:56:02 info: Get vehicles 
+2023-09-15 02:56:02 error: Unknown column 'VehicleType.VehicleVehicleId' in 'on clause' 
+    Error
+    at Query.run (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.rawSelect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:434:18)
+    at async Vehicle.aggregate (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1277:19)
+    at async Vehicle.count (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Vehicle.findAndCountAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1322:27)
+    at async main.getVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:78:24)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:30:23
+2023-09-15 02:56:22 info: Onboard Server is started and running at the port 5000 
+2023-09-15 02:56:25 info: ::1 - - [14/Sep/2023:21:26:25 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 02:56:25 info: Get vehicles 
+2023-09-15 02:56:25 error: Unknown column 'VehicleType.VehicleVehicleId' in 'on clause' 
+    Error
+    at Query.run (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.rawSelect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:434:18)
+    at async Vehicle.aggregate (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1277:19)
+    at async Vehicle.count (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Vehicle.findAndCountAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1322:27)
+    at async main.getVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:78:24)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:31:23
+2023-09-15 02:58:24 info: Onboard Server is started and running at the port 5000 
+2023-09-15 02:58:28 info: ::1 - - [14/Sep/2023:21:28:28 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-09-15 02:58:28 info: Get vehicles 
+2023-09-15 02:58:28 error: Unknown column 'VehicleType.VehicleVehicleId' in 'on clause' 
+    Error
+    at Query.run (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.rawSelect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:434:18)
+    at async Vehicle.aggregate (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1277:19)
+    at async Vehicle.count (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Vehicle.findAndCountAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1322:27)
+    at async main.getVehicles (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:78:24)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:31:23

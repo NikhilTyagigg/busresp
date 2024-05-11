@@ -1,0 +1,87 @@
+2023-09-14 01:02:30 info: Onboard Server is started and running at the port 3000 
+2023-09-14 01:03:32 info: Onboard Server is started and running at the port 3000 
+2023-09-14 01:04:13 info: Onboard Server is started and running at the port 3000 
+2023-09-14 01:05:43 info: Onboard Server is started and running at the port 3000 
+2023-09-14 01:05:45 error: Table 'onboard.QueryLogs' doesn't exist 
+    Error
+    at Query.run (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async QueryLog.save (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:2490:35)
+    at async QueryLog.create (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1362:12)
+    at async DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:42:11)
+2023-09-14 01:07:17 info: Onboard Server is started and running at the port 3000 
+2023-09-14 01:07:18 error: Table 'onboard.QueryLogs' doesn't exist 
+    Error
+    at Query.run (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async QueryLog.save (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:2490:35)
+    at async QueryLog.create (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1362:12)
+    at async DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:42:11)
+2023-09-14 01:08:08 info: Onboard Server is started and running at the port 3000 
+2023-09-14 01:08:09 error: Table 'onboard.QueryLogs' doesn't exist 
+    Error
+    at Query.run (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async QueryLog.save (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:2490:35)
+    at async QueryLog.create (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1362:12)
+    at async DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:45:11)
+2023-09-14 01:08:30 info: Onboard Server is started and running at the port 3000 
+2023-09-14 01:09:01 info: Onboard Server is started and running at the port 3000 
+2023-09-14 01:09:33 error: Table 'onboard.QueryLogs' doesn't exist 
+    Error
+    at Query.run (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async QueryLog.save (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:2490:35)
+    at async QueryLog.create (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1362:12)
+    at async DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:42:11)
+2023-09-14 01:10:10 info: Onboard Server is started and running at the port 3000 
+2023-09-14 01:13:16 info: Onboard Server is started and running at the port 3000 
+2023-09-14 01:14:43 info: Onboard Server is started and running at the port 3000 
+2023-09-14 01:15:42 info: Onboard Server is started and running at the port 3000 
+2023-09-14 01:16:36 info: Onboard Server is started and running at the port 3000 
+2023-09-14 01:17:31 info: Onboard Server is started and running at the port 3000 
+2023-09-14 01:23:19 info: Onboard Server is started and running at the port 3000 
+2023-09-14 01:24:34 info: Onboard Server is started and running at the port 3000 
+2023-09-14 01:24:45 error: access token expired 
+    Error: access token expired
+    at verifyAccessToken (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/auth/jwt.js:81:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-14 01:24:45 info: ::ffff:127.0.0.1 - - [13/Sep/2023:19:54:45 +0000] "POST /api/v1/route/updateRouteMap HTTP/1.1" 401 68 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-14 01:24:53 info: BODYYYYY: [object Object] 
+2023-09-14 01:24:55 debug: login from kg@gmail.com 
+2023-09-14 01:24:55 info: ::ffff:127.0.0.1 - - [13/Sep/2023:19:54:55 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 513 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-14 01:25:09 error: Not authorized 
+    Error: Not authorized
+    at verifyAccessToken (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/auth/jwt.js:67:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-14 01:25:09 info: ::ffff:127.0.0.1 - - [13/Sep/2023:19:55:09 +0000] "POST /api/v1/route/updateRouteMap HTTP/1.1" 401 56 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-14 01:25:19 info: ::ffff:127.0.0.1 - - [13/Sep/2023:19:55:19 +0000] "POST /api/v1/route/updateRouteMap HTTP/1.1" 200 92 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-14 01:25:35 info: Get vehicles 
+2023-09-14 01:25:35 error: moment.format is not a function 
+    TypeError: moment.format is not a function
+    at main.getQueryLogs (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:89:39)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:19:26
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-09-14 01:27:40 info: Onboard Server is started and running at the port 3000 
+2023-09-14 01:27:47 info: Get vehicles 
+2023-09-14 01:27:47 info: ::ffff:127.0.0.1 - - [13/Sep/2023:19:57:47 +0000] "POST /api/v1/route/getLogs HTTP/1.1" 200 1358 "-" "Thunder Client (https://www.thunderclient.com)"
+ 

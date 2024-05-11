@@ -1,0 +1,17 @@
+2023-09-12 23:29:20 info: Onboard Server is started and running at the port 3000 
+2023-09-12 23:34:45 info: Onboard Server is started and running at the port 3000 
+2023-09-12 23:35:55 info: Onboard Server is started and running at the port 3000 
+2023-09-12 23:44:01 error: access token expired 
+    Error: access token expired
+    at verifyAccessToken (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/auth/jwt.js:81:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-12 23:44:01 info: ::ffff:127.0.0.1 - - [12/Sep/2023:18:14:01 +0000] "POST /api/v1/route/updateRouteMap HTTP/1.1" 401 68 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-12 23:44:05 info: ::ffff:127.0.0.1 - - [12/Sep/2023:18:14:05 +0000] "POST /route/api/v1/login HTTP/1.1" 404 158 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-12 23:44:09 info: BODYYYYY: [object Object] 
+2023-09-12 23:44:09 debug: login from kg@gmail.com 
+2023-09-12 23:44:09 info: ::ffff:127.0.0.1 - - [12/Sep/2023:18:14:09 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 513 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-12 23:44:24 info: ::ffff:127.0.0.1 - - [12/Sep/2023:18:14:24 +0000] "POST /api/v1/route/updateRouteMap HTTP/1.1" 200 92 "-" "Thunder Client (https://www.thunderclient.com)"
+ 

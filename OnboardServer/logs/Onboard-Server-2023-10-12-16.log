@@ -1,0 +1,256 @@
+2023-10-12 16:04:13 info: Onboard Server is started and running at the port 5000 
+2023-10-12 16:04:19 info: Onboard Server is started and running at the port 5000 
+2023-10-12 16:05:52 info: ::1 - - [12/Oct/2023:10:35:52 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:05:52 error: Not authorized 
+    Error: Not authorized
+    at verifyAccessToken (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/auth/jwt.js:67:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-12 16:05:52 info: ::1 - - [12/Oct/2023:10:35:52 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 401 56 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:06:05 info: BODYYYYY: [object Object] 
+2023-10-12 16:06:05 error: Access denied for user 'root'@'localhost' (using password: YES) 
+    SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async User.findAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1140:21)
+    at async User.findOne (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1240:12)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:31:16
+2023-10-12 16:06:05 alert: Access denied for user 'root'@'localhost' (using password: YES) 
+    SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async User.findAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1140:21)
+    at async User.findOne (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1240:12)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:31:16
+2023-10-12 16:06:05 info: ::1 - - [12/Oct/2023:10:36:05 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 400 61 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:06:12 info: BODYYYYY: [object Object] 
+2023-10-12 16:06:12 error: Access denied for user 'root'@'localhost' (using password: YES) 
+    SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async User.findAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1140:21)
+    at async User.findOne (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1240:12)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:31:16
+2023-10-12 16:06:12 alert: Access denied for user 'root'@'localhost' (using password: YES) 
+    SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async User.findAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1140:21)
+    at async User.findOne (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1240:12)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:31:16
+2023-10-12 16:06:12 info: ::1 - - [12/Oct/2023:10:36:12 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 400 61 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:06:32 info: ::1 - - [12/Oct/2023:10:36:32 +0000] "OPTIONS /api/v1/auth/register/ HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:06:32 error: Access denied for user 'root'@'localhost' (using password: YES) 
+    SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async User.findAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1140:21)
+    at async User.findOne (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1240:12)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:100:16
+2023-10-12 16:06:32 error: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES) 
+    Error: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-12 16:06:32 alert: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES) 
+    Error: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-12 16:06:32 info: ::1 - - [12/Oct/2023:10:36:32 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 130 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:07:09 info: Onboard Server is started and running at the port 5000 
+2023-10-12 16:07:13 info: ::1 - - [12/Oct/2023:10:37:13 +0000] "OPTIONS /api/v1/auth/register/ HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:07:13 error: Please fill all the mandatory fields!! 
+    Error: Please fill all the mandatory fields!!
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:98:13
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/utility.js:27:5
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-10-12 16:07:13 error: Error: Please fill all the mandatory fields!! 
+    Error: Error: Please fill all the mandatory fields!!
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/utility.js:27:5
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-10-12 16:07:13 alert: Error: Please fill all the mandatory fields!! 
+    Error: Error: Please fill all the mandatory fields!!
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/utility.js:27:5
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-10-12 16:07:13 info: ::1 - - [12/Oct/2023:10:37:13 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 84 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:07:34 info: ::1 - - [12/Oct/2023:10:37:34 +0000] "OPTIONS /api/v1/auth/register/ HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:07:34 error: Access denied for user 'root'@'localhost' (using password: YES) 
+    SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async User.findAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1140:21)
+    at async User.findOne (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1240:12)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:100:16
+2023-10-12 16:07:34 error: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES) 
+    Error: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-12 16:07:34 alert: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES) 
+    Error: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-12 16:07:34 info: ::1 - - [12/Oct/2023:10:37:34 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 130 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:08:02 info: ::1 - - [12/Oct/2023:10:38:02 +0000] "OPTIONS /api/v1/auth/register/ HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:08:02 error: Access denied for user 'root'@'localhost' (using password: YES) 
+    SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async User.findAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1140:21)
+    at async User.findOne (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1240:12)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:100:16
+2023-10-12 16:08:02 error: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES) 
+    Error: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-12 16:08:02 alert: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES) 
+    Error: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-12 16:08:02 info: ::1 - - [12/Oct/2023:10:38:02 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 130 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:08:11 info: Onboard Server is started and running at the port 5000 
+2023-10-12 16:08:15 info: ::1 - - [12/Oct/2023:10:38:15 +0000] "OPTIONS /api/v1/auth/register/ HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:08:15 error: Access denied for user 'root'@'localhost' (using password: YES) 
+    SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/sequelize.js:305:26
+    at async MySQLQueryInterface.select (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)
+    at async User.findAll (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1140:21)
+    at async User.findOne (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/sequelize/lib/model.js:1240:12)
+    at async /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:100:16
+2023-10-12 16:08:15 error: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES) 
+    Error: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-12 16:08:15 alert: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES) 
+    Error: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-12 16:08:15 info: ::1 - - [12/Oct/2023:10:38:15 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 130 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:44:00 info: Onboard Server is started and running at the port 5000 
+2023-10-12 16:44:12 info: ::1 - - [12/Oct/2023:11:14:12 +0000] "OPTIONS /api/v1/auth/register/ HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:44:12 info: ::1 - - [12/Oct/2023:11:14:12 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 200 109 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:44:18 info: BODYYYYY: [object Object] 
+2023-10-12 16:44:18 debug: login from keshav.goyal@kritikalvision.ai 
+2023-10-12 16:44:18 info: ::1 - - [12/Oct/2023:11:14:18 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 579 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:46:00 info: ::1 - - [12/Oct/2023:11:16:00 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:46:00 info: Get vehicles 
+2023-10-12 16:46:00 info: ::1 - - [12/Oct/2023:11:16:00 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 109 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:46:02 info: ::1 - - [12/Oct/2023:11:16:02 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:46:02 info: Get vehicles 
+2023-10-12 16:46:02 info: ::1 - - [12/Oct/2023:11:16:02 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:46:04 info: ::1 - - [12/Oct/2023:11:16:04 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:46:04 info: ::1 - - [12/Oct/2023:11:16:04 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:46:04 info: Fetching master data 
+2023-10-12 16:46:04 info: Getting master data 
+2023-10-12 16:46:04 info: Fetching vehicle route map data 
+2023-10-12 16:46:04 info: Get vehicles 
+2023-10-12 16:46:04 info: ::1 - - [12/Oct/2023:11:16:04 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 85 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:46:04 info: ::1 - - [12/Oct/2023:11:16:04 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:46:05 info: ::1 - - [12/Oct/2023:11:16:05 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:46:05 info: Get vehicles 
+2023-10-12 16:46:05 info: ::1 - - [12/Oct/2023:11:16:05 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 88 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:46:07 info: Fetching master data 
+2023-10-12 16:46:07 info: Getting master data 
+2023-10-12 16:46:07 info: Fetching vehicle route map data 
+2023-10-12 16:46:07 info: Get vehicles 
+2023-10-12 16:46:07 info: ::1 - - [12/Oct/2023:11:16:07 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:46:07 info: ::1 - - [12/Oct/2023:11:16:07 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 85 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:46:09 info: ::1 - - [12/Oct/2023:11:16:09 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:46:09 info: Get vehicles 
+2023-10-12 16:46:09 info: ::1 - - [12/Oct/2023:11:16:09 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:59:29 info: ::1 - - [12/Oct/2023:11:29:29 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 16:59:29 info: Get vehicles 
+2023-10-12 16:59:29 info: ::1 - - [12/Oct/2023:11:29:29 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 109 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 

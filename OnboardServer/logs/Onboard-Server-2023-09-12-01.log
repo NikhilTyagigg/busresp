@@ -1,0 +1,12 @@
+2023-09-12 01:06:02 info: Onboard Server is started and running at the port 3000 
+2023-09-12 01:06:14 info: ::ffff:127.0.0.1 - - [11/Sep/2023:19:36:14 +0000] "POST /route/api/v1/login HTTP/1.1" 404 158 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-12 01:06:20 info: BODYYYYY: [object Object] 
+2023-09-12 01:06:20 debug: login from kg@gmail.com 
+2023-09-12 01:06:20 info: ::ffff:127.0.0.1 - - [11/Sep/2023:19:36:20 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 513 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-12 01:06:39 info: ::ffff:127.0.0.1 - - [11/Sep/2023:19:36:39 +0000] "POST /api/v1/route/updateRouteMap HTTP/1.1" 200 92 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-12 01:07:27 info: Onboard Server is started and running at the port 3000 
+2023-09-12 01:07:32 info: ::ffff:127.0.0.1 - - [11/Sep/2023:19:37:32 +0000] "POST /api/v1/route/updateRouteMap HTTP/1.1" 200 92 "-" "Thunder Client (https://www.thunderclient.com)"
+ 

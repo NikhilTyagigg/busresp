@@ -1,0 +1,40 @@
+2023-09-06 18:20:10 info: Onboard Server is started and running at the port 3000 
+2023-09-06 18:40:31 info: Onboard Server is started and running at the port 3000 
+2023-09-06 18:41:47 error: publishToMqtt is not a function 
+    TypeError: publishToMqtt is not a function
+    at main.configRoutes (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:13:9)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:10:15
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-09-06 18:42:48 info: Onboard Server is started and running at the port 3000 
+2023-09-06 18:43:10 error: publishToMqtt is not a function 
+    TypeError: publishToMqtt is not a function
+    at main.configRoutes (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:13:9)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:10:15
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)
+2023-09-06 18:43:45 info: Onboard Server is started and running at the port 3000 
+2023-09-06 18:44:22 error: app.publishToMqtt is not a function 
+    TypeError: app.publishToMqtt is not a function
+    at main.configRoutes (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/controllers/route.controller.js:13:13)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/routeConfig.js:10:15
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/layer.js:95:5)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/express/lib/router/index.js:175:3)

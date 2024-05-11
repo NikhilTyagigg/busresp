@@ -1,0 +1,306 @@
+2023-09-18 17:03:31 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:32:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-18 17:03:39 info: Onboard Server is started and running at the port 5000 
+2023-09-18 17:03:56 debug: The payload is not in appropriate format{"message":"Hello from AWS IoT console"} 
+2023-09-18 17:05:09 info: Onboard Server is started and running at the port 5000 
+2023-09-18 17:05:15 debug: The payload is not in appropriate format for topic::5555 payload:: {"message":"Hello from AWS IoT console"} 
+2023-09-18 17:05:30 info: Onboard Server is started and running at the port 5000 
+2023-09-18 17:08:26 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-18 17:12:08 error: Unexpected token R in JSON at position 27 
+    SyntaxError: Unexpected token R in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-18 17:12:19 error: Unexpected token R in JSON at position 27 
+    SyntaxError: Unexpected token R in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-18 17:15:19 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-18 17:15:20 debug: The payload is not in appropriate format for topic::DL9C0022 & payload:: {"Bus ID":"DL9C0022","Date&Time":"23/09/18,17:12:05","Route No":"8888","Sig RSSI":-21,"Ack Time":6972,"User ID":"23093000000U","UserType":"User Module"} 
+2023-09-18 17:15:25 error: Unexpected token R in JSON at position 27 
+    SyntaxError: Unexpected token R in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-18 17:15:37 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:15:22","Route No":"4444","Sig RSSI":-24,"Ack Time":6319,"User ID":"23093000000U","UserType":"User Module"} 
+2023-09-18 17:15:57 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:15:37","Route No":"4444","Sig RSSI":-10301,"Ack Time":10873,"User ID":"23093000000U","UserType":"User Module"} 
+2023-09-18 17:21:10 debug: The payload is not in appropriate format for topic::DL9C0022 & payload:: {"Bus ID":"DL9C0022","Date&Time":"23/09/18,17:15:20","Route No":"8888","Sig RSSI":-10263,"Ack Time":6764,"User ID":"23093000000U","UserType":"User Module"} 
+2023-09-18 17:23:37 debug: The payload is not in appropriate format for topic::DL9C0022 & payload:: {"Bus ID":"DL9C0022","Date&Time":"23/09/18,17:21:09","Route No":"8888","Sig RSSI":-10303,"Ack Time":22646,"User ID":"23093000000U","UserType":"User Module"} 
+2023-09-18 17:23:44 error: Unexpected token R in JSON at position 27 
+    SyntaxError: Unexpected token R in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-18 17:23:48 debug: The payload is not in appropriate format for topic::kspl1 & payload:: {"OnBoard":1,"date&Time":"23/09/18,17:23:40","Route No":"5555","Sig RSSI":-108,"Ack Time":21031,"User ID":"xxxxxxxxxxxx","UserType":"User Module"} 
+2023-09-18 17:23:51 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:15:57","Route No":"4444","Sig RSSI":-10305,"Ack Time":10473,"User ID":"23093000000U","UserType":"User Module"} 
+2023-09-18 17:23:56 debug: The payload is not in appropriate format for topic::kspl1 & payload:: {"OnBoard":2,"date&Time":"23/09/18,17:23:40","Route No":"5555","Sig RSSI":-109,"Ack Time":29267,"User ID":"xxxxxxxxxxxx","UserType":"User Module"} 
+2023-09-18 17:23:59 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:23:51","Route No":"4444","Sig RSSI":-10301,"Ack Time":18677,"User ID":"23093000000U","UserType":"User Module"} 
+2023-09-18 17:24:29 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-18 17:24:35 error: Unexpected token R in JSON at position 27 
+    SyntaxError: Unexpected token R in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-18 17:25:02 debug: The payload is not in appropriate format for topic::kspl1 & payload:: {"OnBoard":3,"date&Time":"23/09/18,17:23:40","Route No":"5555","Sig RSSI":-34,"Ack Time":7316,"User ID":"xxxxxxxxxxxx","UserType":"User Module"} 
+2023-09-18 17:25:14 debug: The payload is not in appropriate format for topic::kspl1 & payload:: {"OnBoard":4,"date&Time":"23/09/18,17:23:40","Route No":"5555","Sig RSSI":-110,"Ack Time":19204,"User ID":"xxxxxxxxxxxx","UserType":"User Module"} 
+2023-09-18 17:26:01 debug: The payload is not in appropriate format for topic::kspl1 & payload:: {"OnBoard":5,"date&Time":"23/09/18,17:23:40","Route No":"5555","Sig RSSI":-40,"Ack Time":6453,"User ID":"xxxxxxxxxxxx","UserType":"User Module"} 
+2023-09-18 17:26:16 debug: The payload is not in appropriate format for topic::kspl1 & payload:: {"OnBoard":6,"date&Time":"23/09/18,17:23:40","Route No":"5555","Sig RSSI":-36,"Ack Time":7514,"User ID":"xxxxxxxxxxxx","UserType":"User Module"} 
+2023-09-18 17:26:38 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-18 17:26:56 debug: The payload is not in appropriate format for topic::kspl1 & payload:: {"OnBoard":7,"date&Time":"23/09/18,17:23:40","Route No":"5555","Sig RSSI":-41,"Ack Time":7177,"User ID":"xxxxxxxxxxxx","UserType":"User Module"} 
+2023-09-18 17:26:58 debug: The payload is not in appropriate format for topic::kspl1 & payload:: {"OnBoard":8,"date&Time":"23/09/18,17:23:40","Route No":"5555","Sig RSSI":-109,"Ack Time":10193,"User ID":"xxxxxxxxxxxx","UserType":"User Module"} 
+2023-09-18 17:27:14 debug: The payload is not in appropriate format for topic::kspl1 & payload:: {"OnBoard":9,"date&Time":"23/09/18,17:23:40","Route No":"5555","Sig RSSI":-36,"Ack Time":7177,"User ID":"xxxxxxxxxxxx","UserType":"User Module"} 
+2023-09-18 17:27:30 debug: The payload is not in appropriate format for topic::kspl1 & payload:: {"OnBoard":10,"date&Time":"23/09/18,17:23:40","Route No":"5555","Sig RSSI":-104,"Ack Time":6743,"User ID":"xxxxxxxxxxxx","UserType":"User Module"} 
+2023-09-18 17:27:37 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-18 17:28:49 error: Unexpected token R in JSON at position 27 
+    SyntaxError: Unexpected token R in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-18 17:28:56 error: Unexpected token R in JSON at position 27 
+    SyntaxError: Unexpected token R in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-18 17:32:56 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-18 17:33:02 error: Unexpected token R in JSON at position 27 
+    SyntaxError: Unexpected token R in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-18 17:33:19 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:32:59","Route No":"4444","Sig RSSI":-10233,"Ack Time":11225,"User ID":"23093000000U","UserType":"User Module"} 
+2023-09-18 17:33:57 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:33:18","Route No":"4444","Sig RSSI":-10237,"Ack Time":11437,"User ID":"23093000000U","UserType":"User Module"} 
+2023-09-18 17:34:24 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-18 17:34:31 error: Unexpected token R in JSON at position 27 
+    SyntaxError: Unexpected token R in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-18 17:35:27 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:34:27","Route No":"4444","Sig RSSI":-10233,"Ack Time":145,"User ID":"75626A435D75","UserType":"Mobile App "} 
+2023-09-18 17:35:53 debug: The payload is not in appropriate format for topic::DL9C0022 & payload:: {"Bus ID":"DL9C0022","Date&Time":"23/09/18,17:28:45","Route No":"8888","Sig RSSI":-30,"Ack Time":145,"User ID":"75626A435D75","UserType":"Mobile App "} 
+2023-09-18 17:36:09 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:35:26","Route No":"4444","Sig RSSI":-10302,"Ack Time":145,"User ID":"75626A435D75","UserType":"Mobile App "} 
+2023-09-18 17:36:18 debug: The payload is not in appropriate format for topic::DL9C0022 & payload:: {"Bus ID":"DL9C0022","Date&Time":"23/09/18,17:35:51","Route No":"8888","Sig RSSI":-109,"Ack Time":145,"User ID":"75626A435D75","UserType":"Mobile App "} 
+2023-09-18 17:36:26 debug: The payload is not in appropriate format for topic::DL9C0022 & payload:: {"Bus ID":"DL9C0022","Date&Time":"23/09/18,17:36:16","Route No":"8888","Sig RSSI":-10298,"Ack Time":145,"User ID":"75626A435D75","UserType":"Mobile App "} 
+2023-09-18 17:36:48 debug: The payload is not in appropriate format for topic::DL9C0022 & payload:: {"Bus ID":"DL9C0022","Date&Time":"23/09/18,17:36:25","Route No":"8888","Sig RSSI":-10301,"Ack Time":145,"User ID":"75626A435D75","UserType":"Mobile App "} 
+2023-09-18 17:37:00 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:36:09","Route No":"4444","Sig RSSI":-10302,"Ack Time":145,"User ID":"75626A435D75","UserType":"Mobile App "} 
+2023-09-18 17:39:28 debug: The payload is not in appropriate format for topic::DL9C0022 & payload:: {"Bus ID":"DL9C0022","Date&Time":"23/09/18,17:36:46","Route No":"8888","Sig RSSI":-10302,"Ack Time":145,"User ID":"75626A435D75","UserType":"Mobile App "} 
+2023-09-18 17:39:38 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:36:59","Route No":"4444","Sig RSSI":-10303,"Ack Time":145,"User ID":"75626A435D75","UserType":"Mobile App "} 
+2023-09-18 17:41:19 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:39:37","Route No":"4444","Sig RSSI":-10253,"Ack Time":6517,"User ID":"23080901024U","UserType":"User Module"} 
+2023-09-18 17:41:30 debug: The payload is not in appropriate format for topic::DL9C0022 & payload:: {"Bus ID":"DL9C0022","Date&Time":"23/09/18,17:39:27","Route No":"8888","Sig RSSI":-10236,"Ack Time":5911,"User ID":"23080901024U","UserType":"User Module"} 
+2023-09-18 17:41:48 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:41:18","Route No":"4444","Sig RSSI":-10241,"Ack Time":10598,"User ID":"23080901024U","UserType":"User Module"} 
+2023-09-18 17:42:04 debug: The payload is not in appropriate format for topic::DL9C0022 & payload:: {"Bus ID":"DL9C0022","Date&Time":"23/09/18,17:41:29","Route No":"8888","Sig RSSI":-10231,"Ack Time":6661,"User ID":"23080901024U","UserType":"User Module"} 
+2023-09-18 17:42:19 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:41:47","Route No":"4444","Sig RSSI":-10242,"Ack Time":9913,"User ID":"23080901024U","UserType":"User Module"} 
+2023-09-18 17:42:40 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:42:18","Route No":"4444","Sig RSSI":-10242,"Ack Time":10246,"User ID":"23080901024U","UserType":"User Module"} 
+2023-09-18 17:42:52 debug: The payload is not in appropriate format for topic::DL9C0022 & payload:: {"Bus ID":"DL9C0022","Date&Time":"23/09/18,17:42:02","Route No":"8888","Sig RSSI":-10233,"Ack Time":6311,"User ID":"23080901024U","UserType":"User Module"} 
+2023-09-18 17:43:05 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:42:40","Route No":"4444","Sig RSSI":-10243,"Ack Time":6834,"User ID":"23080901024U","UserType":"User Module"} 
+2023-09-18 17:46:29 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:43:04","Route No":"4444","Sig RSSI":-10298,"Ack Time":145,"User ID":"00001919968U","UserType":"Mobile App "} 
+2023-09-18 17:46:40 debug: The payload is not in appropriate format for topic::DL9C0022 & payload:: {"Bus ID":"DL9C0022","Date&Time":"23/09/18,17:42:51","Route No":"8888","Sig RSSI":-10298,"Ack Time":146,"User ID":"00000901024U","UserType":"Mobile App "} 
+2023-09-18 17:47:48 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:46:28","Route No":"4444","Sig RSSI":-10301,"Ack Time":145,"User ID":"7252EE2CDE24","UserType":"Mobile App "} 
+2023-09-18 17:47:57 debug: The payload is not in appropriate format for topic::DL9C0022 & payload:: {"Bus ID":"DL9C0022","Date&Time":"23/09/18,17:46:39","Route No":"8888","Sig RSSI":-10301,"Ack Time":145,"User ID":"7252EE2CDE24","UserType":"Mobile App "} 
+2023-09-18 17:48:06 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:47:47","Route No":"4444","Sig RSSI":-10302,"Ack Time":146,"User ID":"7252EE2CDE24","UserType":"Mobile App "} 
+2023-09-18 17:48:30 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:48:05","Route No":"4444","Sig RSSI":-10240,"Ack Time":6439,"User ID":"23080901024U","UserType":"User Module"} 
+2023-09-18 17:48:45 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:48:29","Route No":"4444","Sig RSSI":-10245,"Ack Time":6769,"User ID":"23080901024U","UserType":"User Module"} 
+2023-09-18 17:48:56 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:48:44","Route No":"4444","Sig RSSI":-10243,"Ack Time":6157,"User ID":"23080901024U","UserType":"User Module"} 
+2023-09-18 17:48:59 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:48:55","Route No":"4444","Sig RSSI":-10305,"Ack Time":9263,"User ID":"23080901024U","UserType":"User Module"} 
+2023-09-18 17:49:23 debug: The payload is not in appropriate format for topic::DL9C0022 & payload:: {"Bus ID":"DL9C0022","Date&Time":"23/09/18,17:47:56","Route No":"8888","Sig RSSI":-10236,"Ack Time":6224,"User ID":"23080901024U","UserType":"User Module"} 
+2023-09-18 17:50:16 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-18 17:50:23 error: Unexpected token R in JSON at position 27 
+    SyntaxError: Unexpected token R in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-18 17:50:35 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:50:19","Route No":"4444","Sig RSSI":-109,"Ack Time":6158,"User ID":"23080901024U","UserType":"User Module"} 
+2023-09-18 17:51:21 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-18 17:51:28 error: Unexpected token R in JSON at position 27 
+    SyntaxError: Unexpected token R in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:33:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-09-18 17:53:09 debug: The payload is not in appropriate format for topic::DL9C0011 & payload:: {"Bus ID":"DL9C0011","Date&Time":"23/09/18,17:51:23","Route No":"4444","Sig RSSI":-10242,"Ack Time":6280,"User ID":"23080901024U","UserType":"User Module"} 
+2023-09-18 17:53:25 debug: The payload is not in appropriate format for topic::DL9C0022 & payload:: {"Bus ID":"DL9C0022","Date&Time":"23/09/18,17:49:22","Route No":"8888","Sig RSSI":-10302,"Ack Time":10939,"User ID":"23080901024U","UserType":"User Module"} 

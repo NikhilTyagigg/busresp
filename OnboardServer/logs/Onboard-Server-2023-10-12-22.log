@@ -1,0 +1,23 @@
+2023-10-12 22:36:20 info: ::1 - - [12/Oct/2023:17:06:20 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 22:36:20 info: Get vehicles 
+2023-10-12 22:36:20 info: ::1 - - [12/Oct/2023:17:06:20 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 109 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 22:37:20 info: ::1 - - [12/Oct/2023:17:07:20 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 22:37:20 info: Get vehicles 
+2023-10-12 22:37:20 info: ::1 - - [12/Oct/2023:17:07:20 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 109 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 22:37:26 info: ::1 - - [12/Oct/2023:17:07:26 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 22:37:26 info: Get vehicles 
+2023-10-12 22:37:26 info: ::1 - - [12/Oct/2023:17:07:26 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 109 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 22:38:13 info: ::1 - - [12/Oct/2023:17:08:13 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 22:38:13 info: Get vehicles 
+2023-10-12 22:38:13 info: ::1 - - [12/Oct/2023:17:08:13 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 109 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-12 22:38:16 info: Get vehicles 
+2023-10-12 22:38:16 info: ::1 - - [12/Oct/2023:17:08:16 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 109 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 

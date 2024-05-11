@@ -1,0 +1,104 @@
+2023-09-04 18:00:07 error: res is not defined 
+    ReferenceError: res is not defined
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:115:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 18:00:07 error: ReferenceError: res is not defined 
+    Error: ReferenceError: res is not defined
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 18:00:07 alert: ReferenceError: res is not defined 
+    Error: ReferenceError: res is not defined
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 18:00:07 info: ::ffff:127.0.0.1 - - [04/Sep/2023:12:30:07 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 73 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-04 18:01:42 info: Onboard Server is started and running at the port 3000 
+2023-09-04 18:01:56 error: Email Already registered!! 
+    Error: Email Already registered!!
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:106:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 18:01:56 error: Error: Email Already registered!! 
+    Error: Error: Email Already registered!!
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 18:01:56 alert: Error: Email Already registered!! 
+    Error: Error: Email Already registered!!
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 18:01:56 info: ::ffff:127.0.0.1 - - [04/Sep/2023:12:31:56 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 72 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-04 18:02:01 error: res.successBody is not a function 
+    TypeError: res.successBody is not a function
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:115:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 18:02:01 error: TypeError: res.successBody is not a function 
+    Error: TypeError: res.successBody is not a function
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 18:02:01 alert: TypeError: res.successBody is not a function 
+    Error: TypeError: res.successBody is not a function
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 18:02:01 info: ::ffff:127.0.0.1 - - [04/Sep/2023:12:32:01 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 83 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-04 18:03:04 error: res.successBody is not a function 
+    TypeError: res.successBody is not a function
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:115:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 18:03:04 error: TypeError: res.successBody is not a function 
+    Error: TypeError: res.successBody is not a function
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 18:03:04 alert: TypeError: res.successBody is not a function 
+    Error: TypeError: res.successBody is not a function
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 18:03:04 info: ::ffff:127.0.0.1 - - [04/Sep/2023:12:33:04 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 83 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-04 18:03:10 info: Onboard Server is started and running at the port 3000 
+2023-09-04 18:03:12 error: Email Already registered!! 
+    Error: Email Already registered!!
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:106:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 18:03:12 error: Error: Email Already registered!! 
+    Error: Error: Email Already registered!!
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 18:03:12 alert: Error: Email Already registered!! 
+    Error: Error: Email Already registered!!
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 18:03:12 info: ::ffff:127.0.0.1 - - [04/Sep/2023:12:33:12 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 72 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-04 18:03:17 error: ErrorCodes is not defined 
+    ReferenceError: ErrorCodes is not defined
+    at main.successBody (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/utility.js:14:11)
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:115:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 18:03:17 error: ReferenceError: ErrorCodes is not defined 
+    Error: ReferenceError: ErrorCodes is not defined
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 18:03:17 alert: ReferenceError: ErrorCodes is not defined 
+    Error: ReferenceError: ErrorCodes is not defined
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 18:03:17 info: ::ffff:127.0.0.1 - - [04/Sep/2023:12:33:17 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 80 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-04 18:05:03 info: Onboard Server is started and running at the port 3000 
+2023-09-04 18:05:09 error: Email Already registered!! 
+    Error: Email Already registered!!
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:106:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 18:05:10 error: Error: Email Already registered!! 
+    Error: Error: Email Already registered!!
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 18:05:10 alert: Error: Email Already registered!! 
+    Error: Error: Email Already registered!!
+    at /media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/routes/api/v1/auth.js:120:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-04 18:05:10 info: ::ffff:127.0.0.1 - - [04/Sep/2023:12:35:10 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 400 72 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-04 18:05:18 info: ::ffff:127.0.0.1 - - [04/Sep/2023:12:35:18 +0000] "POST /api/v1/auth/register/ HTTP/1.1" 200 109 "-" "Thunder Client (https://www.thunderclient.com)"
+ 

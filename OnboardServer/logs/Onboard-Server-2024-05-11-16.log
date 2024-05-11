@@ -1,0 +1,24 @@
+2024-05-11 16:00:00 info: Adding/updating vehicle vehicle::{"vehicleNo":"A01FA0420","vehicleModule":"BA-0041","vehicleType":1,"vehicleId":12,"isActive":false,"user":"undefined","type":null} 
+2024-05-11 16:00:00 info: ::1 - - [11/May/2024:10:30:00 +0000] "POST /api/v1/route/addVehicle HTTP/1.1" 200 1933 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 16:00:03 info: ::1 - - [11/May/2024:10:30:03 +0000] "OPTIONS /api/v1/route/addVehicle HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 16:00:03 info: Adding/updating vehicle vehicle::{"vehicleNo":"A01FA0419","vehicleModule":"A-00420","vehicleType":1,"vehicleId":11,"isActive":false,"user":"undefined","type":null} 
+2024-05-11 16:00:03 info: ::1 - - [11/May/2024:10:30:03 +0000] "POST /api/v1/route/addVehicle HTTP/1.1" 200 1668 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 16:00:06 info: Adding/updating vehicle vehicle::{"vehicleNo":"A01FA0418","vehicleModule":"B-00419","vehicleType":1,"vehicleId":10,"isActive":false,"user":"undefined","type":null} 
+2024-05-11 16:00:06 info: ::1 - - [11/May/2024:10:30:06 +0000] "POST /api/v1/route/addVehicle HTTP/1.1" 200 1403 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 16:00:08 info: Adding/updating vehicle vehicle::{"vehicleNo":"A01FA0417","vehicleModule":"A-00418","vehicleType":1,"vehicleId":9,"isActive":false,"user":"undefined","type":null} 
+2024-05-11 16:00:08 info: ::1 - - [11/May/2024:10:30:08 +0000] "POST /api/v1/route/addVehicle HTTP/1.1" 200 1139 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 16:00:12 info: ::1 - - [11/May/2024:10:30:12 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 16:00:12 info: Get vehicles 
+2024-05-11 16:00:12 info: ::1 - - [11/May/2024:10:30:12 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1201 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 16:05:23 info: ::1 - - [11/May/2024:10:35:23 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 16:05:23 info: Get vehicles 
+2024-05-11 16:05:23 info: ::1 - - [11/May/2024:10:35:23 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1201 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 

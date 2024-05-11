@@ -1,0 +1,11 @@
+2023-10-16 00:00:01 info: Onboard Server is started and running at the port 5000 
+2023-10-16 00:02:26 info: ::1 - - [15/Oct/2023:18:32:26 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-16 00:02:26 info: Get vehicles 
+2023-10-16 00:02:26 info: ::1 - - [15/Oct/2023:18:32:26 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 2044 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-16 00:02:40 info: ::1 - - [15/Oct/2023:18:32:40 +0000] "OPTIONS /api/v1/route/addVehicle HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-16 00:02:40 info: Adding/updating vehicle vehicle::{"vehicleModule":"9334","vehicleNo":"9092","vehicleType":1,"vehicleId":6,"isActive":false,"user":"undefined","type":"23"} 
+2023-10-16 00:02:40 info: ::1 - - [15/Oct/2023:18:32:40 +0000] "POST /api/v1/route/addVehicle HTTP/1.1" 200 1709 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 

@@ -1,0 +1,45 @@
+2023-12-27 17:40:19 info: ::1 - - [27/Dec/2023:12:10:19 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 17:40:19 info: Get vehicles 
+2023-12-27 17:40:19 info: ::1 - - [27/Dec/2023:12:10:19 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 1324 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 17:40:24 info: ::1 - - [27/Dec/2023:12:10:24 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 17:40:24 info: ::1 - - [27/Dec/2023:12:10:24 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 17:40:24 info: Fetching master data 
+2023-12-27 17:40:24 info: Getting master data 
+2023-12-27 17:40:24 info: Fetching vehicle route map data 
+2023-12-27 17:40:24 info: Get vehicles 
+2023-12-27 17:40:24 info: ::1 - - [27/Dec/2023:12:10:24 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 7596 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 17:40:24 info: ::1 - - [27/Dec/2023:12:10:24 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 562 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 17:41:13 info: ::1 - - [27/Dec/2023:12:11:13 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 17:41:13 info: Add or update route info 
+2023-12-27 17:41:13 info: Adding/updating route details::{"routeId":13,"routeNo":"00QQ90","vehicleNo":"BM-00325","vehicleId":22,"date":"2023-12-27T12:10:24.146Z","user":"undefined","type":"16"} 
+2023-12-27 17:41:13 info: Publish to mqtt::{"Bus Id":"BM-00325","Route No":"00QQ90"} 
+2023-12-27 17:41:13 info: ::1 - - [27/Dec/2023:12:11:13 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 200 8161 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 17:41:14 debug: The payload is not in appropriate format for topic::BM-00325 & payload:: {"Bus Id":"BM-00325","Route No":"00QQ90"} 
+2023-12-27 17:41:19 info: ::1 - - [27/Dec/2023:12:11:19 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 17:41:19 info: Fetching vehicle route map data 
+2023-12-27 17:41:19 info: Get vehicles 
+2023-12-27 17:41:19 info: ::1 - - [27/Dec/2023:12:11:19 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 8161 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 17:42:09 info: ::1 - - [27/Dec/2023:12:12:09 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 17:42:09 info: Add or update route info 
+2023-12-27 17:42:09 info: Adding/updating route details::{"routeId":13,"routeNo":"00QQ90","vehicleNo":"BM-00123","vehicleId":23,"date":"2023-12-27T12:11:13.810Z","user":"undefined","type":"16"} 
+2023-12-27 17:42:09 info: Publish to mqtt::{"Bus Id":"BM-00123","Route No":"00QQ90"} 
+2023-12-27 17:42:09 info: ::1 - - [27/Dec/2023:12:12:09 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 200 8731 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 17:42:09 debug: The payload is not in appropriate format for topic::BM-00123 & payload:: {"Bus Id":"BM-00123","Route No":"00QQ90"} 
+2023-12-27 17:42:19 info: ::1 - - [27/Dec/2023:12:12:19 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 17:42:19 info: Fetching vehicle route map data 
+2023-12-27 17:42:19 info: Get vehicles 
+2023-12-27 17:42:19 info: ::1 - - [27/Dec/2023:12:12:19 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 8730 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 

@@ -1,0 +1,10 @@
+2024-05-10 13:04:32 info: Onboard Server is started and running at the port 5000 
+2024-05-10 13:04:51 info: ::1 - - [10/May/2024:07:34:51 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-10 13:04:51 info: Get vehicles 
+2024-05-10 13:05:19 info: Onboard Server is started and running at the port 5000 
+2024-05-10 13:05:40 error: Error:Error: getaddrinfo ENOTFOUND axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2024-05-10 13:05:40 error: Error:Error: getaddrinfo ENOTFOUND axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2024-05-10 13:12:19 info: ::1 - - [10/May/2024:07:42:19 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-10 13:12:19 info: Get vehicles 

@@ -1,0 +1,145 @@
+2023-12-27 14:00:27 info: Onboard Server is started and running at the port 5000 
+2023-12-27 14:08:46 info: ::1 - - [27/Dec/2023:08:38:46 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:08:46 info: Get vehicles 
+2023-12-27 14:08:46 info: ::1 - - [27/Dec/2023:08:38:46 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 2057 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:09:04 info: ::1 - - [27/Dec/2023:08:39:04 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:09:04 info: Get vehicles 
+2023-12-27 14:09:04 info: ::1 - - [27/Dec/2023:08:39:04 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 1324 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:09:16 info: ::1 - - [27/Dec/2023:08:39:16 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:09:16 info: ::1 - - [27/Dec/2023:08:39:16 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:09:16 info: Fetching master data 
+2023-12-27 14:09:16 info: Getting master data 
+2023-12-27 14:09:16 info: Fetching vehicle route map data 
+2023-12-27 14:09:16 info: Get vehicles 
+2023-12-27 14:09:16 info: ::1 - - [27/Dec/2023:08:39:16 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 7027 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:09:16 info: ::1 - - [27/Dec/2023:08:39:16 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 562 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:09:17 info: ::1 - - [27/Dec/2023:08:39:17 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:09:17 info: Get vehicles 
+2023-12-27 14:09:17 info: ::1 - - [27/Dec/2023:08:39:17 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 49337 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:09:41 info: ::1 - - [27/Dec/2023:08:39:41 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:09:41 info: Get vehicles 
+2023-12-27 14:09:41 info: ::1 - - [27/Dec/2023:08:39:41 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 49337 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:09:48 info: ::1 - - [27/Dec/2023:08:39:48 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:09:48 info: Get vehicles 
+2023-12-27 14:09:48 info: ::1 - - [27/Dec/2023:08:39:48 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 49337 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:09:57 info: ::1 - - [27/Dec/2023:08:39:57 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:09:57 info: Get vehicles 
+2023-12-27 14:09:57 info: ::1 - - [27/Dec/2023:08:39:57 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 49337 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:09:59 info: ::1 - - [27/Dec/2023:08:39:59 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:09:59 info: Get vehicles 
+2023-12-27 14:09:59 info: ::1 - - [27/Dec/2023:08:39:59 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 2057 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:09:59 info: ::1 - - [27/Dec/2023:08:39:59 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:09:59 info: Get vehicles 
+2023-12-27 14:09:59 info: ::1 - - [27/Dec/2023:08:39:59 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 1324 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:10:02 info: ::1 - - [27/Dec/2023:08:40:02 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:10:02 info: ::1 - - [27/Dec/2023:08:40:02 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:10:02 info: Fetching master data 
+2023-12-27 14:10:02 info: Getting master data 
+2023-12-27 14:10:02 info: Fetching vehicle route map data 
+2023-12-27 14:10:02 info: Get vehicles 
+2023-12-27 14:10:02 info: ::1 - - [27/Dec/2023:08:40:02 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 7027 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:10:02 info: ::1 - - [27/Dec/2023:08:40:02 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 562 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:10:12 info: ::1 - - [27/Dec/2023:08:40:12 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:10:12 info: Add or update route info 
+2023-12-27 14:10:12 info: Adding/updating route details::{"routeId":13,"routeNo":"00QQ90","vehicleNo":"BM-00123","vehicleId":23,"date":"2023-12-27T08:40:01.999Z","user":"undefined","type":"16"} 
+2023-12-27 14:10:12 info: Publish to mqtt::{"Bus Id":"BM-00123","Route_NO":"00QQ90"} 
+2023-12-27 14:10:12 info: ::1 - - [27/Dec/2023:08:40:12 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 200 7597 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:10:14 debug: The payload is not in appropriate format for topic::BM-00123 & payload:: {"Bus Id":"BM-00123","Route_NO":"00QQ90"} 
+2023-12-27 14:10:19 info: ::1 - - [27/Dec/2023:08:40:19 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:10:19 info: Fetching vehicle route map data 
+2023-12-27 14:10:19 info: Get vehicles 
+2023-12-27 14:10:19 info: ::1 - - [27/Dec/2023:08:40:19 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 7597 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:14:35 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:38:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-12-27 14:14:36 error: Unexpected token : in JSON at position 23 
+    SyntaxError: Unexpected token : in JSON at position 23
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:38:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-12-27 14:14:43 info: ::1 - - [27/Dec/2023:08:44:43 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:14:43 info: Add or update route info 
+2023-12-27 14:14:43 info: Adding/updating route details::{"vehicleNo":"BM-00123","routeNo":"00QQ90","id":13,"user":"undefined","type":"16"} 
+2023-12-27 14:14:43 info: Publish to mqtt::{"Bus Id":"BM-00123","Route_NO":"00QQ90"} 
+2023-12-27 14:14:43 info: ::1 - - [27/Dec/2023:08:44:43 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 200 7597 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:14:43 debug: The payload is not in appropriate format for topic::BM-00123 & payload:: {"Bus Id":"BM-00123","Route_NO":"00QQ90"} 
+2023-12-27 14:14:50 info: ::1 - - [27/Dec/2023:08:44:50 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:14:50 info: Fetching vehicle route map data 
+2023-12-27 14:14:50 info: Get vehicles 
+2023-12-27 14:14:50 info: ::1 - - [27/Dec/2023:08:44:50 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 7597 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:16:22 info: Onboard Server is started and running at the port 5000 
+2023-12-27 14:16:24 error: Unexpected token : in JSON at position 23 
+    SyntaxError: Unexpected token : in JSON at position 23
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:38:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-12-27 14:16:38 info: ::1 - - [27/Dec/2023:08:46:38 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:16:38 info: Add or update route info 
+2023-12-27 14:16:38 info: Adding/updating route details::{"vehicleNo":"BM-00123","routeNo":"00QQ90","id":13,"user":"undefined","type":"16"} 
+2023-12-27 14:16:38 info: Publish to mqtt::{"Bus Id":"BM-00123","Route No":"00QQ90"} 
+2023-12-27 14:16:38 info: ::1 - - [27/Dec/2023:08:46:38 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 200 7597 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:16:38 debug: The payload is not in appropriate format for topic::BM-00123 & payload:: {"Bus Id":"BM-00123","Route No":"00QQ90"} 
+2023-12-27 14:16:44 info: ::1 - - [27/Dec/2023:08:46:44 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:16:44 info: Fetching vehicle route map data 
+2023-12-27 14:16:44 info: Get vehicles 
+2023-12-27 14:16:44 info: ::1 - - [27/Dec/2023:08:46:44 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 7596 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-12-27 14:18:16 debug: The payload is not in appropriate format for topic::BM-00123 & payload:: {"Bus Id":"BM-00123","Route No":"123Q90"} 

@@ -1,0 +1,22 @@
+2023-09-11 01:23:39 info: ::ffff:127.0.0.1 - - [10/Sep/2023:19:53:39 +0000] "POST /api/v1/route/updateRouteMap HTTP/1.1" 200 92 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-11 01:25:00 info: Onboard Server is started and running at the port 3000 
+2023-09-11 01:25:00 error: Error:Error: getaddrinfo EAI_AGAIN axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2023-09-11 01:25:01 error: Error:Error: getaddrinfo EAI_AGAIN axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2023-09-11 01:25:03 error: Error:Error: getaddrinfo EAI_AGAIN axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2023-09-11 01:25:07 error: Error:Error: getaddrinfo EAI_AGAIN axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2023-09-11 01:25:15 error: Error:Error: getaddrinfo EAI_AGAIN axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2023-09-11 01:25:31 error: Error:Error: getaddrinfo EAI_AGAIN axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2023-09-11 01:25:35 info: ::ffff:127.0.0.1 - - [10/Sep/2023:19:55:35 +0000] "POST /api/v1/route/updateRouteMap HTTP/1.1" 200 92 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-11 01:25:47 info: ::ffff:127.0.0.1 - - [10/Sep/2023:19:55:47 +0000] "POST /api/v1/route/updateRouteMap HTTP/1.1" 200 92 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-11 01:25:58 info: ::ffff:127.0.0.1 - - [10/Sep/2023:19:55:58 +0000] "POST /api/v1/route/updateRouteMap HTTP/1.1" 200 92 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-11 01:26:02 info: ::ffff:127.0.0.1 - - [10/Sep/2023:19:56:02 +0000] "POST /api/v1/route/updateRouteMap HTTP/1.1" 200 92 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-11 01:26:03 error: Error:Error: getaddrinfo EAI_AGAIN axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2023-09-11 01:26:03 info: ::ffff:127.0.0.1 - - [10/Sep/2023:19:56:03 +0000] "POST /api/v1/route/updateRouteMap HTTP/1.1" 200 92 "-" "Thunder Client (https://www.thunderclient.com)"
+ 
+2023-09-11 01:26:31 info: ::ffff:127.0.0.1 - - [10/Sep/2023:19:56:31 +0000] "POST /api/v1/route/updateRouteMap HTTP/1.1" 200 92 "-" "Thunder Client (https://www.thunderclient.com)"
+ 

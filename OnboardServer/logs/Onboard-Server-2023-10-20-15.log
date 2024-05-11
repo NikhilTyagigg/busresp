@@ -1,0 +1,26 @@
+2023-10-20 15:39:19 info: ::1 - - [20/Oct/2023:10:09:19 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-20 15:39:19 info: Add or update route info 
+2023-10-20 15:39:19 info: Adding/updating route details::{"routeId":8,"routeNo":"9944","vehicleNo":"34343","vehicleId":2,"date":"2023-10-20T08:43:37.010Z","user":"undefined","type":"14"} 
+2023-10-20 15:39:19 info: Publish to mqtt::{"Bus Id":"34343","Route No":"9944","Id":7} 
+2023-10-20 15:39:19 info: ::1 - - [20/Oct/2023:10:09:19 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 200 4110 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+ 
+2023-10-20 15:42:50 info: Onboard Server is started and running at the port 5000 
+2023-10-20 15:43:14 info: Onboard Server is started and running at the port 5000 
+2023-10-20 15:43:28 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/helper/mqtt.js:34:26)
+    at DeviceClient.emit (node:events:513:28)
+    at MqttClient.<anonymous> (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/device/index.js:826:12)
+    at MqttClient.emit (node:events:513:28)
+    at MqttClient._handlePublish (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:1277:12)
+    at MqttClient._handlePacket (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:410:12)
+    at work (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:321:12)
+    at writable._write (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/aws-iot-device-sdk/node_modules/mqtt/lib/client.js:335:5)
+    at doWrite (/media/keshav/New Volume/onboard_upgrade/01_Software/OnboardServer/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+2023-10-20 15:43:46 info: Onboard Server is started and running at the port 5000 
+2023-10-20 15:43:51 info: Onboard Server is started and running at the port 5000 
+2023-10-20 15:45:33 info: Onboard Server is started and running at the port 5000 
+2023-10-20 15:45:54 info: Onboard Server is started and running at the port 5000 
+2023-10-20 15:46:06 info: Onboard Server is started and running at the port 5000 
