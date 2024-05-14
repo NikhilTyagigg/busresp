@@ -1,0 +1,150 @@
+2024-05-12 22:03:11 info: Onboard Server is started and running at the port 5000 
+2024-05-12 22:04:49 info: ::1 - - [12/May/2024:16:34:49 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-12 22:04:49 info: Get vehicles 
+2024-05-12 22:04:49 info: ::1 - - [12/May/2024:16:34:49 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1463 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-12 22:04:56 info: ::1 - - [12/May/2024:16:34:56 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-12 22:04:56 info: Get vehicles 
+2024-05-12 22:04:56 info: ::1 - - [12/May/2024:16:34:56 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-12 22:05:18 info: ::1 - - [12/May/2024:16:35:18 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-12 22:05:18 info: Add or update route info 
+2024-05-12 22:05:18 info: Adding/updating route details::{"routeNo":"1","startPoint":"t","endPoint":"g","depotname":"rohini","startTime":"12","endTime":"1","intermediateStops":"rr","user":"undefined","type":null} 
+2024-05-12 22:05:18 error: notNull Violation: Route.startTime cannot be null,
+notNull Violation: Route.endTime cannot be null,
+notNull Violation: Route.depotName cannot be null,
+notNull Violation: Route.frequency cannot be null 
+    SequelizeValidationError: notNull Violation: Route.startTime cannot be null,
+notNull Violation: Route.endTime cannot be null,
+notNull Violation: Route.depotName cannot be null,
+notNull Violation: Route.frequency cannot be null
+    at InstanceValidator._validate (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\instance-validator.js:50:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InstanceValidator._validateAndRunHooks (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\instance-validator.js:60:7)
+    at async InstanceValidator.validate (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\instance-validator.js:54:12)
+    at async Route.save (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:2426:7)
+    at async Route.create (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1362:12)
+    at async main.addRoute (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:235:25)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:62:22
+2024-05-12 22:05:18 error: SequelizeValidationError: notNull Violation: Route.startTime cannot be null,
+notNull Violation: Route.endTime cannot be null,
+notNull Violation: Route.depotName cannot be null,
+notNull Violation: Route.frequency cannot be null 
+    Error: SequelizeValidationError: notNull Violation: Route.startTime cannot be null,
+notNull Violation: Route.endTime cannot be null,
+notNull Violation: Route.depotName cannot be null,
+notNull Violation: Route.frequency cannot be null
+    at main.addRoute (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:254:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:62:22
+2024-05-12 22:05:18 error: SequelizeValidationError: notNull Violation: Route.startTime cannot be null,
+notNull Violation: Route.endTime cannot be null,
+notNull Violation: Route.depotName cannot be null,
+notNull Violation: Route.frequency cannot be null 
+    Error: SequelizeValidationError: notNull Violation: Route.startTime cannot be null,
+notNull Violation: Route.endTime cannot be null,
+notNull Violation: Route.depotName cannot be null,
+notNull Violation: Route.frequency cannot be null
+    at main.addRoute (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:254:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:62:22
+2024-05-12 22:05:18 info: ::1 - - [12/May/2024:16:35:18 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 500 265 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-12 22:05:58 info: ::1 - - [12/May/2024:16:35:58 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-12 22:05:58 info: Add or update route info 
+2024-05-12 22:05:58 info: Adding/updating route details::{"routeNo":"232","startPoint":"fg","endPoint":"fh","depotname":"rohini","startTime":"12:00","endTime":"1:00","intermediateStops":"gg,hh","user":"undefined","type":null} 
+2024-05-12 22:05:58 error: notNull Violation: Route.startTime cannot be null,
+notNull Violation: Route.endTime cannot be null,
+notNull Violation: Route.depotName cannot be null,
+notNull Violation: Route.frequency cannot be null 
+    SequelizeValidationError: notNull Violation: Route.startTime cannot be null,
+notNull Violation: Route.endTime cannot be null,
+notNull Violation: Route.depotName cannot be null,
+notNull Violation: Route.frequency cannot be null
+    at InstanceValidator._validate (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\instance-validator.js:50:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InstanceValidator._validateAndRunHooks (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\instance-validator.js:60:7)
+    at async InstanceValidator.validate (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\instance-validator.js:54:12)
+    at async Route.save (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:2426:7)
+    at async Route.create (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1362:12)
+    at async main.addRoute (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:235:25)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:62:22
+2024-05-12 22:05:58 error: SequelizeValidationError: notNull Violation: Route.startTime cannot be null,
+notNull Violation: Route.endTime cannot be null,
+notNull Violation: Route.depotName cannot be null,
+notNull Violation: Route.frequency cannot be null 
+    Error: SequelizeValidationError: notNull Violation: Route.startTime cannot be null,
+notNull Violation: Route.endTime cannot be null,
+notNull Violation: Route.depotName cannot be null,
+notNull Violation: Route.frequency cannot be null
+    at main.addRoute (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:254:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:62:22
+2024-05-12 22:05:58 error: SequelizeValidationError: notNull Violation: Route.startTime cannot be null,
+notNull Violation: Route.endTime cannot be null,
+notNull Violation: Route.depotName cannot be null,
+notNull Violation: Route.frequency cannot be null 
+    Error: SequelizeValidationError: notNull Violation: Route.startTime cannot be null,
+notNull Violation: Route.endTime cannot be null,
+notNull Violation: Route.depotName cannot be null,
+notNull Violation: Route.frequency cannot be null
+    at main.addRoute (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:254:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:62:22
+2024-05-12 22:05:58 info: ::1 - - [12/May/2024:16:35:58 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 500 265 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-12 22:06:30 info: Onboard Server is started and running at the port 5000 
+2024-05-12 22:06:43 info: ::1 - - [12/May/2024:16:36:43 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-12 22:06:43 info: Add or update route info 
+2024-05-12 22:06:43 info: Adding/updating route details::{"routeNo":"1","startPoint":"r","endPoint":"t","depotname":"roohini","startTime":"12","endTime":"1","intermediateStops":"csf","user":"undefined","type":null} 
+2024-05-12 22:06:43 error: notNull Violation: Route.startTime cannot be null,
+notNull Violation: Route.endTime cannot be null,
+notNull Violation: Route.depotName cannot be null 
+    SequelizeValidationError: notNull Violation: Route.startTime cannot be null,
+notNull Violation: Route.endTime cannot be null,
+notNull Violation: Route.depotName cannot be null
+    at InstanceValidator._validate (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\instance-validator.js:50:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InstanceValidator._validateAndRunHooks (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\instance-validator.js:60:7)
+    at async InstanceValidator.validate (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\instance-validator.js:54:12)
+    at async Route.save (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:2426:7)
+    at async Route.create (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1362:12)
+    at async main.addRoute (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:235:25)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:62:22
+2024-05-12 22:06:43 error: SequelizeValidationError: notNull Violation: Route.startTime cannot be null,
+notNull Violation: Route.endTime cannot be null,
+notNull Violation: Route.depotName cannot be null 
+    Error: SequelizeValidationError: notNull Violation: Route.startTime cannot be null,
+notNull Violation: Route.endTime cannot be null,
+notNull Violation: Route.depotName cannot be null
+    at main.addRoute (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:254:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:62:22
+2024-05-12 22:06:43 error: SequelizeValidationError: notNull Violation: Route.startTime cannot be null,
+notNull Violation: Route.endTime cannot be null,
+notNull Violation: Route.depotName cannot be null 
+    Error: SequelizeValidationError: notNull Violation: Route.startTime cannot be null,
+notNull Violation: Route.endTime cannot be null,
+notNull Violation: Route.depotName cannot be null
+    at main.addRoute (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:254:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:62:22
+2024-05-12 22:06:43 info: ::1 - - [12/May/2024:16:36:43 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 500 213 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-12 22:52:54 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:38:26)
+    at DeviceClient.emit (node:events:514:28)
+    at MqttClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\device\index.js:826:12)
+    at MqttClient.emit (node:events:514:28)
+    at MqttClient._handlePublish (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:1277:12)
+    at MqttClient._handlePacket (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:410:12)
+    at work (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:321:12)
+    at writable._write (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:335:5)
+    at doWrite (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\readable-stream\lib\_stream_writable.js:390:139)

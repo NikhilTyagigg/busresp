@@ -1,5 +1,5 @@
-'use strict';
-const { DataTypes, Model } = require('sequelize');
+"use strict";
+const { DataTypes, Model } = require("sequelize");
 
 module.exports = (sequelize) => {
   class VehicleType extends Model {
@@ -13,19 +13,22 @@ module.exports = (sequelize) => {
     }
   }
 
-  VehicleType.init({
-    vehicleTypeId: {
-      primaryKey: true,
-      autoIncrement: true,
-      type: DataTypes.INTEGER,
+  VehicleType.init(
+    {
+      vehicleTypeId: {
+        primaryKey: true,
+        autoIncrement: true,
+        type: DataTypes.INTEGER,
+      },
+      name: DataTypes.STRING(50),
+      createdAt: DataTypes.DATE,
+      updatedAt: DataTypes.DATE,
     },
-    name: DataTypes.STRING(50),
-    createdAt: DataTypes.DATE,
-    updatedAt: DataTypes.DATE,
-  }, {
-    sequelize,
-    modelName: 'VehicleType', // Correct casing for the model name
-  });
+    {
+      sequelize,
+      modelName: "VehicleType", // Correct casing for the model name
+    }
+  );
 
   return VehicleType; // Correct casing for the return value
 };

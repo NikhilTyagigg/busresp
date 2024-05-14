@@ -77,10 +77,6 @@ const CustomDropdown = ({
             )
         }
     }
-    const selectOptions = options.map(option => ({
-        value: option.vehicleTypeId,
-        label: option.name
-      }));
 
     return(
         <>
@@ -89,7 +85,7 @@ const CustomDropdown = ({
                 <Select
                     onChange={optionHandler}
                     value={value}
-                    options={selectOptions}
+                    options={options}
                     placeholder={placeholder?placeholder:"Select..."}
                 />
             </div>

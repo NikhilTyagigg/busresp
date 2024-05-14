@@ -1,0 +1,9 @@
+2024-05-11 22:24:31 info: BODYYYYY: [object Object] 
+2024-05-11 22:24:31 debug: login from nikhiltyagi.n17@gmail.com 
+2024-05-11 22:24:31 info: ::1 - - [11/May/2024:16:54:31 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 562 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 22:24:33 info: ::1 - - [11/May/2024:16:54:33 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-11 22:24:33 info: Get vehicles 
+2024-05-11 22:24:33 info: ::1 - - [11/May/2024:16:54:33 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1200 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 

@@ -1,0 +1,193 @@
+2024-05-14 17:00:12 info: ::1 - - [14/May/2024:11:30:12 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:00:12 info: Get vehicles 
+2024-05-14 17:00:13 info: ::1 - - [14/May/2024:11:30:13 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 2489 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:00:51 info: ::1 - - [14/May/2024:11:30:51 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:00:51 info: Add or update route info 
+2024-05-14 17:00:52 info: Adding/updating route details::{"routeNo":"ED45","startPoint":"st","endPoint":"rt","depotname":"rfg","startTime":"2001-01-12 12:00:00 AM","endTime":"2001-01-01 12:00:00 AM","intermediateStops":[{"stopName":"stop1","arrivalTime":"12","departureTime":"1","frequency":"Every 15 min","stopLocation":"ghaziabad"}],"user":"undefined","type":null,"is_pro":"wcw436aidbewu@$*^46954$%^^"} 
+2024-05-14 17:00:52 info: ::1 - - [14/May/2024:11:30:52 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 3194 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:03:24 info: ::1 - - [14/May/2024:11:33:24 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:03:24 info: Fetching master data 
+2024-05-14 17:03:24 info: Getting master data 
+2024-05-14 17:03:24 info: ::1 - - [14/May/2024:11:33:24 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:03:24 info: Fetching vehicle route map data 
+2024-05-14 17:03:24 info: Get vehicles 
+2024-05-14 17:03:25 info: ::1 - - [14/May/2024:11:33:25 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 810 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:03:25 info: ::1 - - [14/May/2024:11:33:25 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 417 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:04:31 info: ::1 - - [14/May/2024:11:34:31 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:04:31 info: Get vehicles 
+2024-05-14 17:04:31 info: ::1 - - [14/May/2024:11:34:31 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 3194 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:05:28 info: ::1 - - [14/May/2024:11:35:28 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:05:28 info: ::1 - - [14/May/2024:11:35:28 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:05:28 info: Fetching master data 
+2024-05-14 17:05:28 info: Getting master data 
+2024-05-14 17:05:28 info: Fetching vehicle route map data 
+2024-05-14 17:05:28 info: Get vehicles 
+2024-05-14 17:05:29 info: ::1 - - [14/May/2024:11:35:29 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 417 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:05:29 info: ::1 - - [14/May/2024:11:35:29 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 810 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:05:31 info: ::1 - - [14/May/2024:11:35:31 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:05:31 info: Get vehicles 
+2024-05-14 17:05:31 info: ::1 - - [14/May/2024:11:35:31 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 3194 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:09:22 error: Error: /route/getRoutes USER ID 
+2024-05-14 17:09:22 info: ::1 - - [14/May/2024:11:39:22 +0000] "GET /api/v1/route/getRoutes HTTP/1.1" 404 53 "-" "PostmanRuntime/7.38.0"
+ 
+2024-05-14 17:09:54 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:38:26)
+    at DeviceClient.emit (node:events:514:28)
+    at MqttClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\device\index.js:826:12)
+    at MqttClient.emit (node:events:514:28)
+    at MqttClient._handlePublish (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:1277:12)
+    at MqttClient._handlePacket (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:410:12)
+    at work (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:321:12)
+    at writable._write (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:335:5)
+    at doWrite (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+2024-05-14 17:14:05 info: ::1 - - [14/May/2024:11:44:05 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:14:05 info: Get vehicles 
+2024-05-14 17:14:05 info: ::1 - - [14/May/2024:11:44:05 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 3194 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:15:19 info: ::1 - - [14/May/2024:11:45:19 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:15:19 info: Add or update route info 
+2024-05-14 17:15:20 info: Adding/updating route details::{"routeNo":"00ED45","startPoint":"st","endPoint":"rt","depotname":"rfg","startTime":"2001-12-01 12:00:00 PM","endTime":"2001-01-01 12:00:00 PM","intermediateStops":{"type":"Buffer","data":[91,123,34,115,116,111,112,78,97,109,101,34,58,34,115,116,111,112,49,34,44,34,97,114,114,105,118,97,108,84,105,109,101,34,58,34,49,50,34,44,34,100,101,112,97,114,116,117,114,101,84,105,109,101,34,58,34,49,34,44,34,102,114,101,113,117,101,110,99,121,34,58,34,69,118,101,114,121,32,49,53,32,109,105,110,34,44,34,115,116,111,112,76,111,99,97,116,105,111,110,34,58,34,103,104,97,122,105,97,98,97,100,34,125,93]},"routeId":27,"isActive":false,"user":"undefined","type":null,"is_pro":"wcw436aidbewu@$*^46954$%^^"} 
+2024-05-14 17:15:20 info: ::1 - - [14/May/2024:11:45:20 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 2489 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:15:26 info: ::1 - - [14/May/2024:11:45:26 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:15:26 info: Get vehicles 
+2024-05-14 17:15:26 info: ::1 - - [14/May/2024:11:45:26 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 2489 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:18:20 info: ::1 - - [14/May/2024:11:48:20 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:18:20 info: Get vehicles 
+2024-05-14 17:18:20 info: ::1 - - [14/May/2024:11:48:20 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1200 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:18:22 info: ::1 - - [14/May/2024:11:48:22 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:18:22 info: Get vehicles 
+2024-05-14 17:18:22 info: ::1 - - [14/May/2024:11:48:22 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 2489 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:23:27 info: Onboard Server is started and running at the port 5000 
+2024-05-14 17:24:11 info: ::1 - - [14/May/2024:11:54:11 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:24:11 info: Get vehicles 
+2024-05-14 17:24:11 info: ::1 - - [14/May/2024:11:54:11 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 2489 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:29:58 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:38:26)
+    at DeviceClient.emit (node:events:514:28)
+    at MqttClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\device\index.js:826:12)
+    at MqttClient.emit (node:events:514:28)
+    at MqttClient._handlePublish (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:1277:12)
+    at MqttClient._handlePacket (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:410:12)
+    at work (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:321:12)
+    at writable._write (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:335:5)
+    at doWrite (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+2024-05-14 17:36:34 error: Error:Error: getaddrinfo ENOTFOUND axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2024-05-14 17:36:34 error: Error:Error: getaddrinfo ENOTFOUND axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2024-05-14 17:36:36 error: Error:Error: getaddrinfo ENOTFOUND axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2024-05-14 17:36:36 error: Error:Error: getaddrinfo ENOTFOUND axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2024-05-14 17:40:37 info: ::1 - - [14/May/2024:12:10:37 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:40:37 info: Get vehicles 
+2024-05-14 17:40:37 info: ::1 - - [14/May/2024:12:10:37 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1200 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:40:38 info: ::1 - - [14/May/2024:12:10:38 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:40:38 info: Get vehicles 
+2024-05-14 17:40:38 info: ::1 - - [14/May/2024:12:10:38 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 2489 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:40:39 info: ::1 - - [14/May/2024:12:10:39 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:40:39 info: ::1 - - [14/May/2024:12:10:39 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:40:39 info: Fetching master data 
+2024-05-14 17:40:39 info: Getting master data 
+2024-05-14 17:40:39 info: Fetching vehicle route map data 
+2024-05-14 17:40:39 info: Get vehicles 
+2024-05-14 17:40:39 info: ::1 - - [14/May/2024:12:10:39 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 383 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:40:39 info: ::1 - - [14/May/2024:12:10:39 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 810 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:40:40 info: Get vehicles 
+2024-05-14 17:40:40 info: ::1 - - [14/May/2024:12:10:40 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 2489 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:51:03 info: ::1 - - [14/May/2024:12:21:03 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:51:03 info: ::1 - - [14/May/2024:12:21:03 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:51:03 info: Fetching vehicle route map data 
+2024-05-14 17:51:03 info: Get vehicles 
+2024-05-14 17:51:03 info: Fetching master data 
+2024-05-14 17:51:03 info: Getting master data 
+2024-05-14 17:51:03 info: ::1 - - [14/May/2024:12:21:03 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 810 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:51:03 info: ::1 - - [14/May/2024:12:21:03 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 383 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:52:04 info: BODYYYYY: [object Object] 
+2024-05-14 17:52:04 error: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error. 
+    ReplyError: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+    at parseError (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\redis-parser\lib\parser.js:302:14)
+2024-05-14 17:56:28 info: Onboard Server is started and running at the port 5000 
+2024-05-14 17:56:51 info: BODYYYYY: [object Object] 
+2024-05-14 17:56:51 debug: login from nikhiltyagi.n17@gmail.com 
+2024-05-14 17:56:51 info: ::1 - - [14/May/2024:12:26:51 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 562 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:56:54 info: ::1 - - [14/May/2024:12:26:54 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:56:55 info: Get vehicles 
+2024-05-14 17:56:55 info: ::1 - - [14/May/2024:12:26:55 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1200 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:57:03 info: ::1 - - [14/May/2024:12:27:03 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:57:03 info: Get vehicles 
+2024-05-14 17:57:03 info: ::1 - - [14/May/2024:12:27:03 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 2489 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:57:28 info: ::1 - - [14/May/2024:12:27:28 +0000] "OPTIONS /api/v1/route/addMultipleRoutes HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:57:28 info: Add or update route info 
+2024-05-14 17:57:28 info: Adding/updating route details::[["AS00we","Delhi","Goa","Rohini",12,1,"Every 10 min","delhi,sahadra,loni"]] 
+2024-05-14 17:57:28 info: ::1 - - [14/May/2024:12:27:28 +0000] "POST /api/v1/route/addMultipleRoutes HTTP/1.1" 200 2825 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-14 17:58:45 error: Error: /route/getRoutes USER ID 
+2024-05-14 17:58:45 info: ::1 - - [14/May/2024:12:28:45 +0000] "GET /api/v1/route/getRoutes HTTP/1.1" 404 53 "-" "PostmanRuntime/7.38.0"
+ 
+2024-05-14 17:59:09 error: Access token can not be null 
+    Error: Access token can not be null
+    at extractAccessTokenFromRequest (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\auth\jwt.js:163:11)
+    at main.checkAccess (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\auth\jwt.js:203:23)
+    at Layer.handle [as handle_request] (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\layer.js:95:5)
+2024-05-14 17:59:09 info: ::1 - - [14/May/2024:12:29:09 +0000] "GET /api/v1/route/getRoutes HTTP/1.1" 401 70 "-" "PostmanRuntime/7.38.0"
+ 
+2024-05-14 17:59:21 error: Error: /route/getRoutes USER ID 
+2024-05-14 17:59:21 info: ::1 - - [14/May/2024:12:29:21 +0000] "GET /api/v1/route/getRoutes HTTP/1.1" 404 53 "-" "PostmanRuntime/7.38.0"
+ 
+2024-05-14 17:59:36 info: ::1 - - [14/May/2024:12:29:36 +0000] "GET /route/getRoutes HTTP/1.1" 404 253 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 

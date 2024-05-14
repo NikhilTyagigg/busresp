@@ -1,7 +1,5 @@
-'use strict';
-const {
-  Model
-} = require('sequelize');
+"use strict";
+const { Model } = require("sequelize");
 module.exports = (sequelize, DataTypes) => {
   class Route extends Model {
     /**
@@ -11,39 +9,54 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
-      }
+    }
   }
-  Route.init({
-    routeId:{
-      primaryKey:true,
-      autoIncrement:true,
-      type:DataTypes.INTEGER
-    },
-    routeNo: {
-      type: DataTypes.STRING(20),
-      index:true,
-      allowNull:false
-    },
-    startPoint:{
-      type: DataTypes.STRING
-    },
-    endPoint:{
-      type: DataTypes.STRING
-    },
-    intermediateStops:{
-      type: DataTypes.TEXT
-    },
-    isActive:{
-      type: DataTypes.BOOLEAN,
-      default : true,
-      allowNull : false
-    },
-    createdAt: DataTypes.DATE,
-    updatedAt: DataTypes.DATE
+  Route.init(
+    {
+      routeId: {
+        primaryKey: true,
+        autoIncrement: true,
+        type: DataTypes.INTEGER,
+      },
+      routeNo: {
+        type: DataTypes.STRING(20),
+        index: true,
+        allowNull: false,
+      },
+      startPoint: {
+        type: DataTypes.STRING,
+      },
+      endPoint: {
+        type: DataTypes.STRING,
+      },
 
-  }, {
-    sequelize,
-    modelName: 'Route',
-  });
+      startTime: {
+        type: DataTypes.TIME, // Use TIME type for time values
+      },
+      endTime: {
+        type: DataTypes.TIME,
+      },
+      depotname: {
+        type: DataTypes.STRING, // Typo: Correct it to "depotName
+      },
+      frequency: {
+        type: DataTypes.STRING, // Use STRING for frequency
+      },
+      intermediateStops: {
+        type: DataTypes.JSONB, // Use JSONB type for storing JSON data
+      },
+      isActive: {
+        type: DataTypes.BOOLEAN,
+        default: true,
+        allowNull: false,
+      },
+      createdAt: DataTypes.DATE,
+      updatedAt: DataTypes.DATE,
+    },
+    {
+      sequelize,
+      modelName: "Route",
+    }
+  );
   return Route;
 };
