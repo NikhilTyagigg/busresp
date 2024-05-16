@@ -1,0 +1,21 @@
+2024-05-16 20:23:15 info: Onboard Server is started and running at the port 5000 
+2024-05-16 20:25:52 info: BODYYYYY: [object Object] 
+2024-05-16 20:25:52 debug: login from nikhiltyagi.n17@gmail.com 
+2024-05-16 20:25:52 info: ::1 - - [16/May/2024:14:55:52 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 562 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 20:25:54 info: ::1 - - [16/May/2024:14:55:54 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 20:25:54 info: Get vehicles 
+2024-05-16 20:25:54 info: ::1 - - [16/May/2024:14:55:54 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1200 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 20:25:56 info: ::1 - - [16/May/2024:14:55:56 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 20:25:56 info: Get vehicles 
+2024-05-16 20:25:56 info: ::1 - - [16/May/2024:14:55:56 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 1127 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 20:52:51 error: Error:Error: read ECONNRESETundefined 
+2024-05-16 20:52:52 error: Error:Error: getaddrinfo ENOTFOUND axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2024-05-16 20:52:52 error: Error:Error: getaddrinfo ENOTFOUND axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2024-05-16 20:52:54 error: Error:Error: getaddrinfo ENOTFOUND axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2024-05-16 20:52:54 error: Error:Error: getaddrinfo ENOTFOUND axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2024-05-16 20:59:03 info: Onboard Server is started and running at the port 5000 

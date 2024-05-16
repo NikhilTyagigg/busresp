@@ -1,0 +1,134 @@
+2024-05-16 21:00:01 info: ::1 - - [16/May/2024:15:30:01 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 21:00:01 info: Add or update route info 
+2024-05-16 21:00:01 info: Adding/updating route details::{"routeNo":"NIKH12","startPoint":"up","endPoint":"del","depotname":"uk","startTime":"2001-01-12 12:00:00 AM","endTime":"2001-01-12 12:00:00 AM","frequency":"every 1 hr","intermediateStops":[{"stopName":"stop1","arrivalTime":"12","departureTime":"1","frequency":"Every 15 min","stopLocation":"ghaziabad"}],"user":"undefined","type":null,"is_pro":"wcw436aidbewu@$*^46954$%^^"} 
+2024-05-16 21:00:01 info: ::1 - - [16/May/2024:15:30:01 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 1840 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 21:00:20 info: ::1 - - [16/May/2024:15:30:20 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 21:00:20 info: Fetching master data 
+2024-05-16 21:00:20 info: Getting master data 
+2024-05-16 21:00:20 info: ::1 - - [16/May/2024:15:30:20 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 21:00:20 info: Fetching vehicle route map data 
+2024-05-16 21:00:20 info: Get vehicles 
+2024-05-16 21:00:20 info: ::1 - - [16/May/2024:15:30:20 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 946 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 21:00:20 info: ::1 - - [16/May/2024:15:30:20 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 349 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 21:04:30 info: ::1 - - [16/May/2024:15:34:30 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 21:04:30 info: Get vehicles 
+2024-05-16 21:04:30 info: ::1 - - [16/May/2024:15:34:30 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 1840 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 21:40:56 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:38:26)
+    at DeviceClient.emit (node:events:514:28)
+    at MqttClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\device\index.js:826:12)
+    at MqttClient.emit (node:events:514:28)
+    at MqttClient._handlePublish (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:1277:12)
+    at MqttClient._handlePacket (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:410:12)
+    at work (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:321:12)
+    at writable._write (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:335:5)
+    at doWrite (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+2024-05-16 21:50:20 error: access token expired 
+    Error: access token expired
+    at verifyAccessToken (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\auth\jwt.js:81:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-05-16 21:50:20 info: ::1 - - [16/May/2024:16:20:20 +0000] "POST /api/v1/route/getVehicles?A HTTP/1.1" 401 68 "-" "PostmanRuntime/7.39.0"
+ 
+2024-05-16 21:51:14 info: ::1 - - [16/May/2024:16:21:14 +0000] "OPTIONS /api/v1/route/addMultipleRoutes HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 21:51:14 info: Add or update route info 
+2024-05-16 21:51:14 info: Adding/updating route details::[["AS00we","Delhi","Goa","Rohini",12,1,"Every 10 min","delhi,sahadra,loni"]] 
+2024-05-16 21:51:14 info: ::1 - - [16/May/2024:16:21:14 +0000] "POST /api/v1/route/addMultipleRoutes HTTP/1.1" 200 2186 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 21:52:12 error: Error: /route/addMultipleRoutes%0A USER ID 
+2024-05-16 21:52:12 info: ::1 - - [16/May/2024:16:22:12 +0000] "POST /api/v1/route/addMultipleRoutes%0A HTTP/1.1" 404 64 "-" "PostmanRuntime/7.39.0"
+ 
+2024-05-16 21:53:25 error: Error: /route/addMultipleRoutes%0A USER ID 
+2024-05-16 21:53:25 info: ::1 - - [16/May/2024:16:23:25 +0000] "POST /api/v1/route/addMultipleRoutes%0A HTTP/1.1" 404 64 "-" "PostmanRuntime/7.39.0"
+ 
+2024-05-16 21:53:41 error: Error: /route/addMultipleRoutes%0A USER ID 
+2024-05-16 21:53:41 info: ::1 - - [16/May/2024:16:23:41 +0000] "POST /api/v1/route/addMultipleRoutes%0A HTTP/1.1" 404 64 "-" "PostmanRuntime/7.39.0"
+ 
+2024-05-16 21:54:42 error: Error: /route/addMultipleRoutes%0A USER ID 
+2024-05-16 21:54:42 info: ::1 - - [16/May/2024:16:24:42 +0000] "POST /api/v1/route/addMultipleRoutes%0A HTTP/1.1" 404 64 "-" "PostmanRuntime/7.39.0"
+ 
+2024-05-16 21:54:59 info: Add or update route info 
+2024-05-16 21:54:59 info: Adding/updating route details::[] 
+2024-05-16 21:54:59 error: No route data provided!! 
+2024-05-16 21:54:59 error: No route data provided!! 
+    Error: No route data provided!!
+    at main.addMultipleRoute (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:456:13)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:137:24
+    at Layer.handle [as handle_request] (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:175:3)
+2024-05-16 21:54:59 error: Error: No route data provided!! 
+    Error: Error: No route data provided!!
+    at main.addMultipleRoute (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:533:11)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:137:24
+    at Layer.handle [as handle_request] (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:175:3)
+2024-05-16 21:54:59 error: Error: No route data provided!! 
+    Error: Error: No route data provided!!
+    at main.addMultipleRoute (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:533:11)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:137:24
+    at Layer.handle [as handle_request] (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:175:3)
+2024-05-16 21:54:59 info: ::1 - - [16/May/2024:16:24:59 +0000] "POST /api/v1/route/addMultipleRoutes?A%0A HTTP/1.1" 500 67 "-" "PostmanRuntime/7.39.0"
+ 
+2024-05-16 21:55:05 error: Error: /route/addMultipleRoutes%0A USER ID 
+2024-05-16 21:55:05 info: ::1 - - [16/May/2024:16:25:05 +0000] "POST /api/v1/route/addMultipleRoutes%0A HTTP/1.1" 404 64 "-" "PostmanRuntime/7.39.0"
+ 
+2024-05-16 21:55:24 error: Error: /route/getVehicles%0A USER ID 
+2024-05-16 21:55:24 info: ::1 - - [16/May/2024:16:25:24 +0000] "POST /api/v1/route/getVehicles%0A HTTP/1.1" 404 58 "-" "PostmanRuntime/7.39.0"
+ 
+2024-05-16 21:56:01 info: ::1 - - [16/May/2024:16:26:01 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 21:56:01 info: Get vehicles 
+2024-05-16 21:56:01 info: ::1 - - [16/May/2024:16:26:01 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1200 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 21:56:28 info: Get vehicles 
+2024-05-16 21:56:28 info: ::1 - - [16/May/2024:16:26:28 +0000] "POST /api/v1/route/getVehicles HTTP/1.1" 200 1200 "-" "PostmanRuntime/7.39.0"
+ 
+2024-05-16 21:56:50 info: ::1 - - [16/May/2024:16:26:50 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 21:56:50 info: Get vehicles 
+2024-05-16 21:56:50 info: ::1 - - [16/May/2024:16:26:50 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 2186 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 21:57:05 info: Get vehicles 
+2024-05-16 21:57:05 info: ::1 - - [16/May/2024:16:27:05 +0000] "POST /api/v1/route/getRoutes HTTP/1.1" 200 2186 "-" "PostmanRuntime/7.39.0"
+ 
+2024-05-16 21:57:39 info: ::1 - - [16/May/2024:16:27:39 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 21:57:39 info: ::1 - - [16/May/2024:16:27:39 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 21:57:39 info: Fetching master data 
+2024-05-16 21:57:39 info: Getting master data 
+2024-05-16 21:57:39 info: Fetching vehicle route map data 
+2024-05-16 21:57:39 info: Get vehicles 
+2024-05-16 21:57:39 info: ::1 - - [16/May/2024:16:27:39 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 946 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 21:57:39 info: ::1 - - [16/May/2024:16:27:39 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 383 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 

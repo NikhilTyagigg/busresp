@@ -199,7 +199,8 @@ main.addRoute = async (data) => {
       !data.endPoint ||
       !data.startTime ||
       !data.endTime ||
-      !data.depotname
+      !data.depotname ||
+      !data.frequency
     ) {
       throw new UserError("Please enter all the valid parameters!!");
     }
@@ -241,6 +242,7 @@ main.addRoute = async (data) => {
         startTime: data.startTime,
         endTime: data.endTime,
         depotname: data.depotname,
+        frequency: data.frequency,
         intermediateStops: data.intermediateStops || "",
         isActive: data.isActive,
       });
@@ -262,6 +264,7 @@ main.addRoute = async (data) => {
           startTime: data.startTime,
           endTime: data.endTime,
           depotname: data.depotname,
+          frequency: data.frequency,
           intermediateStops: data.intermediateStops || "",
           isActive: true,
         });
@@ -273,6 +276,7 @@ main.addRoute = async (data) => {
           startTime: data.startTime,
           endTime: data.endTime,
           depotname: data.depotname,
+          frequency: data.frequency,
           intermediateStops: data.intermediateStops || "",
           isActive: true,
         });
@@ -491,6 +495,7 @@ main.addMultipleRoute = async (data = []) => {
           depotname: d[3],
           startTime: d[4],
           endTime: d[5],
+          frequency: d[6],
           intermediateStops: d.length > 3 ? d[3] : "",
           isActive: true,
         });

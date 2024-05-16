@@ -142,7 +142,8 @@ class RouteRecords extends Component {
       endPoint: newRouteInfo.endPoint,
       depotname: newRouteInfo.depotname,
       startTime: formatTime(newRouteInfo.startTime), // Use formatted start time
-      endTime: formatTime(newRouteInfo.endTime), // Use formatted end time
+      endTime: formatTime(newRouteInfo.endTime),
+      frequency: newRouteInfo.frequency, // Use formatted end time
       intermediateStops: newRouteInfo?.intermediateStops || "",
     };
 
@@ -363,6 +364,23 @@ class RouteRecords extends Component {
                   value={this.state.newRouteInfo?.endTime || ""}
                 />
               </div>
+              <div className="col-lg-4">
+                <CustomInputBox
+                  label="Frequency"
+                  mandatory={false}
+                  size={"md"}
+                  placeholderText="Enter Frequency"
+                  onChange={(text) => {
+                    this.setState({
+                      newRouteInfo: {
+                        ...this.state.newRouteInfo,
+                        frequency: text,
+                      },
+                    });
+                  }}
+                  value={this.state.newRouteInfo?.frequency || ""}
+                />
+              </div>
               <div className="col-lg-6">
                 <div className="form-group">
                   <h3>Add Intermediate Stops</h3>
@@ -519,6 +537,7 @@ class RouteRecords extends Component {
         depotname: route.depotname,
         startTime: route.startTime,
         endTime: route.endTime,
+        frequency: route.frequency,
         intermediateStops: route?.intermediateStops || "",
         id: route.routeId,
       },
@@ -535,6 +554,7 @@ class RouteRecords extends Component {
         depotname: route.depotname,
         startTime: route.startTime,
         endTime: route.endTime,
+        frequency: route.frequency,
         intermediateStops: route?.intermediateStops || "",
         id: route.routeId,
       },
@@ -556,6 +576,7 @@ class RouteRecords extends Component {
           <td>{route.depotname}</td>
           <td>{route.startTime}</td>
           <td>{route.endTime}</td>
+          <td>{route.frequency}</td>
           <td key={intermediateStopsKey}>
             <button
               onClick={() =>
@@ -718,6 +739,7 @@ class RouteRecords extends Component {
                     <th>Depot Name</th>
                     <th>Start Time</th>
                     <th>End Time</th>
+                    <th>Frequency</th>
                     <th>Intermediatery stops</th>
                     <th>Action</th>
                   </tr>

@@ -1,0 +1,151 @@
+2024-05-16 11:06:54 info: ::1 - - [16/May/2024:05:36:54 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:06:54 info: Get vehicles 
+2024-05-16 11:06:54 info: ::1 - - [16/May/2024:05:36:54 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 424 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:07:55 info: ::1 - - [16/May/2024:05:37:55 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:07:55 info: Get vehicles 
+2024-05-16 11:07:55 info: ::1 - - [16/May/2024:05:37:55 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:08:04 info: ::1 - - [16/May/2024:05:38:04 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:08:04 info: Fetching master data 
+2024-05-16 11:08:04 info: Getting master data 
+2024-05-16 11:08:04 info: ::1 - - [16/May/2024:05:38:04 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:08:04 info: Fetching vehicle route map data 
+2024-05-16 11:08:04 info: Get vehicles 
+2024-05-16 11:08:04 info: ::1 - - [16/May/2024:05:38:04 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 281 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:08:04 info: ::1 - - [16/May/2024:05:38:04 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 946 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:08:06 info: ::1 - - [16/May/2024:05:38:06 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:08:06 info: Get vehicles 
+2024-05-16 11:08:06 info: ::1 - - [16/May/2024:05:38:06 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 424 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:08:08 info: Fetching master data 
+2024-05-16 11:08:08 info: Getting master data 
+2024-05-16 11:08:08 info: Fetching vehicle route map data 
+2024-05-16 11:08:08 info: Get vehicles 
+2024-05-16 11:08:08 info: ::1 - - [16/May/2024:05:38:08 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 946 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:08:08 info: ::1 - - [16/May/2024:05:38:08 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 281 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:14:28 info: ::1 - - [16/May/2024:05:44:28 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:14:28 info: Get vehicles 
+2024-05-16 11:14:28 info: ::1 - - [16/May/2024:05:44:28 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 424 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:15:49 info: ::1 - - [16/May/2024:05:45:49 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:15:49 info: Add or update route info 
+2024-05-16 11:15:49 info: Adding/updating route details::{"routeNo":"ASD123","startPoint":"qwe","endPoint":"ert","depotname":"Goa","startTime":"2001-01-12 12:00:00 AM","endTime":"2001-01-01 12:00:00 AM","frequency":"every 21 min","intermediateStops":[{"stopName":"stop1","arrivalTime":"12","departureTime":"1","frequency":"12","stopLocation":"ghaziabad"},{"stopName":"Stop 2","arrivalTime":"1","departureTime":"2","frequency":"Every 15 min","stopLocation":"ghaziabad"},{"stopName":"stop1","arrivalTime":"12","departureTime":"1","frequency":"Every 15 min","stopLocation":"ghaziabad"}],"user":"undefined","type":null,"is_pro":"wcw436aidbewu@$*^46954$%^^"} 
+2024-05-16 11:15:49 info: ::1 - - [16/May/2024:05:45:49 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 1897 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:33:53 info: ::1 - - [16/May/2024:06:03:53 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:33:53 info: Get vehicles 
+2024-05-16 11:33:53 info: ::1 - - [16/May/2024:06:03:53 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 1897 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:33:59 info: ::1 - - [16/May/2024:06:03:59 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:33:59 info: Get vehicles 
+2024-05-16 11:33:59 info: ::1 - - [16/May/2024:06:03:59 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 1897 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:34:48 info: ::1 - - [16/May/2024:06:04:48 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:34:48 info: Add or update route info 
+2024-05-16 11:34:48 info: Adding/updating route details::{"routeNo":"AQ12TY","startPoint":"Delhi","endPoint":"Ghaziabad","depotname":"Loni","startTime":"2024-16-05 02:37:00 PM","endTime":"2024-16-05 01:35:00 PM","frequency":"12min","intermediateStops":[{"stopName":"stop1","arrivalTime":"12","departureTime":"1","frequency":"Every 15 min","stopLocation":"ghaziabad"}],"user":"undefined","type":null,"is_pro":"wcw436aidbewu@$*^46954$%^^"} 
+2024-05-16 11:34:49 info: ::1 - - [16/May/2024:06:04:49 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 2613 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:35:40 info: ::1 - - [16/May/2024:06:05:40 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:35:40 info: Get vehicles 
+2024-05-16 11:35:40 info: ::1 - - [16/May/2024:06:05:40 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 2613 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:43:44 info: ::1 - - [16/May/2024:06:13:44 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:43:44 info: Get vehicles 
+2024-05-16 11:43:44 info: ::1 - - [16/May/2024:06:13:44 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:43:46 info: ::1 - - [16/May/2024:06:13:46 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:43:46 info: ::1 - - [16/May/2024:06:13:46 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:43:46 info: Fetching vehicle route map data 
+2024-05-16 11:43:46 info: Get vehicles 
+2024-05-16 11:43:46 info: Fetching master data 
+2024-05-16 11:43:46 info: Getting master data 
+2024-05-16 11:43:46 info: ::1 - - [16/May/2024:06:13:46 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 946 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:43:46 info: ::1 - - [16/May/2024:06:13:46 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 349 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:43:47 info: ::1 - - [16/May/2024:06:13:47 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:43:47 info: Get vehicles 
+2024-05-16 11:43:47 info: ::1 - - [16/May/2024:06:13:47 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 2613 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:43:48 info: Fetching master data 
+2024-05-16 11:43:48 info: Getting master data 
+2024-05-16 11:43:48 info: Fetching vehicle route map data 
+2024-05-16 11:43:48 info: Get vehicles 
+2024-05-16 11:43:48 info: ::1 - - [16/May/2024:06:13:48 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 946 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:43:48 info: ::1 - - [16/May/2024:06:13:48 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 349 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:43:49 info: ::1 - - [16/May/2024:06:13:49 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:43:49 info: Get vehicles 
+2024-05-16 11:43:49 info: ::1 - - [16/May/2024:06:13:49 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:43:50 info: Fetching master data 
+2024-05-16 11:43:50 info: Getting master data 
+2024-05-16 11:43:50 info: Fetching vehicle route map data 
+2024-05-16 11:43:50 info: Get vehicles 
+2024-05-16 11:43:50 info: ::1 - - [16/May/2024:06:13:50 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 946 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:43:50 info: ::1 - - [16/May/2024:06:13:50 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 349 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:43:51 info: Get vehicles 
+2024-05-16 11:43:51 info: ::1 - - [16/May/2024:06:13:51 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:44:04 info: ::1 - - [16/May/2024:06:14:04 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:44:04 info: Get vehicles 
+2024-05-16 11:44:04 info: ::1 - - [16/May/2024:06:14:04 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 2613 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:44:04 info: ::1 - - [16/May/2024:06:14:04 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:44:04 info: Get vehicles 
+2024-05-16 11:44:04 info: ::1 - - [16/May/2024:06:14:04 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1200 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:47:04 info: ::1 - - [16/May/2024:06:17:04 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:47:04 info: ::1 - - [16/May/2024:06:17:04 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:47:04 info: Fetching master data 
+2024-05-16 11:47:04 info: Getting master data 
+2024-05-16 11:47:04 info: Fetching vehicle route map data 
+2024-05-16 11:47:04 info: Get vehicles 
+2024-05-16 11:47:04 info: ::1 - - [16/May/2024:06:17:04 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 946 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:47:04 info: ::1 - - [16/May/2024:06:17:04 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 349 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:47:06 info: ::1 - - [16/May/2024:06:17:06 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:47:06 info: Get vehicles 
+2024-05-16 11:47:06 info: ::1 - - [16/May/2024:06:17:06 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 2613 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:47:40 info: ::1 - - [16/May/2024:06:17:40 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:47:40 info: Add or update route info 
+2024-05-16 11:47:40 info: Adding/updating route details::{"routeNo":"ASQT23","startPoint":"e","endPoint":"r","depotname":"g","startTime":"2024-16-05 03:51:00 PM","endTime":"2024-16-05 06:50:00 AM","frequency":"every 12 min","intermediateStops":[],"user":"undefined","type":null,"is_pro":"wcw436aidbewu@$*^46954$%^^"} 
+2024-05-16 11:47:40 info: ::1 - - [16/May/2024:06:17:40 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 2915 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:56:27 info: ::1 - - [16/May/2024:06:26:27 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-16 11:56:27 info: Get vehicles 
+2024-05-16 11:56:27 info: ::1 - - [16/May/2024:06:26:27 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 2915 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
