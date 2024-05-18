@@ -45,10 +45,24 @@ class RouteRecords extends Component {
       itemsCountPerPage: 100,
       newRouteInfo: {
         intermediateStops: [],
+        startTime: "",
+        endTime: "",
       },
       showDeletePopup: false,
     };
   }
+
+  handleInputChange = (event) => {
+    const { value, name } = event.target;
+    console.log(value);
+    this.setState({
+      newRouteInfo: {
+        ...this.state.newRouteInfo,
+        [name]: value,
+      },
+    });
+    console.log(this.state.newRouteInfo.startTime);
+  };
 
   componentDidMount = () => {
     localStorage.removeItem("active_doc");
@@ -136,30 +150,25 @@ class RouteRecords extends Component {
     }
 
     this.setState({ loader: true });
+    function formatDate(time) {
+      if (!time) {
+        console.error("No time value provided to formatDate");
+        return "Invalid Time"; // Handle the case where time is not provided
+      }
+      const formattedTime = `${time}:00`; // Corrected the time format
+      console.log(`Formatted Time: ${formattedTime}`);
+      return formattedTime;
+    }
     let payload = {
       routeNo: newRouteInfo.number,
       startPoint: newRouteInfo.startPoint,
       endPoint: newRouteInfo.endPoint,
       depotname: newRouteInfo.depotname,
-      startTime: formatTime(newRouteInfo.startTime), // Use formatted start time
-      endTime: formatTime(newRouteInfo.endTime),
+      startTime: formatDate(newRouteInfo.startTime), // Use formatted start time
+      endTime: formatDate(newRouteInfo.endTime),
       frequency: newRouteInfo.frequency, // Use formatted end time
       intermediateStops: newRouteInfo?.intermediateStops || "",
     };
-
-    function formatTime(time) {
-      const formattedTime = new Date(time)
-        .toLocaleString("en-US", {
-          year: "numeric",
-          month: "2-digit",
-          day: "2-digit",
-          hour: "2-digit",
-          minute: "2-digit",
-          second: "2-digit",
-        })
-        .replace(/(\d+)\/(\d+)\/(\d+), (\d+):(\d+):(\d+)/, "$3-$2-$1 $4:$5:$6");
-      return formattedTime;
-    }
 
     if (newRouteInfo.id) {
       payload = {
@@ -331,37 +340,45 @@ class RouteRecords extends Component {
                 />
               </div>
               <div className="col-lg-4">
-                <CustomInputBox
-                  label="Start Time"
-                  mandatory={false}
-                  size={"md"}
-                  placeholderText="Enter Start Time"
-                  onChange={(text) => {
-                    this.setState({
-                      newRouteInfo: {
-                        ...this.state.newRouteInfo,
-                        startTime: text,
-                      },
-                    });
-                  }}
-                  value={this.state.newRouteInfo?.startTime || ""}
-                />
+                {/* <CustomInputBox
+ label="Start Time"
+ mandatory={false}
+ size={"md"}
+ inputType="time"
+ placeholderText="Enter Start Time"
+ onChange={(text) => {
+ this.setState({
+ newRouteInfo: {
+ ...this.state.newRouteInfo,
+ startTime: text,
+ },
+ });
+ }}
+ value={this.state.newRouteInfo?.startTime || ""}
+ /> */}
+                <div>
+                  <label htmlFor="start-time">Start Time</label>
+                  <input
+                    type="time"
+                    id="start-time"
+                    name="startTime"
+                    placeholder="Enter Start Time"
+                    value={this.state.newRouteInfo.startTime}
+                    onChange={this.handleInputChange}
+                    size="md"
+                  />
+                </div>
               </div>
               <div className="col-lg-4">
-                <CustomInputBox
-                  label="End Time"
-                  mandatory={false}
-                  size={"md"}
-                  placeholderText="Enter End Time"
-                  onChange={(text) => {
-                    this.setState({
-                      newRouteInfo: {
-                        ...this.state.newRouteInfo,
-                        endTime: text,
-                      },
-                    });
-                  }}
-                  value={this.state.newRouteInfo?.endTime || ""}
+                <label htmlFor="start-time">End Time</label>
+                <input
+                  type="time"
+                  id="end-time"
+                  placeholder="Enter End Time"
+                  name="endTime"
+                  value={this.state.newRouteInfo.endTime}
+                  onChange={this.handleInputChange}
+                  size="md"
                 />
               </div>
               <div className="col-lg-4">
@@ -384,77 +401,78 @@ class RouteRecords extends Component {
               <div className="col-lg-6">
                 <div className="form-group">
                   <h3>Add Intermediate Stops</h3>
-                  {this.state.newRouteInfo.intermediateStops.map(
-                    (stop, index) => (
-                      <div key={index}>
-                        <input
-                          type="text"
-                          name="stopName"
-                          placeholder="Stop Name"
-                          value={stop.stopName}
-                          onChange={(e) =>
-                            this.handleIntermediateStopChange(
-                              e,
-                              index,
-                              "stopName"
-                            )
-                          }
-                        />
-                        <input
-                          type="text"
-                          name="arrivalTime"
-                          placeholder="Arrival Time"
-                          value={stop.arrivalTime}
-                          onChange={(e) =>
-                            this.handleIntermediateStopChange(
-                              e,
-                              index,
-                              "arrivalTime"
-                            )
-                          }
-                        />
-                        <input
-                          type="text"
-                          name="departureTime"
-                          placeholder="Departure Time"
-                          value={stop.departureTime}
-                          onChange={(e) =>
-                            this.handleIntermediateStopChange(
-                              e,
-                              index,
-                              "departureTime"
-                            )
-                          }
-                        />
-                        <input
-                          type="text"
-                          name="frequency"
-                          placeholder="Frequency"
-                          value={stop.frequency}
-                          onChange={(e) =>
-                            this.handleIntermediateStopChange(
-                              e,
-                              index,
-                              "frequency"
-                            )
-                          }
-                        />
-                        <input
-                          type="text"
-                          name="stopLocation"
-                          placeholder="Stop Location"
-                          value={stop.stopLocation}
-                          onChange={(e) =>
-                            this.handleIntermediateStopChange(
-                              e,
-                              index,
-                              "stopLocation"
-                            )
-                          }
-                        />
-                      </div>
-                    )
-                  )}
+                  {this.state.newRouteInfo.intermediateStops &&
+                    this.state.newRouteInfo.intermediateStops.map(
+                      (stop, index) => (
+                        <div key={index}>
+                          <input
+                            type="text"
+                            name="stopName"
+                            placeholder="Stop Name"
+                            value={stop.stopName}
+                            onChange={(e) =>
+                              this.handleIntermediateStopChange(
+                                e,
+                                index,
+                                "stopName"
+                              )
+                            }
+                          />
+                          <input
+                            type="text"
+                            name="arrivalTime"
+                            placeholder="Arrival Time"
+                            value={stop.arrivalTime}
+                            onChange={(e) =>
+                              this.handleIntermediateStopChange(
+                                e,
+                                index,
+                                "arrivalTime"
+                              )
+                            }
+                          />
+                          <input
+                            type="text"
+                            name="departureTime"
+                            placeholder="Departure Time"
+                            value={stop.departureTime}
+                            onChange={(e) =>
+                              this.handleIntermediateStopChange(
+                                e,
+                                index,
+                                "departureTime"
+                              )
+                            }
+                          />
+                          <input
+                            type="text"
+                            name="frequency"
+                            placeholder="Frequency"
+                            value={stop.frequency}
+                            onChange={(e) =>
+                              this.handleIntermediateStopChange(
+                                e,
+                                index,
+                                "frequency"
+                              )
+                            }
+                          />
+                          <input
+                            type="text"
+                            name="stopLocation"
+                            placeholder="Stop Location"
+                            value={stop.stopLocation}
+                            onChange={(e) =>
+                              this.handleIntermediateStopChange(
+                                e,
+                                index,
+                                "stopLocation"
+                              )
+                            }
+                          />
+                        </div>
+                      )
+                    )}
                   <button
                     type="button"
                     onClick={this.handleAddIntermediateStop}
@@ -563,47 +581,50 @@ class RouteRecords extends Component {
   };
 
   renderUser = () => {
-    return this.state.routeList.map((route, index) => {
-      const intermediateStopsKey = `intermediateStops_${index}`; // Unique key for intermediate stops
-      return (
-        <tr key={index}>
-          <th scope="row" style={{ width: "100px" }}>
-            {index + 1}
-          </th>
-          <td>{route.routeNo}</td>
-          <td>{route.startPoint}</td>
-          <td>{route.endPoint}</td>
-          <td>{route.depotname}</td>
-          <td>{route.startTime}</td>
-          <td>{route.endTime}</td>
-          <td>{route.frequency}</td>
-          <td key={intermediateStopsKey}>
-            <button
-              onClick={() =>
-                this.openIntermediateStopsPopup(route.intermediateStops)
-              }
-            >
-              View Stops
-            </button>
-          </td>
-          <td>
-            <span
-              style={{ cursor: "pointer" }}
-              onClick={() => this.onEditClick(route)}
-            >
-              <Edit3 size={20} />
-            </span>{" "}
-            &nbsp;{" "}
-            <span
-              onClick={() => this.onDeleteClick(route)}
-              style={{ cursor: "pointer", color: "blue" }}
-            >
-              <Trash2 size={20} />
-            </span>
-          </td>
-        </tr>
-      );
-    });
+    return (
+      this.state.routeList &&
+      this.state.routeList.map((route, index) => {
+        const intermediateStopsKey = `intermediateStops_${index}`; // Unique key for intermediate stops
+        return (
+          <tr key={index}>
+            <th scope="row" style={{ width: "100px" }}>
+              {index + 1}
+            </th>
+            <td>{route.routeNo}</td>
+            <td>{route.startPoint}</td>
+            <td>{route.endPoint}</td>
+            <td>{route.depotname}</td>
+            <td>{route.startTime}</td>
+            <td>{route.endTime}</td>
+            <td>{route.frequency}</td>
+            <td key={intermediateStopsKey}>
+              <button
+                onClick={() =>
+                  this.openIntermediateStopsPopup(route.intermediateStops)
+                }
+              >
+                View Stops
+              </button>
+            </td>
+            <td>
+              <span
+                style={{ cursor: "pointer" }}
+                onClick={() => this.onEditClick(route)}
+              >
+                <Edit3 size={20} />
+              </span>{" "}
+              &nbsp;{" "}
+              <span
+                onClick={() => this.onDeleteClick(route)}
+                style={{ cursor: "pointer", color: "blue" }}
+              >
+                <Trash2 size={20} />
+              </span>
+            </td>
+          </tr>
+        );
+      })
+    );
   };
 
   openIntermediateStopsPopup = (intermediateStops) => {
@@ -758,18 +779,18 @@ class RouteRecords extends Component {
           {this.renderModePopup()}
           {this.renderDeletePopup()}
           {/* <div className='row'>
-                        <div className='col-lg-12' >
-                            <Pagination
-                            activePage={this.state.activePage}
-                            itemClass="page-item"
-                            linkClass="page-link"
-                            itemsCountPerPage={this.state.itemsCountPerPage}
-                            totalItemsCount={this.state.totalItemsCount}
-                            pageRangeDisplayed={this.state.pageRangeDisplayed}
-                            onChange={this.handlePageChange.bind(this)}
-                            />
-                        </div>
-                    </div> */}
+ <div className='col-lg-12' >
+ <Pagination
+ activePage={this.state.activePage}
+ itemClass="page-item"
+ linkClass="page-link"
+ itemsCountPerPage={this.state.itemsCountPerPage}
+ totalItemsCount={this.state.totalItemsCount}
+ pageRangeDisplayed={this.state.pageRangeDisplayed}
+ onChange={this.handlePageChange.bind(this)}
+ />
+ </div>
+ </div> */}
         </div>
       </Card>
     );

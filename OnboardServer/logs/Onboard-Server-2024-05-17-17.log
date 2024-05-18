@@ -1,0 +1,92 @@
+2024-05-17 17:09:07 info: BODYYYYY: [object Object] 
+2024-05-17 17:09:07 debug: login from nikhiltyagi.n17@gmail.com 
+2024-05-17 17:09:07 info: ::1 - - [17/May/2024:11:39:07 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 562 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:09:10 info: ::1 - - [17/May/2024:11:39:10 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:09:10 info: Get vehicles 
+2024-05-17 17:09:10 info: ::1 - - [17/May/2024:11:39:10 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1200 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:11:17 info: ::1 - - [17/May/2024:11:41:17 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:11:17 info: Get vehicles 
+2024-05-17 17:11:17 info: ::1 - - [17/May/2024:11:41:17 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 2186 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:11:18 info: ::1 - - [17/May/2024:11:41:18 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:11:18 info: ::1 - - [17/May/2024:11:41:18 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:11:18 info: Fetching vehicle route map data 
+2024-05-17 17:11:18 info: Get vehicles 
+2024-05-17 17:11:18 info: Fetching master data 
+2024-05-17 17:11:18 info: Getting master data 
+2024-05-17 17:11:18 info: ::1 - - [17/May/2024:11:41:18 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 946 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:11:18 info: ::1 - - [17/May/2024:11:41:18 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 383 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:11:20 info: ::1 - - [17/May/2024:11:41:20 +0000] "OPTIONS /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:11:20 info: Get vehicles 
+2024-05-17 17:11:20 info: ::1 - - [17/May/2024:11:41:20 +0000] "POST /api/v1/route/getLogs?page=1&records=12 HTTP/1.1" 200 88 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:11:21 info: ::1 - - [17/May/2024:11:41:21 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:11:21 info: Get vehicles 
+2024-05-17 17:11:21 info: ::1 - - [17/May/2024:11:41:21 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1200 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:30:15 info: ::1 - - [17/May/2024:12:00:15 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:30:15 info: Get vehicles 
+2024-05-17 17:30:15 info: ::1 - - [17/May/2024:12:00:15 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 2186 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:37:17 info: ::1 - - [17/May/2024:12:07:17 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:37:17 info: Get vehicles 
+2024-05-17 17:37:17 info: ::1 - - [17/May/2024:12:07:17 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 2186 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:39:09 info: ::1 - - [17/May/2024:12:09:09 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:39:09 info: Get vehicles 
+2024-05-17 17:39:09 info: ::1 - - [17/May/2024:12:09:09 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 2186 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:39:43 info: ::1 - - [17/May/2024:12:09:43 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:39:43 info: Add or update route info 
+2024-05-17 17:39:43 info: Adding/updating route details::{"routeNo":"QW12","startPoint":"wer","endPoint":"rty","depotname":"rohini","startTime":"Invalid Date","endTime":"Invalid Date","frequency":"every 12 min","intermediateStops":[],"user":"undefined","type":null,"is_pro":"wcw436aidbewu@$*^46954$%^^"} 
+2024-05-17 17:39:43 info: ::1 - - [17/May/2024:12:09:43 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 2507 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:57:29 info: ::1 - - [17/May/2024:12:27:29 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:57:29 info: Get vehicles 
+2024-05-17 17:57:29 info: ::1 - - [17/May/2024:12:27:29 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 2397 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:58:05 info: ::1 - - [17/May/2024:12:28:05 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:58:05 info: Add or update route info 
+2024-05-17 17:58:05 info: Adding/updating route details::{"routeNo":"AQSWE","startPoint":"hr","endPoint":"op","depotname":"delhi","startTime":"Invalid Date","endTime":"Invalid Date","frequency":"every 3 min","intermediateStops":[],"user":"undefined","type":null,"is_pro":"wcw436aidbewu@$*^46954$%^^"} 
+2024-05-17 17:58:05 info: ::1 - - [17/May/2024:12:28:05 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 2692 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-17 17:59:20 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:38:26)
+    at DeviceClient.emit (node:events:514:28)
+    at MqttClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\device\index.js:826:12)
+    at MqttClient.emit (node:events:514:28)
+    at MqttClient._handlePublish (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:1277:12)
+    at MqttClient._handlePacket (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:410:12)
+    at work (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:321:12)
+    at writable._write (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:335:5)
+    at doWrite (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+2024-05-17 17:59:22 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:38:26)
+    at DeviceClient.emit (node:events:514:28)
+    at MqttClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\device\index.js:826:12)
+    at MqttClient.emit (node:events:514:28)
+    at MqttClient._handlePublish (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:1277:12)
+    at MqttClient._handlePacket (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:410:12)
+    at work (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:321:12)
+    at writable._write (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:335:5)
+    at doWrite (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\readable-stream\lib\_stream_writable.js:390:139)

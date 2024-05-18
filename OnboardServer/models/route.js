@@ -31,10 +31,10 @@ module.exports = (sequelize, DataTypes) => {
       },
 
       startTime: {
-        type: DataTypes.TIME, // Use TIME type for time values
+        type: DataTypes.STRING, // Use TIME type for time values
       },
       endTime: {
-        type: DataTypes.TIME,
+        type: DataTypes.STRING,
       },
       depotname: {
         type: DataTypes.STRING, // Typo: Correct it to "depotName

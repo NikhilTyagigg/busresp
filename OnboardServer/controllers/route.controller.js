@@ -306,6 +306,17 @@ main.getRoutes = async (filter) => {
         isActive: true,
       },
     });
+
+    // Iterate through routes and convert intermediateStops from Buffer to JSON
+    for (let i = 0; i < routes.rows.length; i++) {
+      const route = routes.rows[i];
+      if (route.intermediateStops && Buffer.isBuffer(route.intermediateStops)) {
+        const bufferData = route.intermediateStops;
+        route.intermediateStops = JSON.parse(bufferData.toString("utf8"));
+      }
+    }
+
+    console.log(JSON.stringify(routes));
     return routes;
   } catch (err) {
     logger.error(err);

@@ -1,0 +1,128 @@
+2024-05-18 01:00:47 info: ::1 - - [17/May/2024:19:30:47 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:00:48 info: ::1 - - [17/May/2024:19:30:48 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:00:48 info: Fetching master data 
+2024-05-18 01:00:48 info: Getting master data 
+2024-05-18 01:00:48 info: Fetching vehicle route map data 
+2024-05-18 01:00:48 info: Get vehicles 
+2024-05-18 01:00:48 info: ::1 - - [17/May/2024:19:30:48 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 924 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:00:48 info: ::1 - - [17/May/2024:19:30:48 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 859 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:00:59 info: ::1 - - [17/May/2024:19:30:59 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:00:59 info: Get vehicles 
+2024-05-18 01:00:59 info: ::1 - - [17/May/2024:19:30:59 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 60 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:01:04 info: ::1 - - [17/May/2024:19:31:04 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:01:04 info: Get vehicles 
+2024-05-18 01:01:04 info: ::1 - - [17/May/2024:19:31:04 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1200 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:01:06 info: ::1 - - [17/May/2024:19:31:06 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:01:06 info: Get vehicles 
+2024-05-18 01:01:06 info: ::1 - - [17/May/2024:19:31:06 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 60 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:04:20 info: Onboard Server is started and running at the port 5000 
+2024-05-18 01:04:24 info: ::1 - - [17/May/2024:19:34:24 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:04:24 info: Get vehicles 
+2024-05-18 01:04:24 error: routes.map is not a function 
+    TypeError: routes.map is not a function
+    at main.getRoutes (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:312:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:67:18
+2024-05-18 01:04:24 error: TypeError: routes.map is not a function 
+    Error: TypeError: routes.map is not a function
+    at main.getRoutes (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:330:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:67:18
+2024-05-18 01:04:24 error: TypeError: routes.map is not a function 
+    Error: TypeError: routes.map is not a function
+    at main.getRoutes (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:330:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:67:18
+2024-05-18 01:04:24 info: ::1 - - [17/May/2024:19:34:24 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 500 75 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:05:34 info: Onboard Server is started and running at the port 5000 
+2024-05-18 01:05:34 info: ::ffff:127.0.0.1 - - [17/May/2024:19:35:34 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:05:34 info: Get vehicles 
+2024-05-18 01:05:34 error: routes.forEach is not a function 
+    TypeError: routes.forEach is not a function
+    at main.getRoutes (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:312:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:67:18
+2024-05-18 01:05:34 error: TypeError: routes.forEach is not a function 
+    Error: TypeError: routes.forEach is not a function
+    at main.getRoutes (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:329:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:67:18
+2024-05-18 01:05:34 error: TypeError: routes.forEach is not a function 
+    Error: TypeError: routes.forEach is not a function
+    at main.getRoutes (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:329:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:67:18
+2024-05-18 01:05:35 info: ::ffff:127.0.0.1 - - [17/May/2024:19:35:35 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 500 79 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:06:17 info: Onboard Server is started and running at the port 5000 
+2024-05-18 01:06:17 info: ::1 - - [17/May/2024:19:36:17 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:06:17 info: Get vehicles 
+2024-05-18 01:06:18 error: routes.forEach is not a function 
+    TypeError: routes.forEach is not a function
+    at main.getRoutes (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:313:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:67:18
+2024-05-18 01:06:18 error: TypeError: routes.forEach is not a function 
+    Error: TypeError: routes.forEach is not a function
+    at main.getRoutes (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:330:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:67:18
+2024-05-18 01:06:18 error: TypeError: routes.forEach is not a function 
+    Error: TypeError: routes.forEach is not a function
+    at main.getRoutes (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:330:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:67:18
+2024-05-18 01:06:18 info: ::1 - - [17/May/2024:19:36:18 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 500 79 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:06:46 info: ::1 - - [17/May/2024:19:36:46 +0000] "OPTIONS /api/v1/route/addMultipleRoutes HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:06:46 info: Add or update route info 
+2024-05-18 01:06:46 info: Adding/updating route details::[["AS00we","Delhi","Goa","Rohini",12,1,"Every 10 min","delhi,sahadra,loni"]] 
+2024-05-18 01:06:46 info: ::1 - - [17/May/2024:19:36:46 +0000] "POST /api/v1/route/addMultipleRoutes HTTP/1.1" 200 8436 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:07:13 info: ::1 - - [17/May/2024:19:37:13 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:07:13 info: Get vehicles 
+2024-05-18 01:07:13 info: ::1 - - [17/May/2024:19:37:13 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1200 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:07:14 info: ::1 - - [17/May/2024:19:37:14 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:07:14 info: Get vehicles 
+2024-05-18 01:07:14 error: routes.forEach is not a function 
+    TypeError: routes.forEach is not a function
+    at main.getRoutes (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:313:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:67:18
+2024-05-18 01:07:14 error: TypeError: routes.forEach is not a function 
+    Error: TypeError: routes.forEach is not a function
+    at main.getRoutes (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:330:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:67:18
+2024-05-18 01:07:14 error: TypeError: routes.forEach is not a function 
+    Error: TypeError: routes.forEach is not a function
+    at main.getRoutes (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:330:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:67:18
+2024-05-18 01:07:14 info: ::1 - - [17/May/2024:19:37:14 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 500 79 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:08:09 info: Onboard Server is started and running at the port 5000 
+2024-05-18 01:08:27 info: Onboard Server is started and running at the port 5000 
+2024-05-18 01:08:28 info: ::1 - - [17/May/2024:19:38:28 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 01:08:28 info: Get vehicles 
+2024-05-18 01:08:28 info: ::1 - - [17/May/2024:19:38:28 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 8436 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 

@@ -1,0 +1,21 @@
+2024-05-18 11:03:17 info: Onboard Server is started and running at the port 5000 
+2024-05-18 11:04:51 info: BODYYYYY: [object Object] 
+2024-05-18 11:04:51 debug: login from nikhiltyagi.n17@gmail.com 
+2024-05-18 11:04:51 info: ::1 - - [18/May/2024:05:34:51 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 562 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 11:04:53 info: ::1 - - [18/May/2024:05:34:53 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 11:04:53 info: Get vehicles 
+2024-05-18 11:04:53 info: ::1 - - [18/May/2024:05:34:53 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1200 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 11:05:08 info: ::1 - - [18/May/2024:05:35:08 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 11:05:08 info: Get vehicles 
+2024-05-18 11:05:08 info: ::1 - - [18/May/2024:05:35:08 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 8436 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 11:06:02 error: Error: /route/getRoute USER ID 
+2024-05-18 11:06:02 info: ::1 - - [18/May/2024:05:36:02 +0000] "POST /api/v1/route/getRoute HTTP/1.1" 404 52 "-" "PostmanRuntime/7.39.0"
+ 
+2024-05-18 11:06:27 info: Get vehicles 
+2024-05-18 11:06:27 info: ::1 - - [18/May/2024:05:36:27 +0000] "POST /api/v1/route/getRoutes HTTP/1.1" 200 8436 "-" "PostmanRuntime/7.39.0"
+ 
