@@ -43,6 +43,8 @@ class RouteRecords extends Component {
       totalItemsCount: 0,
       pageRangeDisplayed: 10,
       itemsCountPerPage: 100,
+      intermediateStopsPopupData: [], // Initialize as an empty array
+
       newRouteInfo: {
         intermediateStops: [],
         startTime: "",
@@ -602,6 +604,49 @@ class RouteRecords extends Component {
       );
     }
   };
+  renderIntermediateStopsPopup = () => {
+    return (
+      <Modal
+        isOpen={this.state.isIntermediateStopsPopupOpen}
+        toggle={this.closeIntermediateStopsPopup}
+      >
+        <ModalHeader toggle={this.closeIntermediateStopsPopup}>
+          Intermediate Stops
+        </ModalHeader>
+        <ModalBody>
+          <Table bordered>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Stop Name</th>
+                <th>Arrival Time</th>
+                <th>Departure Time</th>
+                <th>Frequency</th>
+                <th>Stop Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              {this.state.intermediateStopsPopupData.map((stop, index) => (
+                <tr key={index}>
+                  <th scope="row">{index + 1}</th>
+                  <td>{stop.stopName}</td>
+                  <td>{stop.arrivalTime}</td>
+                  <td>{stop.departureTime}</td>
+                  <td>{stop.frequency}</td>
+                  <td>{stop.stopLocation}</td>
+                </tr>
+              ))}
+            </tbody>
+          </Table>
+        </ModalBody>
+        <ModalFooter>
+          <Button color="secondary" onClick={this.closeIntermediateStopsPopup}>
+            Close
+          </Button>
+        </ModalFooter>
+      </Modal>
+    );
+  };
 
   onEditClick = (route) => {
     this.setState({
@@ -666,6 +711,7 @@ class RouteRecords extends Component {
                 View Stops
               </button>
             </td>
+
             <td>
               <span
                 style={{ cursor: "pointer" }}
@@ -688,17 +734,12 @@ class RouteRecords extends Component {
   };
 
   openIntermediateStopsPopup = (intermediateStops) => {
-    // Open a popup or modal containing the intermediate stops details
-    // You can use a library like react-modal for this purpose
-    // Here's a simple example using react-modal
-    console.log("Opening popup with stops:", intermediateStops);
     this.setState({
       intermediateStopsPopupData: intermediateStops,
       isIntermediateStopsPopupOpen: true,
     });
   };
 
-  // Add this method to close the popup
   closeIntermediateStopsPopup = () => {
     this.setState({ isIntermediateStopsPopupOpen: false });
   };
@@ -841,6 +882,8 @@ class RouteRecords extends Component {
           </div>
           {this.renderModePopup()}
           {this.renderDeletePopup()}
+          {this.renderIntermediateStopsPopup()}
+
           {/* <div className='row'>
  <div className='col-lg-12' >
  <Pagination
