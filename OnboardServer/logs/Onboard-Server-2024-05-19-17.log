@@ -1,0 +1,71 @@
+2024-05-19 17:40:02 info: Onboard Server is started and running at the port 5000 
+2024-05-19 17:42:19 info: BODYYYYY: [object Object] 
+2024-05-19 17:42:19 debug: login from nikhiltyagi.n17@gmail.com 
+2024-05-19 17:42:19 info: ::1 - - [19/May/2024:12:12:19 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 562 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-19 17:42:22 info: ::1 - - [19/May/2024:12:12:22 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-19 17:42:22 info: Get vehicles 
+2024-05-19 17:42:22 info: ::1 - - [19/May/2024:12:12:22 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1200 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-19 17:42:24 info: ::1 - - [19/May/2024:12:12:24 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-19 17:42:24 info: Get vehicles 
+2024-05-19 17:44:21 info: ::1 - - [19/May/2024:12:14:21 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 258470 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-19 17:44:21 info: ::1 - - [19/May/2024:12:14:21 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-19 17:44:21 info: Get vehicles 
+2024-05-19 17:44:23 info: ::1 - - [19/May/2024:12:14:23 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 258470 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-19 17:47:31 info: ::1 - - [19/May/2024:12:17:31 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-19 17:47:31 info: Add or update route info 
+2024-05-19 17:47:31 info: Adding/updating route details::{"routeNo":"ASF12","startPoint":"csd","endPoint":"cse","depotname":"rho","startTime":"10:12","endTime":"11:23","trip_length":"","SCH_NO":"","SERVICE":"","intermediateStops":[{"stopName":"stop1","arrivalTime":"12","departureTime":"12","frequency":"Every 15 min","stopLocation":"ghaziabad"},{"stopName":"stop1","arrivalTime":"12","departureTime":"1","frequency":"Every 15 min","stopLocation":"ghaziabad"}],"user":"undefined","type":null,"is_pro":"wcw436aidbewu@$*^46954$%^^"} 
+2024-05-19 17:47:31 error: Error: Please enter all the valid parameters!! 
+    Error: Error: Please enter all the valid parameters!!
+    at main.addRoute (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:308:11)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:80:24
+    at Layer.handle [as handle_request] (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:175:3)
+2024-05-19 17:47:31 error: Error: Please enter all the valid parameters!! 
+    Error: Error: Please enter all the valid parameters!!
+    at main.addRoute (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:308:11)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:80:24
+    at Layer.handle [as handle_request] (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\express\lib\router\index.js:175:3)
+2024-05-19 17:47:31 info: ::1 - - [19/May/2024:12:17:31 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 500 82 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-19 17:56:28 info: ::1 - - [19/May/2024:12:26:28 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-19 17:56:28 info: Get vehicles 
+2024-05-19 17:56:29 info: ::1 - - [19/May/2024:12:26:29 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 258470 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-19 17:56:36 info: ::1 - - [19/May/2024:12:26:36 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-19 17:56:36 info: Get vehicles 
+2024-05-19 17:56:37 info: ::1 - - [19/May/2024:12:26:37 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 258470 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-19 17:57:58 info: ::1 - - [19/May/2024:12:27:58 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-19 17:57:58 info: Add or update route info 
+2024-05-19 17:57:58 info: Adding/updating route details::{"routeNo":"ME12","startPoint":"aec","endPoint":"awd","depotname":"ght","startTime":"12:10","endTime":"11:30","frequency":"every 12 min","trip_length":"12","SCH_NO":"34","SERVICE":"city","intermediateStops":[{"stopName":"stop1","arrivalTime":"12","departureTime":"1","frequency":"Every 15 min","stopLocation":"wef"},{"stopName":"Stop 2","arrivalTime":"wfe","departureTime":"11:40","frequency":"23","stopLocation":"ghaziabad"}],"user":"undefined","type":null,"is_pro":"wcw436aidbewu@$*^46954$%^^"} 
+2024-05-19 17:57:58 info: ::1 - - [19/May/2024:12:27:58 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 263119 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-19 17:58:45 info: ::1 - - [19/May/2024:12:28:45 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-19 17:58:45 info: Get vehicles 
+2024-05-19 17:58:46 info: ::1 - - [19/May/2024:12:28:46 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 258998 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 

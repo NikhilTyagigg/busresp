@@ -47,6 +47,9 @@ class RouteRecords extends Component {
         intermediateStops: [],
         startTime: "",
         endTime: "",
+        SERVICE: "",
+        SCH_NO: "",
+        trip_length: "",
       },
       showDeletePopup: false,
     };
@@ -155,7 +158,7 @@ class RouteRecords extends Component {
         console.error("No time value provided to formatDate");
         return "Invalid Time"; // Handle the case where time is not provided
       }
-      const formattedTime = `${time}:00`; // Corrected the time format
+      const formattedTime = `${time}`; // Corrected the time format
       console.log(`Formatted Time: ${formattedTime}`);
       return formattedTime;
     }
@@ -166,7 +169,10 @@ class RouteRecords extends Component {
       depotname: newRouteInfo.depotname,
       startTime: formatDate(newRouteInfo.startTime), // Use formatted start time
       endTime: formatDate(newRouteInfo.endTime),
-      frequency: newRouteInfo.frequency, // Use formatted end time
+      frequency: newRouteInfo.frequency,
+      trip_length: newRouteInfo.trip_length,
+      SCH_NO: newRouteInfo.SCH_NO,
+      SERVICE: newRouteInfo.SERVICE, // Use formatted end time
       intermediateStops: newRouteInfo?.intermediateStops || "",
     };
 
@@ -399,6 +405,57 @@ class RouteRecords extends Component {
                 />
               </div>
               <div className="col-lg-6">
+                <CustomInputBox
+                  label="Trip Length"
+                  mandatory={true}
+                  size={"md"}
+                  placeholderText="Enter trip_length name"
+                  onChange={(text) => {
+                    this.setState({
+                      newRouteInfo: {
+                        ...this.state.newRouteInfo,
+                        trip_length: text,
+                      },
+                    });
+                  }}
+                  value={this.state.newRouteInfo?.trip_length || ""}
+                />
+              </div>
+              <div className="col-lg-6">
+                <CustomInputBox
+                  label="SCH_NO"
+                  mandatory={true}
+                  size={"md"}
+                  placeholderText="Enter SCH_NO"
+                  onChange={(text) => {
+                    this.setState({
+                      newRouteInfo: {
+                        ...this.state.newRouteInfo,
+                        SCH_NO: text,
+                      },
+                    });
+                  }}
+                  value={this.state.newRouteInfo?.SCH_NO || ""}
+                />
+              </div>
+              <div className="col-lg-6">
+                <CustomInputBox
+                  label="SERVICE"
+                  mandatory={true}
+                  size={"md"}
+                  placeholderText="Enter SERVICE"
+                  onChange={(text) => {
+                    this.setState({
+                      newRouteInfo: {
+                        ...this.state.newRouteInfo,
+                        SERVICE: text,
+                      },
+                    });
+                  }}
+                  value={this.state.newRouteInfo?.SERVICE || ""}
+                />
+              </div>
+              <div className="col-lg-6">
                 <div className="form-group">
                   <h3>Add Intermediate Stops</h3>
                   {this.state.newRouteInfo.intermediateStops &&
@@ -597,6 +654,9 @@ class RouteRecords extends Component {
             <td>{route.startTime}</td>
             <td>{route.endTime}</td>
             <td>{route.frequency}</td>
+            <td>{route.trip_length}</td>
+            <td>{route.SCH_NO}</td>
+            <td>{route.SERVICE}</td>
             <td key={intermediateStopsKey}>
               <button
                 onClick={() =>
@@ -761,6 +821,9 @@ class RouteRecords extends Component {
                     <th>Start Time</th>
                     <th>End Time</th>
                     <th>Frequency</th>
+                    <th>Trip Length</th>
+                    <th>Schedule Number </th>
+                    <th>Services</th>
                     <th>Intermediatery stops</th>
                     <th>Action</th>
                   </tr>

@@ -187,7 +187,7 @@ main.getVehicles = async (filter) => {
 };
 
 main.addRoute = async (data) => {
-  console.log(JSON.stringify(data));
+  // console.log(JSON.stringify(data));
 
   //this will be used for adding/updating and deleting a vehicle
   logger.info("Adding/updating route details::" + JSON.stringify(data));
@@ -200,7 +200,10 @@ main.addRoute = async (data) => {
       !data.startTime ||
       !data.endTime ||
       !data.depotname ||
-      !data.frequency
+      !data.frequency ||
+      !data.trip_length ||
+      !data.SCH_NO ||
+      !data.SERVICE
     ) {
       throw new UserError("Please enter all the valid parameters!!");
     }
@@ -243,6 +246,9 @@ main.addRoute = async (data) => {
         endTime: data.endTime,
         depotname: data.depotname,
         frequency: data.frequency,
+        trip_length: data.trip_length,
+        SCH_NO: data.SCH_NO,
+        SERVICE: data.SERVICE,
         intermediateStops: data.intermediateStops || "",
         isActive: data.isActive,
       });
@@ -265,6 +271,9 @@ main.addRoute = async (data) => {
           endTime: data.endTime,
           depotname: data.depotname,
           frequency: data.frequency,
+          trip_length: data.trip_length,
+          SCH_NO: data.SCH_NO,
+          SERVICE: data.SERVICE,
           intermediateStops: data.intermediateStops || "",
           isActive: true,
         });
@@ -277,6 +286,9 @@ main.addRoute = async (data) => {
           endTime: data.endTime,
           depotname: data.depotname,
           frequency: data.frequency,
+          trip_length: data.trip_length,
+          SCH_NO: data.SCH_NO,
+          SERVICE: data.SERVICE,
           intermediateStops: data.intermediateStops || "",
           isActive: true,
         });
@@ -475,39 +487,42 @@ main.addMultipleRoute = async (data = []) => {
             "Invalid entry present in the sheet, please check and upload again!!"
           );
         }
-        if (d[0].length > 6) {
-          throw new ConflictError(
-            "Route Number cannot be greater than 6 digits, please check and upload again!!"
-          );
-        }
+        // if (d[0].length > 30) {
+        //   throw new ConflictError(
+        //     "Route Number cannot be greater than 6 digits, please check and upload again!!"
+        //   );
+        // }
 
-        let regex = new RegExp("^[a-zA-Z0-9_]+$");
-        if (!regex.test(d[0])) {
-          throw new ConflictError(
-            "Invalid route no" +
-              d[0] +
-              "Only alphanumeric route number data is allowed, please check and upload again!!"
-          );
-        }
+        // let regex = new RegExp("^[a-zA-Z0-9_]+$");
+        // if (!regex.test(d[0])) {
+        //   throw new ConflictError(
+        //     "Invalid route no" +
+        //       d[0] +
+        //       "Only alphanumeric route number data is allowed, please check and upload again!!"
+        //   );
+        // }
         let rNo = d[0];
         rNo = rNo.toString();
         while (rNo.length < 6) {
           rNo = "0" + rNo;
         }
 
-        if (routesData.find((r) => r.routeNo == d[0])) {
-          isDuplicate = true;
-          return false;
-        }
+        // if (routesData.find((r) => r.routeNo == d[0])) {
+        //   isDuplicate = true;
+        //   return false;
+        // }
         routesData.push({
           routeNo: rNo.toUpperCase(),
           startPoint: d[1],
           endPoint: d[2],
-          depotname: d[3],
-          startTime: d[4],
-          endTime: d[5],
-          frequency: d[6],
-          intermediateStops: d.length > 3 ? d[3] : "",
+          trip_length: d[3],
+          SERVICE: d[4],
+          SCH_NO: d[5],
+          depotname: d[6],
+          startTime: d[7],
+          endTime: d[8],
+          frequency: d[9],
+          intermediateStops: d.length > 3 ? d[10] : "",
           isActive: true,
         });
       });
@@ -526,6 +541,9 @@ main.addMultipleRoute = async (data = []) => {
         "startTime",
         "endTime",
         "frequency",
+        "trip_length",
+        "SERVICE",
+        "SCH_NO",
         "intermediateStops",
         "isActive",
       ],

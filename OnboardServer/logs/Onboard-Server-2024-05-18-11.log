@@ -19,3 +19,21 @@
 2024-05-18 11:06:27 info: Get vehicles 
 2024-05-18 11:06:27 info: ::1 - - [18/May/2024:05:36:27 +0000] "POST /api/v1/route/getRoutes HTTP/1.1" 200 8436 "-" "PostmanRuntime/7.39.0"
  
+2024-05-18 11:09:06 info: Onboard Server is started and running at the port 5000 
+2024-05-18 11:09:11 info: ::1 - - [18/May/2024:05:39:11 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 11:09:11 info: Get vehicles 
+2024-05-18 11:09:11 info: ::1 - - [18/May/2024:05:39:11 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 5851 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 11:09:32 info: Get vehicles 
+2024-05-18 11:09:32 info: ::1 - - [18/May/2024:05:39:32 +0000] "POST /api/v1/route/getRoutes HTTP/1.1" 200 5851 "-" "PostmanRuntime/7.39.0"
+ 
+2024-05-18 11:13:02 info: ::1 - - [18/May/2024:05:43:02 +0000] "OPTIONS /api/v1/route/addRoute HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 11:13:02 info: Add or update route info 
+2024-05-18 11:13:02 info: Adding/updating route details::{"routeNo":"SOUTH1","startPoint":"north","endPoint":"east","depotname":"iit","startTime":"11:10:00","endTime":"11:20:00","frequency":"every 10 min","intermediateStops":[{"stopName":"stop1","arrivalTime":"12:10","departureTime":"12:15","frequency":"Every 15 min","stopLocation":"ghaziabad"},{"stopName":"Stop 2","arrivalTime":"1:15","departureTime":"1:20","frequency":"Every 15 min","stopLocation":"ghaziabad"}],"user":"undefined","type":null,"is_pro":"wcw436aidbewu@$*^46954$%^^"} 
+2024-05-18 11:13:02 info: ::1 - - [18/May/2024:05:43:02 +0000] "POST /api/v1/route/addRoute HTTP/1.1" 200 9574 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-18 11:13:10 info: Get vehicles 
+2024-05-18 11:13:10 info: ::1 - - [18/May/2024:05:43:10 +0000] "POST /api/v1/route/getRoutes HTTP/1.1" 200 6360 "-" "PostmanRuntime/7.39.0"
+ 

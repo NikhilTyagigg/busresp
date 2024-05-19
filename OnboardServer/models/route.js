@@ -42,6 +42,15 @@ module.exports = (sequelize, DataTypes) => {
       frequency: {
         type: DataTypes.STRING, // Use STRING for frequency
       },
+      trip_length: {
+        type: DataTypes.STRING,
+      },
+      SCH_NO: {
+        type: DataTypes.STRING,
+      },
+      SERVICE: {
+        type: DataTypes.STRING,
+      },
       intermediateStops: {
         type: DataTypes.JSONB, // Use JSONB type for storing JSON data
       },
