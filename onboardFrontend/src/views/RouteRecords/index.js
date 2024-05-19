@@ -281,9 +281,9 @@ class RouteRecords extends Component {
           <ModalHeader>Add Route </ModalHeader>
           <ModalBody>
             <div className="row">
-              <div className="col-lg-6">
+              <div className="col-lg-6 custom-input-box">
+                <label className="label">Route Number</label>
                 <CustomInputBox
-                  label="Route Number"
                   //smallBoxEnabled={true}
                   mandatory={true}
                   //info={"Capture what you want this blog to achieve or for what target audience is this being written for. <br/>For example: to encourage working professionals to try meditation as a tool for stress relief, <br/> to promote organic farming, to motivate parents to take mental health seriously."}
@@ -297,9 +297,11 @@ class RouteRecords extends Component {
                   maxLength={300}
                   //note="Provide information about the blog's goal or objective"
                 />
+              </div>
 
+              <div className="col-lg-6 custom-input-box">
+                <label className="label">Start Point</label>
                 <CustomInputBox
-                  label="Start Point"
                   mandatory={true}
                   onChange={(text) => {
                     this.setState({
@@ -313,8 +315,11 @@ class RouteRecords extends Component {
                   size={"md"}
                   placeholderText="Input the start point"
                 />
+              </div>
+
+              <div className="col-lg-6 custom-input-box">
+                <label className="label">End Point</label>
                 <CustomInputBox
-                  label="End Point"
                   mandatory={true}
                   size={"md"}
                   placeholderText="Input the end point"
@@ -330,9 +335,9 @@ class RouteRecords extends Component {
                 />
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 custom-input-box">
+                <label className="label">Depotname</label>
                 <CustomInputBox
-                  label="Depotname"
                   mandatory={true}
                   size={"md"}
                   placeholderText="Enter depot name"
@@ -347,38 +352,26 @@ class RouteRecords extends Component {
                   value={this.state.newRouteInfo?.depotname || ""}
                 />
               </div>
-              <div className="col-lg-4">
-                {/* <CustomInputBox
- label="Start Time"
- mandatory={false}
- size={"md"}
- inputType="time"
- placeholderText="Enter Start Time"
- onChange={(text) => {
- this.setState({
- newRouteInfo: {
- ...this.state.newRouteInfo,
- startTime: text,
- },
- });
- }}
- value={this.state.newRouteInfo?.startTime || ""}
- /> */}
-                <div>
-                  <label htmlFor="start-time">Start Time</label>
-                  <input
-                    type="time"
-                    id="start-time"
-                    name="startTime"
-                    placeholder="Enter Start Time"
-                    value={this.state.newRouteInfo.startTime}
-                    onChange={this.handleInputChange}
-                    size="md"
-                  />
-                </div>
+
+              <div className="col-lg-4 custom-input-box">
+                <label className="label" htmlFor="start-time">
+                  Start Time
+                </label>
+                <input
+                  type="time"
+                  id="start-time"
+                  name="startTime"
+                  placeholder="Enter Start Time"
+                  value={this.state.newRouteInfo.startTime}
+                  onChange={this.handleInputChange}
+                  size="md"
+                />
               </div>
-              <div className="col-lg-4">
-                <label htmlFor="start-time">End Time</label>
+
+              <div className="col-lg-4 custom-input-box">
+                <label className="label" htmlFor="start-time">
+                  End Time
+                </label>
                 <input
                   type="time"
                   id="end-time"
@@ -389,9 +382,10 @@ class RouteRecords extends Component {
                   size="md"
                 />
               </div>
-              <div className="col-lg-4">
+
+              <div className="col-lg-4 custom-input-box">
+                <label className="label">Frequency</label>
                 <CustomInputBox
-                  label="Frequency"
                   mandatory={false}
                   size={"md"}
                   placeholderText="Enter Frequency"
@@ -406,9 +400,10 @@ class RouteRecords extends Component {
                   value={this.state.newRouteInfo?.frequency || ""}
                 />
               </div>
-              <div className="col-lg-6">
+
+              <div className="col-lg-6 custom-input-box">
+                <label className="label">Trip Length</label>
                 <CustomInputBox
-                  label="Trip Length"
                   mandatory={true}
                   size={"md"}
                   placeholderText="Enter trip_length name"
@@ -423,9 +418,10 @@ class RouteRecords extends Component {
                   value={this.state.newRouteInfo?.trip_length || ""}
                 />
               </div>
-              <div className="col-lg-6">
+
+              <div className="col-lg-6 custom-input-box">
+                <label className="label">SCH_NO</label>
                 <CustomInputBox
-                  label="SCH_NO"
                   mandatory={true}
                   size={"md"}
                   placeholderText="Enter SCH_NO"
@@ -440,9 +436,10 @@ class RouteRecords extends Component {
                   value={this.state.newRouteInfo?.SCH_NO || ""}
                 />
               </div>
-              <div className="col-lg-6">
+
+              <div className="col-lg-6 custom-input-box">
+                <label className="label">SERVICE</label>
                 <CustomInputBox
-                  label="SERVICE"
                   mandatory={true}
                   size={"md"}
                   placeholderText="Enter SERVICE"
@@ -457,105 +454,93 @@ class RouteRecords extends Component {
                   value={this.state.newRouteInfo?.SERVICE || ""}
                 />
               </div>
-              <div className="col-lg-6">
-                <div className="form-group">
-                  <h3>Add Intermediate Stops</h3>
-                  {this.state.newRouteInfo.intermediateStops &&
-                    this.state.newRouteInfo.intermediateStops.map(
-                      (stop, index) => (
-                        <div key={index}>
-                          <input
-                            type="text"
-                            name="stopName"
-                            placeholder="Stop Name"
-                            value={stop.stopName}
-                            onChange={(e) =>
-                              this.handleIntermediateStopChange(
-                                e,
-                                index,
-                                "stopName"
-                              )
-                            }
-                          />
-                          <input
-                            type="text"
-                            name="arrivalTime"
-                            placeholder="Arrival Time"
-                            value={stop.arrivalTime}
-                            onChange={(e) =>
-                              this.handleIntermediateStopChange(
-                                e,
-                                index,
-                                "arrivalTime"
-                              )
-                            }
-                          />
-                          <input
-                            type="text"
-                            name="departureTime"
-                            placeholder="Departure Time"
-                            value={stop.departureTime}
-                            onChange={(e) =>
-                              this.handleIntermediateStopChange(
-                                e,
-                                index,
-                                "departureTime"
-                              )
-                            }
-                          />
-                          <input
-                            type="text"
-                            name="frequency"
-                            placeholder="Frequency"
-                            value={stop.frequency}
-                            onChange={(e) =>
-                              this.handleIntermediateStopChange(
-                                e,
-                                index,
-                                "frequency"
-                              )
-                            }
-                          />
-                          <input
-                            type="text"
-                            name="stopLocation"
-                            placeholder="Stop Location"
-                            value={stop.stopLocation}
-                            onChange={(e) =>
-                              this.handleIntermediateStopChange(
-                                e,
-                                index,
-                                "stopLocation"
-                              )
-                            }
-                          />
-                        </div>
-                      )
-                    )}
-                  <button
-                    type="button"
-                    onClick={this.handleAddIntermediateStop}
-                  >
-                    Add Intermediate Stop
-                  </button>
-                </div>
+
+              <div className="col-lg-6 form-group">
+                <h3>Add Intermediate Stops</h3>
+                {this.state.newRouteInfo.intermediateStops &&
+                  this.state.newRouteInfo.intermediateStops.map(
+                    (stop, index) => (
+                      <div key={index}>
+                        <input
+                          type="text"
+                          name="stopName"
+                          placeholder="Stop Name"
+                          value={stop.stopName}
+                          onChange={(e) =>
+                            this.handleIntermediateStopChange(
+                              e,
+                              index,
+                              "stopName"
+                            )
+                          }
+                        />
+                        <input
+                          type="text"
+                          name="arrivalTime"
+                          placeholder="Arrival Time"
+                          value={stop.arrivalTime}
+                          onChange={(e) =>
+                            this.handleIntermediateStopChange(
+                              e,
+                              index,
+                              "arrivalTime"
+                            )
+                          }
+                        />
+                        <input
+                          type="text"
+                          name="departureTime"
+                          placeholder="Departure Time"
+                          value={stop.departureTime}
+                          onChange={(e) =>
+                            this.handleIntermediateStopChange(
+                              e,
+                              index,
+                              "departureTime"
+                            )
+                          }
+                        />
+                        <input
+                          type="text"
+                          name="frequency"
+                          placeholder="Frequency"
+                          value={stop.frequency}
+                          onChange={(e) =>
+                            this.handleIntermediateStopChange(
+                              e,
+                              index,
+                              "frequency"
+                            )
+                          }
+                        />
+                        <input
+                          type="text"
+                          name="stopLocation"
+                          placeholder="Stop Location"
+                          value={stop.stopLocation}
+                          onChange={(e) =>
+                            this.handleIntermediateStopChange(
+                              e,
+                              index,
+                              "stopLocation"
+                            )
+                          }
+                        />
+                      </div>
+                    )
+                  )}
+                <button type="button" onClick={this.handleAddIntermediateStop}>
+                  Add Intermediate Stop
+                </button>
               </div>
             </div>
           </ModalBody>
           <ModalFooter>
-            <button
-              onClick={() => {
-                this.addRoute();
-              }}
-              className="btn btn-md btn-primary"
-            >
-              {" "}
+            <button onClick={this.addRoute} className="btn btn-md btn-primary">
               Add
             </button>
             <button
-              onClick={() => {
-                this.hidePopup();
-              }}
+              onClick={this.hidePopup}
               className="btn btn-md btn-secondary"
             >
               Cancel
