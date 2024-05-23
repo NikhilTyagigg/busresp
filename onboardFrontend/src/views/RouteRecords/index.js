@@ -66,7 +66,7 @@ class RouteRecords extends Component {
         [name]: value,
       },
     });
-    console.log(this.state.newRouteInfo.startTime);
+    // console.log(this.state.newRouteInfo.startTime);
   };
 
   componentDidMount = () => {
@@ -590,39 +590,48 @@ class RouteRecords extends Component {
     }
   };
   renderIntermediateStopsPopup = () => {
+    const { isIntermediateStopsPopupOpen, intermediateStopsPopupData } =
+      this.state;
+
+    const stopsData = intermediateStopsPopupData || []; // Ensure stopsData is always an array
+
     return (
       <Modal
-        isOpen={this.state.isIntermediateStopsPopupOpen}
+        isOpen={isIntermediateStopsPopupOpen}
         toggle={this.closeIntermediateStopsPopup}
       >
         <ModalHeader toggle={this.closeIntermediateStopsPopup}>
           Intermediate Stops
         </ModalHeader>
         <ModalBody>
-          <Table bordered>
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>Stop Name</th>
-                <th>Arrival Time</th>
-                <th>Departure Time</th>
-                <th>Frequency</th>
-                <th>Stop Location</th>
-              </tr>
-            </thead>
-            <tbody>
-              {this.state.intermediateStopsPopupData.map((stop, index) => (
-                <tr key={index}>
-                  <th scope="row">{index + 1}</th>
-                  <td>{stop.stopName}</td>
-                  <td>{stop.arrivalTime}</td>
-                  <td>{stop.departureTime}</td>
-                  <td>{stop.frequency}</td>
-                  <td>{stop.stopLocation}</td>
+          {stopsData.length > 0 ? (
+            <Table bordered>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Stop Name</th>
+                  <th>Arrival Time</th>
+                  <th>Departure Time</th>
+                  <th>Frequency</th>
+                  <th>Stop Location</th>
                 </tr>
-              ))}
-            </tbody>
-          </Table>
+              </thead>
+              <tbody>
+                {stopsData.map((stop, index) => (
+                  <tr key={index}>
+                    <th scope="row">{index + 1}</th>
+                    <td>{stop.stopName}</td>
+                    <td>{stop.arrivalTime}</td>
+                    <td>{stop.departureTime}</td>
+                    <td>{stop.frequency}</td>
+                    <td>{stop.stopLocation}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </Table>
+          ) : (
+            <div>No Intermediate Stops</div>
+          )}
         </ModalBody>
         <ModalFooter>
           <Button color="secondary" onClick={this.closeIntermediateStopsPopup}>
@@ -753,7 +762,7 @@ class RouteRecords extends Component {
             showErrorToast("Upto 2000 records can be added in one go!!");
             return;
           }
-          console.log("-----------", params);
+          //  console.log("-----------", params);
         },
       });
     } else if (extension == "xlsx") {

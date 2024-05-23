@@ -146,7 +146,7 @@ export const getRoutes = (queryParams = "") => {
 };
 
 export const addRoute = (payload) => {
-  console.log("payload", payload);
+  // console.log("payload", payload);
   return requests.post("route/addRoute", payload);
 };
 

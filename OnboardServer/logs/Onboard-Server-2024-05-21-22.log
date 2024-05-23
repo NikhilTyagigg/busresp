@@ -1,0 +1,54 @@
+2024-05-21 22:01:45 info: ::1 - - [21/May/2024:16:31:45 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-21 22:01:45 info: Fetching vehicle route map data 
+2024-05-21 22:01:45 info: Get vehicles 
+2024-05-21 22:01:45 info: ::1 - - [21/May/2024:16:31:45 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 972 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-21 22:07:50 info: ::1 - - [21/May/2024:16:37:50 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-21 22:07:50 info: Add or update route info 
+2024-05-21 22:07:50 info: Adding/updating route details::{"routeId":36,"routeNo":"000ASQ","vehicleNo":"A01FA0418","vehicleId":23,"date":"2024-05-21T16:16:31.308Z","user":"undefined","type":null,"is_pro":"wcw436aidbewu@$*^46954$%^^"} 
+2024-05-21 22:07:50 error: Validation error 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async VehicleRouteDriverMap.save (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:2490:35)
+    at async VehicleRouteDriverMap.create (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1362:12)
+    at async main.addVehicleRouteMap (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:439:15)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:114:18
+2024-05-21 22:07:50 error: SequelizeUniqueConstraintError: Validation error 
+    Error: SequelizeUniqueConstraintError: Validation error
+    at main.addVehicleRouteMap (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:469:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:114:18
+2024-05-21 22:07:50 error: SequelizeUniqueConstraintError: Validation error 
+    Error: SequelizeUniqueConstraintError: Validation error
+    at main.addVehicleRouteMap (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:469:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:114:18
+2024-05-21 22:07:50 info: ::1 - - [21/May/2024:16:37:50 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 500 84 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-21 22:09:26 info: ::1 - - [21/May/2024:16:39:26 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-21 22:09:26 info: Get vehicles 
+2024-05-21 22:09:26 info: ::1 - - [21/May/2024:16:39:26 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1200 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-21 22:09:30 info: ::1 - - [21/May/2024:16:39:30 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-21 22:09:30 info: Get vehicles 
+2024-05-21 22:09:31 info: ::1 - - [21/May/2024:16:39:31 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 259648 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-21 22:39:54 error: Unexpected token H in JSON at position 0 
+    SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at DeviceClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\helper\mqtt.js:38:26)
+    at DeviceClient.emit (node:events:514:28)
+    at MqttClient.<anonymous> (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\device\index.js:826:12)
+    at MqttClient.emit (node:events:514:28)
+    at MqttClient._handlePublish (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:1277:12)
+    at MqttClient._handlePacket (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:410:12)
+    at work (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:321:12)
+    at writable._write (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\aws-iot-device-sdk\node_modules\mqtt\lib\client.js:335:5)
+    at doWrite (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\readable-stream\lib\_stream_writable.js:390:139)

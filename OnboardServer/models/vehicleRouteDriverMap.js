@@ -1,7 +1,6 @@
-'use strict';
-const {
-  Model
-} = require('sequelize');
+"use strict";
+const { Model } = require("sequelize");
+
 module.exports = (sequelize, DataTypes) => {
   class VehicleRouteDriverMap extends Model {
     /**
@@ -11,46 +10,73 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
-      VehicleRouteDriverMap.hasOne(models.Vehicle,{sourceKey:'vehicleId',foreignKey:'vehicleId'})
-      VehicleRouteDriverMap.hasOne(models.Route,{sourceKey:'routeId',foreignKey:'routeId'})
-
+      VehicleRouteDriverMap.hasOne(models.Vehicle, {
+        sourceKey: "vehicleId",
+        foreignKey: "vehicleId",
+      });
+      VehicleRouteDriverMap.hasOne(models.Route, {
+        sourceKey: "routeId",
+        foreignKey: "routeId",
+      });
     }
   }
-  VehicleRouteDriverMap.init({
-    vehicleRouteDriverMapId:{
-      primaryKey:true,
-      autoIncrement:true,
-      type:DataTypes.INTEGER
-    },
-    vehicleId: {
-      type: DataTypes.INTEGER
-    },
-    routeId: {
-      type: DataTypes.INTEGER
-    },
-    driver:{
-      type : DataTypes.STRING,
-      index : true
-    },
-    dateAndTime : {
-      type : DataTypes.DATE
-    },
-    isActive:{
-      type: DataTypes.BOOLEAN,
-      default : true,
-      allowNull : false
-    },
-    isVerified:{
-      type: DataTypes.BOOLEAN,
-      defaultValue : false,
-      allowNull : false
-    },
-    createdAt: DataTypes.DATE,
-    updatedAt: DataTypes.DATE
 
-  }, {
-    sequelize,
-    modelName: 'VehicleRouteDriverMap',
-  });
+  VehicleRouteDriverMap.init(
+    {
+      vehicleRouteDriverMapId: {
+        primaryKey: true,
+        autoIncrement: true,
+        type: DataTypes.INTEGER,
+      },
+      vehicleId: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+      },
+      routeId: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+      },
+      driver: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      dateAndTime: {
+        type: DataTypes.DATE,
+        allowNull: false,
+      },
+      isActive: {
+        type: DataTypes.BOOLEAN,
+        defaultValue: true,
+        allowNull: false,
+      },
+      isVerified: {
+        type: DataTypes.BOOLEAN,
+        defaultValue: false,
+        allowNull: false,
+      },
+      createdAt: {
+        type: DataTypes.DATE,
+        allowNull: false,
+        defaultValue: DataTypes.NOW,
+      },
+      updatedAt: {
+        type: DataTypes.DATE,
+        allowNull: false,
+        defaultValue: DataTypes.NOW,
+      },
+    },
+    {
+      sequelize,
+      modelName: "VehicleRouteDriverMap",
+      indexes: [
+        {
+          unique: true,
+          fields: ["vehicleId", "routeId", "driver"],
+        },
+      ],
+      timestamps: true,
+    }
+  );
+
   return VehicleRouteDriverMap;
 };

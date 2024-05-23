@@ -1,71 +1,86 @@
-'use strict';
+"use strict";
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable('VehicleRouteDriverMaps', {
+    await queryInterface.createTable("VehicleRouteDriverMaps", {
       vehicleRouteDriverMapId: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       vehicleId: {
         type: Sequelize.INTEGER,
-        allowNull:false
+        allowNull: false,
       },
-      routeId:{
-        type: Sequelize.INTEGER
+      routeId: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
       },
-      driver:{
+      driver: {
         type: Sequelize.STRING,
-        index : true
+        allowNull: false,
       },
-      dateAndTime:{
-        type : Sequelize.DATE,
-        index : true
+      dateAndTime: {
+        type: Sequelize.DATE,
+        allowNull: false,
       },
-      isActive:{
+      isActive: {
         type: Sequelize.BOOLEAN,
-        default : true,
-        allowNull : false
+        defaultValue: true,
+        allowNull: false,
+      },
+      isVerified: {
+        type: Sequelize.BOOLEAN,
+        defaultValue: false,
+        allowNull: false,
       },
       createdAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.NOW,
       },
       updatedAt: {
         allowNull: false,
-        type: Sequelize.DATE
-      }
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.NOW,
+      },
     });
 
-    await queryInterface.addConstraint('VehicleRouteDriverMaps',{
-      type: 'FOREIGN KEY',
-      name: 'FK_vehicleRouteMap_vehicle', 
-      fields:['vehicleId'],
+    await queryInterface.addIndex("VehicleRouteDriverMaps", ["driver"]);
+    await queryInterface.addIndex("VehicleRouteDriverMaps", ["dateAndTime"]);
+    await queryInterface.addConstraint("VehicleRouteDriverMaps", {
+      fields: ["vehicleId", "routeId", "driver"],
+      type: "unique",
+      name: "unique_vehicle_route_driver",
+    });
+
+    await queryInterface.addConstraint("VehicleRouteDriverMaps", {
+      type: "FOREIGN KEY",
+      name: "FK_vehicleRouteMap_vehicle",
+      fields: ["vehicleId"],
       references: {
-        table: 'Vehicles',
-        field: 'vehicleId',
+        table: "Vehicles",
+        field: "vehicleId",
       },
-      onDelete: 'NO ACTION',
-      onUpdate: 'CASCADE',
-    })
-    await queryInterface.addConstraint('VehicleRouteDriverMaps',{
-      type: 'FOREIGN KEY',
-      name: 'FK_vehicleRouteMap_route', 
-      fields:['routeId'],
+      onDelete: "NO ACTION",
+      onUpdate: "CASCADE",
+    });
+
+    await queryInterface.addConstraint("VehicleRouteDriverMaps", {
+      type: "FOREIGN KEY",
+      name: "FK_vehicleRouteMap_route",
+      fields: ["routeId"],
       references: {
-        table: 'Routes',
-        field: 'routeId',
+        table: "Routes",
+        field: "routeId",
       },
-      onDelete: 'NO ACTION',
-      onUpdate: 'CASCADE',
-    })
+      onDelete: "NO ACTION",
+      onUpdate: "CASCADE",
+    });
   },
 
-
- 
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable('VehicleRouteDriverMaps');
-  }
+    await queryInterface.dropTable("VehicleRouteDriverMaps");
+  },
 };

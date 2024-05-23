@@ -1,0 +1,151 @@
+2024-05-23 10:26:48 info: Onboard Server is started and running at the port 5000 
+2024-05-23 10:26:48 error: Error:Error: getaddrinfo ENOTFOUND axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2024-05-23 10:26:48 error: Error:Error: getaddrinfo ENOTFOUND axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2024-05-23 10:26:49 error: Error:Error: getaddrinfo ENOTFOUND axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2024-05-23 10:26:49 error: Error:Error: getaddrinfo ENOTFOUND axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2024-05-23 10:26:51 error: Error:Error: getaddrinfo ENOTFOUND axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2024-05-23 10:26:51 error: Error:Error: getaddrinfo ENOTFOUND axn2gml74xyrs-ats.iot.us-east-1.amazonaws.comundefined 
+2024-05-23 10:32:58 info: BODYYYYY: [object Object] 
+2024-05-23 10:32:58 debug: login from nikhiltyagi.n17@gmail.com 
+2024-05-23 10:32:58 info: ::1 - - [23/May/2024:05:02:58 +0000] "POST /api/v1/auth/login/ HTTP/1.1" 200 562 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-23 10:33:00 info: ::1 - - [23/May/2024:05:03:00 +0000] "OPTIONS /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-23 10:33:00 info: Get vehicles 
+2024-05-23 10:33:00 info: ::1 - - [23/May/2024:05:03:00 +0000] "POST /api/v1/route/getVehicles?page=1&records=12 HTTP/1.1" 200 1200 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-23 10:33:17 info: ::1 - - [23/May/2024:05:03:17 +0000] "OPTIONS /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-23 10:33:17 info: Get vehicles 
+2024-05-23 10:33:18 info: ::1 - - [23/May/2024:05:03:18 +0000] "POST /api/v1/route/getRoutes?page=1&records=100 HTTP/1.1" 200 259648 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-23 10:43:38 info: ::1 - - [23/May/2024:05:13:38 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-23 10:43:38 info: ::1 - - [23/May/2024:05:13:38 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-23 10:43:38 info: Fetching vehicle route map data 
+2024-05-23 10:43:38 info: Get vehicles 
+2024-05-23 10:43:38 info: Fetching master data 
+2024-05-23 10:43:38 info: Getting master data 
+2024-05-23 10:43:38 info: ::1 - - [23/May/2024:05:13:38 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 972 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-23 10:43:38 info: ::1 - - [23/May/2024:05:13:38 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 31166 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-23 10:43:51 info: ::1 - - [23/May/2024:05:13:51 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-23 10:43:51 info: Add or update route info 
+2024-05-23 10:43:51 info: Adding/updating route details::{"routeId":43,"routeNo":"ASD1SE","vehicleNo":"A01FA0419","vehicleId":24,"date":"2024-05-23T05:13:37.932Z","user":"undefined","type":null,"is_pro":"wcw436aidbewu@$*^46954$%^^"} 
+2024-05-23 10:43:51 error: Validation error 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async VehicleRouteDriverMap.save (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:2490:35)
+    at async VehicleRouteDriverMap.create (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1362:12)
+    at async main.addVehicleRouteMap (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:439:15)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:114:18
+2024-05-23 10:43:51 error: SequelizeUniqueConstraintError: Validation error 
+    Error: SequelizeUniqueConstraintError: Validation error
+    at main.addVehicleRouteMap (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:469:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:114:18
+2024-05-23 10:43:51 error: SequelizeUniqueConstraintError: Validation error 
+    Error: SequelizeUniqueConstraintError: Validation error
+    at main.addVehicleRouteMap (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:469:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:114:18
+2024-05-23 10:43:51 info: ::1 - - [23/May/2024:05:13:51 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 500 84 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-23 10:55:54 info: Onboard Server is started and running at the port 5000 
+2024-05-23 10:56:08 info: ::1 - - [23/May/2024:05:26:08 +0000] "OPTIONS /api/v1/route/getMasterData HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-23 10:56:08 info: ::1 - - [23/May/2024:05:26:08 +0000] "OPTIONS /api/v1/route/getVehicleRouteMap HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-23 10:56:08 info: Fetching master data 
+2024-05-23 10:56:08 info: Getting master data 
+2024-05-23 10:56:08 info: Fetching vehicle route map data 
+2024-05-23 10:56:08 info: Get vehicles 
+2024-05-23 10:56:08 info: ::1 - - [23/May/2024:05:26:08 +0000] "POST /api/v1/route/getVehicleRouteMap HTTP/1.1" 200 972 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-23 10:56:09 info: ::1 - - [23/May/2024:05:26:09 +0000] "POST /api/v1/route/getMasterData HTTP/1.1" 200 31166 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-23 10:56:18 info: ::1 - - [23/May/2024:05:26:18 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-23 10:56:18 info: Add or update route info 
+2024-05-23 10:56:18 info: Adding/updating route details::{"routeId":37,"routeNo":"NIKH12","vehicleNo":"A01FA0420","vehicleId":25,"date":"2024-05-23T05:26:08.735Z","user":"undefined","type":null,"is_pro":"wcw436aidbewu@$*^46954$%^^"} 
+2024-05-23 10:56:18 error: Validation error 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async VehicleRouteDriverMap.save (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:2490:35)
+    at async VehicleRouteDriverMap.create (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1362:12)
+    at async main.addVehicleRouteMap (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:439:15)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:114:18
+2024-05-23 10:56:18 error: SequelizeUniqueConstraintError: Validation error 
+    Error: SequelizeUniqueConstraintError: Validation error
+    at main.addVehicleRouteMap (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:469:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:114:18
+2024-05-23 10:56:18 error: SequelizeUniqueConstraintError: Validation error 
+    Error: SequelizeUniqueConstraintError: Validation error
+    at main.addVehicleRouteMap (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:469:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:114:18
+2024-05-23 10:56:18 info: ::1 - - [23/May/2024:05:26:18 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 500 84 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-23 10:56:28 info: ::1 - - [23/May/2024:05:26:28 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-23 10:56:28 info: Add or update route info 
+2024-05-23 10:56:28 info: Adding/updating route details::{"routeId":37,"routeNo":"NIKH12","vehicleNo":"A01FA0420","vehicleId":25,"date":"2024-05-23T05:26:08.735Z","driver":"dwd","user":"undefined","type":null,"is_pro":"wcw436aidbewu@$*^46954$%^^"} 
+2024-05-23 10:56:28 error: Validation error 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async VehicleRouteDriverMap.save (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:2490:35)
+    at async VehicleRouteDriverMap.create (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1362:12)
+    at async main.addVehicleRouteMap (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:439:15)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:114:18
+2024-05-23 10:56:28 error: SequelizeUniqueConstraintError: Validation error 
+    Error: SequelizeUniqueConstraintError: Validation error
+    at main.addVehicleRouteMap (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:469:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:114:18
+2024-05-23 10:56:28 error: SequelizeUniqueConstraintError: Validation error 
+    Error: SequelizeUniqueConstraintError: Validation error
+    at main.addVehicleRouteMap (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:469:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:114:18
+2024-05-23 10:56:28 info: ::1 - - [23/May/2024:05:26:28 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 500 84 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-23 10:56:44 info: ::1 - - [23/May/2024:05:26:44 +0000] "OPTIONS /api/v1/route/addVehicleConfig HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-23 10:56:44 info: Add or update route info 
+2024-05-23 10:56:44 info: Adding/updating route details::{"routeId":37,"routeNo":"NIKH12","vehicleNo":"A01FA0420","vehicleId":25,"date":"2024-05-23T05:26:08.735Z","driver":"dwd","user":"undefined","type":null,"is_pro":"wcw436aidbewu@$*^46954$%^^"} 
+2024-05-23 10:56:44 error: Validation error 
+    Error
+    at Query.run (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async VehicleRouteDriverMap.save (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:2490:35)
+    at async VehicleRouteDriverMap.create (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\node_modules\sequelize\lib\model.js:1362:12)
+    at async main.addVehicleRouteMap (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:439:15)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:114:18
+2024-05-23 10:56:44 error: SequelizeUniqueConstraintError: Validation error 
+    Error: SequelizeUniqueConstraintError: Validation error
+    at main.addVehicleRouteMap (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:469:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:114:18
+2024-05-23 10:56:44 error: SequelizeUniqueConstraintError: Validation error 
+    Error: SequelizeUniqueConstraintError: Validation error
+    at main.addVehicleRouteMap (C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\controllers\route.controller.js:469:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Acer\OneDrive\Desktop\busresp\OnboardServer\routes\api\v1\routeConfig.js:114:18
+2024-05-23 10:56:44 info: ::1 - - [23/May/2024:05:26:44 +0000] "POST /api/v1/route/addVehicleConfig HTTP/1.1" 500 84 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+ 
+2024-05-23 10:58:39 error: Error:Error: read ECONNRESETundefined 
