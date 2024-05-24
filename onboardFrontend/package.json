@@ -122,8 +122,8 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "start": " export SET NODE_OPTIONS=--openssl-legacy-provider && craco start",
-    "build": " export SET NODE_OPTIONS=--openssl-legacy-provider && craco build",
+    "start": "  SET NODE_OPTIONS=--openssl-legacy-provider && craco start",
+    "build": "  SET NODE_OPTIONS=--openssl-legacy-provider && craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"src/**/*.js\"",
