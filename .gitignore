@@ -1,3 +1,5 @@
 onboardFrontend/node_modules
 OnboardServer/node_modules
+OnboardServer/logs
+onboardFrontend/build
 
